@@ -6,6 +6,14 @@ extern crate reqwest;
 #[cfg(test)]
 extern crate mockito;
 
+pub mod ops;
 
-pub mod operations;
-pub mod models;
+pub struct Client {
+    api_key: String
+}
+
+impl Client {
+    pub fn new<S: Into<String>>(api_key: S) -> Client {
+        Client { api_key: api_key.into() }
+    }
+}
