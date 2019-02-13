@@ -7,13 +7,22 @@ extern crate reqwest;
 extern crate mockito;
 
 pub mod ops;
+pub mod models;
+pub mod errors;
+pub mod wrapper;
+pub mod gateway;
+
+use gateway::{Gateway, Options};
+
 
 pub struct Client {
-    api_key: String
+    pub contients: ops::ContinentGateway,
 }
 
 impl Client {
     pub fn new<S: Into<String>>(api_key: S) -> Client {
-        Client { api_key: api_key.into() }
+        Client {
+            contients: ops::ContinentGateway::new(Gateway::new(api_key.into())),
+        }
     }
 }
