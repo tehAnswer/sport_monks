@@ -40,7 +40,7 @@ mod tests {
 
     #[test]
     fn it_returns_all_the_continents() {
-        let body = fs::read_to_string(Path::new("src/support/continents.json")).expect("Fixtures:");
+        let body = fs::read_to_string(Path::new("src/support/continents/all.json")).expect("Fixtures:");
         let m = mock("GET", "/continents?api_token=1234")
           .with_status(200)
           .with_body(body)
@@ -60,7 +60,7 @@ mod tests {
 
     #[test]
     fn it_returns_all_the_continents_with_details() {
-        let body = fs::read_to_string(Path::new("src/support/continents_with_country.json")).expect("Fixtures:");
+        let body = fs::read_to_string(Path::new("src/support/continents/all_with.json")).expect("Fixtures:");
         let m = mock("GET", "/continents?api_token=1234&include=countries%3Afilter%28id%7C2%29")
           .with_status(200)
           .with_body(body)
@@ -91,12 +91,12 @@ mod tests {
         assert_eq!(extra_country.iso, Some("POL".into()));
         assert_eq!(extra_country.longitude, Some("19.37775993347168".into()));
         assert_eq!(extra_country.latitude, Some("52.147850036621094".into()));
-        assert!(extra_country.longitude.is_some());
+        assert!(extra_country.flag.is_some());
     }
 
     #[test]
     fn it_returns_a_single_continent() {
-        let body = fs::read_to_string(Path::new("src/support/continents_single.json")).expect("Fixtures:");
+        let body = fs::read_to_string(Path::new("src/support/continents/find.json")).expect("Fixtures:");
         let m = mock("GET", "/continents/1?api_token=1234")
           .with_status(200)
           .with_body(body)
@@ -110,7 +110,6 @@ mod tests {
         assert!(response.is_ok());
         let result = response.unwrap();
 
-        println!("{:?}", result.data.countries);
         assert_eq!(result.data.id, 1);
         assert_eq!(result.data.name, "Europe".to_string());
         assert_eq!(result.data.countries, None);
@@ -118,7 +117,7 @@ mod tests {
 
     #[test]
     fn it_returns_a_single_continent_with_details() {
-        let body = fs::read_to_string(Path::new("src/support/continents_single_with_country.json")).expect("Fixtures:");
+        let body = fs::read_to_string(Path::new("src/support/continents/find_with.json")).expect("Fixtures:");
         let m = mock("GET", "/continents/1?api_token=1234&include=countries%3Alimit%282%7C1%29")
           .with_status(200)
           .with_body(body)

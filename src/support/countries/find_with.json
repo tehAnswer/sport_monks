@@ -1,0 +1,64 @@
+{
+    "data":{
+      "id":11,
+      "name":"Germany",
+      "extra":{
+        "continent":"Europe",
+        "sub_region":"Western Europe",
+        "world_region":"EMEA",
+        "fifa":"GER",
+        "iso":"DEU",
+        "longitude":"10.382203102111816",
+        "latitude":"51.20246505737305",
+        "flag":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"1000\" height=\"600\" viewBox=\"0 0 5 3\"><desc>Flag of Germany<\/desc><path d=\"M0 0h5v3h-5z\"\/><path fill=\"#D00\" d=\"M0 1h5v2h-5z\"\/><path fill=\"#FFCE00\" d=\"M0 2h5v1h-5z\"\/><\/svg>\n"
+      },
+      "leagues":{
+        "data":[
+          {
+            "id":82,
+            "legacy_id":4,
+            "country_id":11,
+            "logo_path":"https:\/\/cdn.sportmonks.com\/images\/soccer\/leagues\/82.png",
+            "name":"Bundesliga",
+            "is_cup":false,
+            "current_season_id":13005,
+            "current_round_id":148761,
+            "current_stage_id":7743107,
+            "live_standings":true,
+            "coverage":{
+              "topscorer_goals":true,
+              "topscorer_assists":true,
+              "topscorer_cards":true
+            }
+          }
+        ]
+      }
+    },
+    "meta":{
+      "subscription":{
+        "started_at":{
+          "date":"2019-02-12 00:11:17.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "trial_ends_at":{
+          "date":"2019-02-26 00:11:09.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "ends_at":null
+      },
+      "plan":{
+        "name":"Segio RUST Custom Soccer Plan",
+        "price":"20",
+        "request_limit":"2000,60"
+      },
+      "sports":[
+        {
+          "id":1,
+          "name":"Soccer",
+          "current":true
+        }
+      ]
+    }
+  }

@@ -25,7 +25,7 @@ pub struct Continent {
     pub countries: Option<Vec<Country>>,
 }
 
-#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Country {
     #[serde(default)]
     pub id: i64,
@@ -33,9 +33,11 @@ pub struct Country {
     pub name: String,
     #[serde(default)]
     pub extra: Option<CountryExtra>,
+    #[serde(with = "Wrapper", default)]
+    pub leagues: Option<Vec<League>>,
 }
 
-#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct CountryExtra {
     pub continent: Option<String>,
     pub sub_region: Option<String>,
@@ -46,3 +48,26 @@ pub struct CountryExtra {
     pub latitude: Option<String>,
     pub flag: Option<String>,
 }
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct League {
+    pub id: i64,
+    pub legacy_id: i64,
+    pub country_id: i64,
+    pub logo_path: String,
+    pub name: String,
+    pub is_cup: bool,
+    pub current_season_id: i64,
+    pub current_round_id: i64,
+    pub current_stage_id: i64,
+    pub live_standings: bool,
+    pub coverage: Coverage,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Coverage {
+    pub topscorer_goals: bool,
+    pub topscorer_assists: bool,
+    pub topscorer_cards: bool,
+}
+
