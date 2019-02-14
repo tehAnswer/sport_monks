@@ -1,0 +1,53 @@
+{
+    "data":[
+      {
+        "id":1,
+        "name":"Europe",
+        "countries":{
+          "data":[
+            {
+              "id":2,
+              "name":"Poland",
+              "extra":{
+                "continent":"Europe",
+                "sub_region":"Eastern Europe",
+                "world_region":"EMEA",
+                "fifa":"POL",
+                "iso":"POL",
+                "longitude":"19.37775993347168",
+                "latitude":"52.147850036621094",
+                "flag":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"1280\" height=\"800\" viewBox=\"0 0 16 10\"><path fill=\"#fff\" d=\"M0 0h16v10h-16z\"\/><path fill=\"#dc143c\" d=\"M0 5h16v5h-16z\"\/><\/svg>\n"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "meta":{
+      "subscription":{
+        "started_at":{
+          "date":"2019-02-12 00:11:17.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "trial_ends_at":{
+          "date":"2019-02-26 00:11:09.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "ends_at":null
+      },
+      "plan":{
+        "name":"Basic Plan",
+        "price":"20",
+        "request_limit":"2000,60"
+      },
+      "sports":[
+        {
+          "id":1,
+          "name":"Soccer",
+          "current":true
+        }
+      ]
+    }
+  }

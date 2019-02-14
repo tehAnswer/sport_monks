@@ -9,11 +9,9 @@ extern crate mockito;
 pub mod ops;
 pub mod models;
 pub mod errors;
-pub mod wrapper;
 pub mod gateway;
 
 use gateway::{Gateway, Options};
-
 
 pub struct Client {
     pub contients: ops::ContinentGateway,

@@ -17,6 +17,14 @@ impl SportMonksError {
         let error = StandardError { message, code };
         SportMonksError { error }
     }
+
+    pub fn message(&self) -> String {
+        self.error.message.to_string()
+    }
+    
+    pub fn code(&self) -> u32 {
+        self.error.code
+    }
 }
 
 impl Error for SportMonksError {

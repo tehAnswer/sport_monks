@@ -1,0 +1,33 @@
+{
+    "data":{
+      "id":1,
+      "name":"Europe"
+    },
+    "meta":{
+      "subscription":{
+        "started_at":{
+          "date":"2019-02-12 00:11:17.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "trial_ends_at":{
+          "date":"2019-02-26 00:11:09.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "ends_at":null
+      },
+      "plan":{
+        "name":"Basic Plan",
+        "price":"20",
+        "request_limit":"2000,60"
+      },
+      "sports":[
+        {
+          "id":1,
+          "name":"Soccer",
+          "current":true
+        }
+      ]
+    }
+  }
