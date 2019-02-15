@@ -58,10 +58,16 @@ pub struct League {
     pub name: String,
     pub is_cup: bool,
     pub current_season_id: i64,
-    pub current_round_id: i64,
+    pub current_round_id: Option<i64>,
     pub current_stage_id: i64,
     pub live_standings: bool,
     pub coverage: Coverage,
+    #[serde(with = "Wrapper", default)]
+    pub seasons: Option<Vec<Season>>,
+    #[serde(with = "Wrapper", default)]
+    pub season: Option<Season>,
+    #[serde(with = "Wrapper", default)]
+    pub country: Option<Country>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
@@ -69,5 +75,15 @@ pub struct Coverage {
     pub topscorer_goals: bool,
     pub topscorer_assists: bool,
     pub topscorer_cards: bool,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Season {
+    pub id: i64,
+    pub name: String,
+    pub league_id: i64,
+    pub is_current_season: bool,
+    pub current_round_id: Option<i64>,
+    pub current_stage_id: Option<i64>,
 }
 

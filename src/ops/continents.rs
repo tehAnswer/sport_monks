@@ -61,13 +61,13 @@ mod tests {
     #[test]
     fn it_returns_all_the_continents_with_details() {
         let body = fs::read_to_string(Path::new("src/support/continents/all_with.json")).expect("Fixtures:");
-        let m = mock("GET", "/continents?api_token=1234&include=countries%3Afilter%28id%7C2%29")
+        let m = mock("GET", "/continents?api_token=1234&include=leagues")
           .with_status(200)
           .with_body(body)
           .create();
 
         let instance = ContinentGateway::new(Gateway::new("1234".into()));
-        let opts = Options::new(None, Some(vec!["countries:filter(id|2)".to_string()]));
+        let opts = Options::new(None, Some(vec!["leagues".to_string()]));
         let response = instance.all_with(opts);
 
         m.assert();
@@ -118,14 +118,14 @@ mod tests {
     #[test]
     fn it_returns_a_single_continent_with_details() {
         let body = fs::read_to_string(Path::new("src/support/continents/find_with.json")).expect("Fixtures:");
-        let m = mock("GET", "/continents/1?api_token=1234&include=countries%3Alimit%282%7C1%29")
+        let m = mock("GET", "/continents/1?api_token=1234&include=leagues")
           .with_status(200)
           .with_body(body)
           .create();
 
         
         let instance = ContinentGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(1, Options::new(None, Some(vec!["countries:limit(2|1)".into()])));
+        let response = instance.find_with(1, Options::new(None, Some(vec!["leagues".into()])));
         m.assert();
 
         assert!(response.is_ok());
