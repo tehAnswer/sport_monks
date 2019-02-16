@@ -147,7 +147,7 @@ mod tests {
     }
 
     #[test]
-    fn it_returns_a_single_continent_with_details() {
+    fn it_returns_a_single_country_with_details() {
         let body = fs::read_to_string(Path::new("src/support/countries/find_with.json")).expect("Fixtures:");
         let m = mock("GET", "/countries/11?api_token=1234&include=leagues%3Alimit%282%7C1%29")
           .with_status(200)
@@ -188,7 +188,7 @@ mod tests {
     }
 
     #[test]
-    fn it_returns_error_if_continent_does_not_exist() {
+    fn it_returns_error_if_country_does_not_exist() {
         let m = mock("GET", "/countries/1234?api_token=1234")
           .with_status(403)
           .with_body("{\"error\":{\"message\":\"yadda yadda\",\"code\":403}}")

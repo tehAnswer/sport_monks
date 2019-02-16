@@ -1,0 +1,46 @@
+{
+  "data":{
+    "id":2,
+    "legacy_id":11,
+    "country_id":41,
+    "logo_path":"https:\/\/cdn.sportmonks.com\/images\/soccer\/leagues\/2.png",
+    "name":"Champions League",
+    "is_cup":true,
+    "current_season_id":12950,
+    "current_round_id":null,
+    "current_stage_id":7743657,
+    "live_standings":true,
+    "coverage":{
+      "topscorer_goals":true,
+      "topscorer_assists":true,
+      "topscorer_cards":true
+    }
+  },
+  "meta":{
+    "subscription":{
+      "started_at":{
+        "date":"2019-02-12 00:11:17.000000",
+        "timezone_type":3,
+        "timezone":"UTC"
+      },
+      "trial_ends_at":{
+        "date":"2019-02-26 00:11:09.000000",
+        "timezone_type":3,
+        "timezone":"UTC"
+      },
+      "ends_at":null
+    },
+    "plan":{
+      "name":"Segio RUST Custom Soccer Plan",
+      "price":"20",
+      "request_limit":"2000,60"
+    },
+    "sports":[
+      {
+        "id":1,
+        "name":"Soccer",
+        "current":true
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+    "data":{
+      "id":12950,
+      "name":"2018\/2019",
+      "league_id":2,
+      "is_current_season":true,
+      "current_round_id":null,
+      "current_stage_id":7743657,
+      "groups":{
+        "data":[
+          {
+            "id":83416,
+            "name":"Group A",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          },
+          {
+            "id":83417,
+            "name":"Group B",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          },
+          {
+            "id":83418,
+            "name":"Group C",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          },
+          {
+            "id":83419,
+            "name":"Group D",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          },
+          {
+            "id":83420,
+            "name":"Group E",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          },
+          {
+            "id":83421,
+            "name":"Group F",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          },
+          {
+            "id":83422,
+            "name":"Group G",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          },
+          {
+            "id":83423,
+            "name":"Group H",
+            "league_id":2,
+            "season_id":12950,
+            "round_id":null,
+            "round_name":null,
+            "stage_id":7416759,
+            "stage_name":"Group Stage"
+          }
+        ]
+      }
+    },
+    "meta":{
+      "subscription":{
+        "started_at":{
+          "date":"2019-02-12 00:11:17.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "trial_ends_at":{
+          "date":"2019-02-26 00:11:09.000000",
+          "timezone_type":3,
+          "timezone":"UTC"
+        },
+        "ends_at":null
+      },
+      "plan":{
+        "name":"Segio RUST Custom Soccer Plan",
+        "price":"20",
+        "request_limit":"2000,60"
+      },
+      "sports":[
+        {
+          "id":1,
+          "name":"Soccer",
+          "current":true
+        }
+      ]
+    }
+  }
