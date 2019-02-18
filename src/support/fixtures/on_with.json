@@ -1,0 +1,1811 @@
+{
+    "data": [
+      {
+        "id": 1685506,
+        "league_id": 72,
+        "season_id": 6387,
+        "stage_id": 50857,
+        "round_id": 128163,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 1429,
+        "referee_id": 11650,
+        "localteam_id": 2379,
+        "visitorteam_id": 2345,
+        "weather_report": {
+          "code": "clear",
+          "type": "clear sky",
+          "icon": "https://cdn.sportmonks.com/images/weather/01n.png",
+          "temperature": {
+            "temp": 37.67,
+            "unit": "fahrenheit"
+          },
+          "clouds": "0%",
+          "humidity": "90%",
+          "wind": {
+            "speed": "3.29 m/s",
+            "degree": 245.005
+          }
+        },
+        "commentaries": null,
+        "attendance": 6624,
+        "pitch": "Good",
+        "winning_odds_calculated": true,
+        "formations": {
+          "localteam_formation": "4-3-3",
+          "visitorteam_formation": "4-4-2"
+        },
+        "scores": {
+          "localteam_score": 1,
+          "visitorteam_score": 1,
+          "localteam_pen_score": 0,
+          "visitorteam_pen_score": 0,
+          "ht_score": "1-1",
+          "ft_score": "1-1",
+          "et_score": null
+        },
+        "time": {
+          "status": "FT",
+          "starting_at": {
+            "date_time": "2018-02-16 19:00:00",
+            "date": "2018-02-16",
+            "time": "19:00:00",
+            "timestamp": 1518807600,
+            "timezone": "UTC"
+          },
+          "minute": 90,
+          "second": null,
+          "added_time": null,
+          "extra_minute": null,
+          "injury_time": null
+        },
+        "coaches": {
+          "localteam_coach_id": 458500,
+          "visitorteam_coach_id": 458438
+        },
+        "standings": {
+          "localteam_position": 10,
+          "visitorteam_position": 13
+        },
+        "assistants": {
+          "first_assistant_id": 12734,
+          "second_assistant_id": 11645,
+          "fourth_official_id": 14882
+        },
+        "leg": "1/1",
+        "colors": null,
+        "deleted": false,
+        "substitutions": {
+          "data": [
+            {
+              "id": 1685506004,
+              "team_id": "2379",
+              "type": "subst",
+              "fixture_id": 1685506,
+              "player_in_id": 12668,
+              "player_in_name": "J. Janse",
+              "player_out_id": 22954,
+              "player_out_name": "R. Castelen",
+              "minute": 55,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1685506005,
+              "team_id": "2345",
+              "type": "subst",
+              "fixture_id": 1685506,
+              "player_in_id": 26575,
+              "player_in_name": "D. Warmerdam",
+              "player_out_id": 24422,
+              "player_out_name": "Jesper Drost",
+              "minute": 68,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1685506007,
+              "team_id": "2345",
+              "type": "subst",
+              "fixture_id": 1685506,
+              "player_in_id": 26935,
+              "player_in_name": "A. Hrustic",
+              "player_out_id": 310486,
+              "player_out_name": "R. Doan",
+              "minute": 86,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1685506006,
+              "team_id": "2379",
+              "type": "subst",
+              "fixture_id": 1685506,
+              "player_in_id": 28014,
+              "player_in_name": "T. Hunte",
+              "player_out_id": 27461,
+              "player_out_name": "J. Opoku",
+              "minute": 79,
+              "extra_minute": null,
+              "injuried": null
+            }
+          ]
+        },
+        "goals": {
+          "data": [
+            {
+              "id": 1685506001,
+              "team_id": "2379",
+              "type": "goal",
+              "fixture_id": 1685506,
+              "player_id": 28212,
+              "player_name": "V. van Crooij",
+              "player_assist_id": 31052,
+              "player_assist_name": "L. Thy",
+              "minute": 2,
+              "extra_minute": null,
+              "reason": null,
+              "result": "1-0"
+            },
+            {
+              "id": 1685506002,
+              "team_id": "2345",
+              "type": "goal",
+              "fixture_id": 1685506,
+              "player_id": 310486,
+              "player_name": "R. Doan",
+              "player_assist_id": 25515,
+              "player_assist_name": "J. Bacuna",
+              "minute": 15,
+              "extra_minute": null,
+              "reason": null,
+              "result": "1-1"
+            }
+          ]
+        },
+        "cards": {
+          "data": [
+            {
+              "id": 1685506003,
+              "team_id": "2345",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 24430,
+              "player_name": "M. te Wierik",
+              "minute": 20,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 1685506009,
+              "team_id": "2345",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 25348,
+              "player_name": "S. Padt",
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null
+            },
+            {
+              "id": 1685506010,
+              "team_id": "2345",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 27592,
+              "player_name": "D. Zeefuik",
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null
+            },
+            {
+              "id": 1685506008,
+              "team_id": "2379",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 27656,
+              "player_name": "M. Rutten",
+              "minute": 90,
+              "extra_minute": 1,
+              "reason": null
+            }
+          ]
+        },
+        "events": {
+          "data": [
+            {
+              "id": 1685506001,
+              "team_id": "2379",
+              "type": "goal",
+              "fixture_id": 1685506,
+              "player_id": 28212,
+              "player_name": "V. van Crooij",
+              "related_player_id": 31052,
+              "related_player_name": "L. Thy",
+              "minute": 2,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "1-0"
+            },
+            {
+              "id": 1685506002,
+              "team_id": "2345",
+              "type": "goal",
+              "fixture_id": 1685506,
+              "player_id": 310486,
+              "player_name": "R. Doan",
+              "related_player_id": 25515,
+              "related_player_name": "J. Bacuna",
+              "minute": 15,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "1-1"
+            },
+            {
+              "id": 1685506003,
+              "team_id": "2345",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 24430,
+              "player_name": "M. te Wierik",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 20,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1685506004,
+              "team_id": "2379",
+              "type": "substitution",
+              "fixture_id": 1685506,
+              "player_id": 12668,
+              "player_name": "J. Janse",
+              "related_player_id": 22954,
+              "related_player_name": "R. Castelen",
+              "minute": 55,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1685506005,
+              "team_id": "2345",
+              "type": "substitution",
+              "fixture_id": 1685506,
+              "player_id": 26575,
+              "player_name": "D. Warmerdam",
+              "related_player_id": 24422,
+              "related_player_name": "Jesper Drost",
+              "minute": 68,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1685506006,
+              "team_id": "2379",
+              "type": "substitution",
+              "fixture_id": 1685506,
+              "player_id": 28014,
+              "player_name": "T. Hunte",
+              "related_player_id": 27461,
+              "related_player_name": "J. Opoku",
+              "minute": 79,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1685506007,
+              "team_id": "2345",
+              "type": "substitution",
+              "fixture_id": 1685506,
+              "player_id": 26935,
+              "player_name": "A. Hrustic",
+              "related_player_id": 310486,
+              "related_player_name": "R. Doan",
+              "minute": 86,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1685506008,
+              "team_id": "2379",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 27656,
+              "player_name": "M. Rutten",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 90,
+              "extra_minute": 1,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1685506009,
+              "team_id": "2345",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 25348,
+              "player_name": "S. Padt",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1685506010,
+              "team_id": "2345",
+              "type": "yellowcard",
+              "fixture_id": 1685506,
+              "player_id": 27592,
+              "player_name": "D. Zeefuik",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            }
+          ]
+        }
+      },
+      {
+        "id": 2020384,
+        "league_id": 82,
+        "season_id": 8026,
+        "stage_id": 56584,
+        "round_id": 129651,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 1944,
+        "referee_id": 15399,
+        "localteam_id": 3317,
+        "visitorteam_id": 794,
+        "weather_report": {
+          "code": "clear",
+          "type": "clear sky",
+          "icon": "https://cdn.sportmonks.com/images/weather/01n.png",
+          "temperature": {
+            "temp": 32.88,
+            "unit": "fahrenheit"
+          },
+          "clouds": "0%",
+          "humidity": "80%",
+          "wind": {
+            "speed": "6.93 m/s",
+            "degree": 250
+          }
+        },
+        "commentaries": true,
+        "attendance": 30908,
+        "pitch": "Good",
+        "winning_odds_calculated": true,
+        "formations": {
+          "localteam_formation": "4-2-3-1",
+          "visitorteam_formation": "3-1-4-2"
+        },
+        "scores": {
+          "localteam_score": 0,
+          "visitorteam_score": 2,
+          "localteam_pen_score": null,
+          "visitorteam_pen_score": null,
+          "ht_score": "0-1",
+          "ft_score": "0-2",
+          "et_score": null
+        },
+        "time": {
+          "status": "FT",
+          "starting_at": {
+            "date_time": "2018-02-16 19:30:00",
+            "date": "2018-02-16",
+            "time": "19:30:00",
+            "timestamp": 1518809400,
+            "timezone": "UTC"
+          },
+          "minute": 90,
+          "second": null,
+          "added_time": null,
+          "extra_minute": null,
+          "injury_time": null
+        },
+        "coaches": {
+          "localteam_coach_id": 29582,
+          "visitorteam_coach_id": 458610
+        },
+        "standings": {
+          "localteam_position": 11,
+          "visitorteam_position": 16
+        },
+        "assistants": {
+          "first_assistant_id": 12073,
+          "second_assistant_id": 12075,
+          "fourth_official_id": 15455
+        },
+        "leg": "1/1",
+        "colors": null,
+        "deleted": false,
+        "substitutions": {
+          "data": [
+            {
+              "id": 2020384010,
+              "team_id": "794",
+              "type": "subst",
+              "fixture_id": 2020384,
+              "player_in_id": 31276,
+              "player_in_name": "A. Ujah",
+              "player_out_id": 35022,
+              "player_out_name": "E. Berggreen",
+              "minute": 89,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 2020384007,
+              "team_id": "3317",
+              "type": "subst",
+              "fixture_id": 2020384,
+              "player_in_id": 31293,
+              "player_in_name": "M. Leckie",
+              "player_out_id": 72,
+              "player_out_name": "S. Kalou",
+              "minute": 73,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 2020384003,
+              "team_id": "3317",
+              "type": "subst",
+              "fixture_id": 2020384,
+              "player_in_id": 31636,
+              "player_in_name": "M. Weiser",
+              "player_out_id": 31039,
+              "player_out_name": "P. Skjelbred",
+              "minute": 56,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 2020384001,
+              "team_id": "3317",
+              "type": "subst",
+              "fixture_id": 2020384,
+              "player_in_id": 32070,
+              "player_in_name": "D. Selke",
+              "player_out_id": 29773,
+              "player_out_name": "V. Ibišević",
+              "minute": 16,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 2020384008,
+              "team_id": "794",
+              "type": "subst",
+              "fixture_id": 2020384,
+              "player_in_id": 32288,
+              "player_in_name": "P. De Blasis",
+              "player_out_id": 32392,
+              "player_out_name": "S. Serdar",
+              "minute": 85,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 2020384006,
+              "team_id": "794",
+              "type": "subst",
+              "fixture_id": 2020384,
+              "player_in_id": 32391,
+              "player_in_name": "Y. Muto",
+              "player_out_id": 33782,
+              "player_out_name": "R. Quaison",
+              "minute": 68,
+              "extra_minute": null,
+              "injuried": null
+            }
+          ]
+        },
+        "goals": {
+          "data": [
+            {
+              "id": 2020384002,
+              "team_id": "794",
+              "type": "goal",
+              "fixture_id": 2020384,
+              "player_id": 33782,
+              "player_name": "R. Quaison",
+              "player_assist_id": 31714,
+              "player_assist_name": "G. Donati",
+              "minute": 40,
+              "extra_minute": null,
+              "reason": null,
+              "result": "0-1"
+            },
+            {
+              "id": 2020384005,
+              "team_id": "794",
+              "type": "goal",
+              "fixture_id": 2020384,
+              "player_id": 33782,
+              "player_name": "R. Quaison",
+              "player_assist_id": 32421,
+              "player_assist_name": "J. Gbamin",
+              "minute": 65,
+              "extra_minute": null,
+              "reason": null,
+              "result": "0-2"
+            }
+          ]
+        },
+        "cards": {
+          "data": [
+            {
+              "id": 2020384009,
+              "team_id": "794",
+              "type": "yellowcard",
+              "fixture_id": 2020384,
+              "player_id": 31098,
+              "player_name": "D. Latza",
+              "minute": 87,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 2020384004,
+              "team_id": "794",
+              "type": "yellowcard",
+              "fixture_id": 2020384,
+              "player_id": 31483,
+              "player_name": "L. Balogun",
+              "minute": 63,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 2020384011,
+              "team_id": "794",
+              "type": "yellowcard",
+              "fixture_id": 2020384,
+              "player_id": 32421,
+              "player_name": "J. Gbamin",
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null
+            }
+          ]
+        },
+        "events": {
+          "data": [
+            {
+              "id": 2020384001,
+              "team_id": "3317",
+              "type": "substitution",
+              "fixture_id": 2020384,
+              "player_id": 32070,
+              "player_name": "D. Selke",
+              "related_player_id": 29773,
+              "related_player_name": "V. Ibišević",
+              "minute": 16,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384002,
+              "team_id": "794",
+              "type": "goal",
+              "fixture_id": 2020384,
+              "player_id": 33782,
+              "player_name": "R. Quaison",
+              "related_player_id": 31714,
+              "related_player_name": "G. Donati",
+              "minute": 40,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "0-1"
+            },
+            {
+              "id": 2020384003,
+              "team_id": "3317",
+              "type": "substitution",
+              "fixture_id": 2020384,
+              "player_id": 31636,
+              "player_name": "M. Weiser",
+              "related_player_id": 31039,
+              "related_player_name": "P. Skjelbred",
+              "minute": 56,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384004,
+              "team_id": "794",
+              "type": "yellowcard",
+              "fixture_id": 2020384,
+              "player_id": 31483,
+              "player_name": "L. Balogun",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 63,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384005,
+              "team_id": "794",
+              "type": "goal",
+              "fixture_id": 2020384,
+              "player_id": 33782,
+              "player_name": "R. Quaison",
+              "related_player_id": 32421,
+              "related_player_name": "J. Gbamin",
+              "minute": 65,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "0-2"
+            },
+            {
+              "id": 2020384006,
+              "team_id": "794",
+              "type": "substitution",
+              "fixture_id": 2020384,
+              "player_id": 32391,
+              "player_name": "Y. Muto",
+              "related_player_id": 33782,
+              "related_player_name": "R. Quaison",
+              "minute": 68,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384007,
+              "team_id": "3317",
+              "type": "substitution",
+              "fixture_id": 2020384,
+              "player_id": 31293,
+              "player_name": "M. Leckie",
+              "related_player_id": 72,
+              "related_player_name": "S. Kalou",
+              "minute": 73,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384008,
+              "team_id": "794",
+              "type": "substitution",
+              "fixture_id": 2020384,
+              "player_id": 32288,
+              "player_name": "P. De Blasis",
+              "related_player_id": 32392,
+              "related_player_name": "S. Serdar",
+              "minute": 85,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384009,
+              "team_id": "794",
+              "type": "yellowcard",
+              "fixture_id": 2020384,
+              "player_id": 31098,
+              "player_name": "D. Latza",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 87,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384010,
+              "team_id": "794",
+              "type": "substitution",
+              "fixture_id": 2020384,
+              "player_id": 31276,
+              "player_name": "A. Ujah",
+              "related_player_id": 35022,
+              "related_player_name": "E. Berggreen",
+              "minute": 89,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 2020384011,
+              "team_id": "794",
+              "type": "yellowcard",
+              "fixture_id": 2020384,
+              "player_id": 32421,
+              "player_name": "J. Gbamin",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            }
+          ]
+        }
+      },
+      {
+        "id": 1726420,
+        "league_id": 301,
+        "season_id": 6405,
+        "stage_id": 52771,
+        "round_id": 128355,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 210084,
+        "referee_id": 11682,
+        "localteam_id": 6789,
+        "visitorteam_id": 6842,
+        "weather_report": {
+          "code": "mist",
+          "type": "mist",
+          "icon": "https://cdn.sportmonks.com/images/weather/50n.png",
+          "temperature": {
+            "temp": 47.88,
+            "unit": "fahrenheit"
+          },
+          "clouds": "90%",
+          "humidity": "76%",
+          "wind": {
+            "speed": "3.36 m/s",
+            "degree": 30
+          }
+        },
+        "commentaries": true,
+        "attendance": null,
+        "pitch": "Good",
+        "winning_odds_calculated": true,
+        "formations": {
+          "localteam_formation": "4-2-3-1",
+          "visitorteam_formation": "4-3-3"
+        },
+        "scores": {
+          "localteam_score": 4,
+          "visitorteam_score": 0,
+          "localteam_pen_score": null,
+          "visitorteam_pen_score": null,
+          "ht_score": "1-0",
+          "ft_score": "4-0",
+          "et_score": null
+        },
+        "time": {
+          "status": "FT",
+          "starting_at": {
+            "date_time": "2018-02-16 19:45:00",
+            "date": "2018-02-16",
+            "time": "19:45:00",
+            "timestamp": 1518810300,
+            "timezone": "UTC"
+          },
+          "minute": 90,
+          "second": null,
+          "added_time": null,
+          "extra_minute": null,
+          "injury_time": null
+        },
+        "coaches": {
+          "localteam_coach_id": 896525,
+          "visitorteam_coach_id": 464744
+        },
+        "standings": {
+          "localteam_position": 2,
+          "visitorteam_position": 12
+        },
+        "assistants": {
+          "first_assistant_id": 12173,
+          "second_assistant_id": 11684,
+          "fourth_official_id": 16989
+        },
+        "leg": "1/1",
+        "colors": null,
+        "deleted": false,
+        "substitutions": {
+          "data": [
+            {
+              "id": 1726420005,
+              "team_id": "6789",
+              "type": "subst",
+              "fixture_id": 1726420,
+              "player_in_id": 4479,
+              "player_in_name": "Rony Lopes",
+              "player_out_id": 96775,
+              "player_out_name": "A. Diakhaby",
+              "minute": 61,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1726420004,
+              "team_id": "6842",
+              "type": "subst",
+              "fixture_id": 1726420,
+              "player_in_id": 95359,
+              "player_in_name": "B. Jeannot",
+              "player_out_id": 97746,
+              "player_out_name": "Kwon Chang-Hoon",
+              "minute": 61,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1726420010,
+              "team_id": "6842",
+              "type": "subst",
+              "fixture_id": 1726420,
+              "player_in_id": 95716,
+              "player_in_name": "W. Lautoa",
+              "player_out_id": 96940,
+              "player_out_name": "N. Sliti",
+              "minute": 85,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1726420009,
+              "team_id": "6789",
+              "type": "subst",
+              "fixture_id": 1726420,
+              "player_in_id": 95860,
+              "player_in_name": "R. Ghezzal",
+              "player_out_id": 62342,
+              "player_out_name": "Y. Tielemans",
+              "minute": 79,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1726420008,
+              "team_id": "6842",
+              "type": "subst",
+              "fixture_id": 1726420,
+              "player_in_id": 96222,
+              "player_in_name": "W. Saïd",
+              "player_out_id": 94650,
+              "player_out_name": "F. Balmont",
+              "minute": 70,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 1726420011,
+              "team_id": "6789",
+              "type": "subst",
+              "fixture_id": 1726420,
+              "player_in_id": 133957,
+              "player_in_name": "P. Pellegri",
+              "player_out_id": 129453,
+              "player_out_name": "K. Baldé",
+              "minute": 86,
+              "extra_minute": null,
+              "injuried": null
+            }
+          ]
+        },
+        "goals": {
+          "data": [
+            {
+              "id": 1726420001,
+              "team_id": "6789",
+              "type": "goal",
+              "fixture_id": 1726420,
+              "player_id": 129453,
+              "player_name": "K. Baldé",
+              "player_assist_id": 95699,
+              "player_assist_name": "D. Sidibé",
+              "minute": 13,
+              "extra_minute": null,
+              "reason": null,
+              "result": "1-0"
+            },
+            {
+              "id": 1726420007,
+              "team_id": "6789",
+              "type": "penalty",
+              "fixture_id": 1726420,
+              "player_id": 96099,
+              "player_name": "Fabinho",
+              "player_assist_id": null,
+              "player_assist_name": null,
+              "minute": 69,
+              "extra_minute": null,
+              "reason": null,
+              "result": "2-0"
+            },
+            {
+              "id": 1726420012,
+              "team_id": "6789",
+              "type": "goal",
+              "fixture_id": 1726420,
+              "player_id": 4479,
+              "player_name": "Rony Lopes",
+              "player_assist_id": null,
+              "player_assist_name": null,
+              "minute": 87,
+              "extra_minute": null,
+              "reason": null,
+              "result": "3-0"
+            },
+            {
+              "id": 1726420013,
+              "team_id": "6789",
+              "type": "goal",
+              "fixture_id": 1726420,
+              "player_id": 96614,
+              "player_name": "K. Glik",
+              "player_assist_id": 95860,
+              "player_assist_name": "R. Ghezzal",
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null,
+              "result": "4-0"
+            }
+          ]
+        },
+        "cards": {
+          "data": [
+            {
+              "id": 1726420002,
+              "team_id": "6789",
+              "type": "yellowcard",
+              "fixture_id": 1726420,
+              "player_id": 62342,
+              "player_name": "Y. Tielemans",
+              "minute": 38,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 1726420006,
+              "team_id": "6842",
+              "type": "yellowcard",
+              "fixture_id": 1726420,
+              "player_id": 78287,
+              "player_name": "C. Yamberé",
+              "minute": 65,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 1726420003,
+              "team_id": "6789",
+              "type": "yellowcard",
+              "fixture_id": 1726420,
+              "player_id": 96614,
+              "player_name": "K. Glik",
+              "minute": 56,
+              "extra_minute": null,
+              "reason": null
+            }
+          ]
+        },
+        "events": {
+          "data": [
+            {
+              "id": 1726420001,
+              "team_id": "6789",
+              "type": "goal",
+              "fixture_id": 1726420,
+              "player_id": 129453,
+              "player_name": "K. Baldé",
+              "related_player_id": 95699,
+              "related_player_name": "D. Sidibé",
+              "minute": 13,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "1-0"
+            },
+            {
+              "id": 1726420002,
+              "team_id": "6789",
+              "type": "yellowcard",
+              "fixture_id": 1726420,
+              "player_id": 62342,
+              "player_name": "Y. Tielemans",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 38,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420003,
+              "team_id": "6789",
+              "type": "yellowcard",
+              "fixture_id": 1726420,
+              "player_id": 96614,
+              "player_name": "K. Glik",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 56,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420004,
+              "team_id": "6842",
+              "type": "substitution",
+              "fixture_id": 1726420,
+              "player_id": 95359,
+              "player_name": "B. Jeannot",
+              "related_player_id": 97746,
+              "related_player_name": "Kwon Chang-Hoon",
+              "minute": 61,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420005,
+              "team_id": "6789",
+              "type": "substitution",
+              "fixture_id": 1726420,
+              "player_id": 4479,
+              "player_name": "Rony Lopes",
+              "related_player_id": 96775,
+              "related_player_name": "A. Diakhaby",
+              "minute": 61,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420006,
+              "team_id": "6842",
+              "type": "yellowcard",
+              "fixture_id": 1726420,
+              "player_id": 78287,
+              "player_name": "C. Yamberé",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 65,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420007,
+              "team_id": "6789",
+              "type": "penalty",
+              "fixture_id": 1726420,
+              "player_id": 96099,
+              "player_name": "Fabinho",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 69,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "2-0"
+            },
+            {
+              "id": 1726420008,
+              "team_id": "6842",
+              "type": "substitution",
+              "fixture_id": 1726420,
+              "player_id": 96222,
+              "player_name": "W. Saïd",
+              "related_player_id": 94650,
+              "related_player_name": "F. Balmont",
+              "minute": 70,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420009,
+              "team_id": "6789",
+              "type": "substitution",
+              "fixture_id": 1726420,
+              "player_id": 95860,
+              "player_name": "R. Ghezzal",
+              "related_player_id": 62342,
+              "related_player_name": "Y. Tielemans",
+              "minute": 79,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420010,
+              "team_id": "6842",
+              "type": "substitution",
+              "fixture_id": 1726420,
+              "player_id": 95716,
+              "player_name": "W. Lautoa",
+              "related_player_id": 96940,
+              "related_player_name": "N. Sliti",
+              "minute": 85,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420011,
+              "team_id": "6789",
+              "type": "substitution",
+              "fixture_id": 1726420,
+              "player_id": 133957,
+              "player_name": "P. Pellegri",
+              "related_player_id": 129453,
+              "related_player_name": "K. Baldé",
+              "minute": 86,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 1726420012,
+              "team_id": "6789",
+              "type": "goal",
+              "fixture_id": 1726420,
+              "player_id": 4479,
+              "player_name": "Rony Lopes",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 87,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "3-0"
+            },
+            {
+              "id": 1726420013,
+              "team_id": "6789",
+              "type": "goal",
+              "fixture_id": 1726420,
+              "player_id": 96614,
+              "player_name": "K. Glik",
+              "related_player_id": 95860,
+              "related_player_name": "R. Ghezzal",
+              "minute": 90,
+              "extra_minute": 2,
+              "reason": null,
+              "injuried": null,
+              "result": "4-0"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4194199,
+        "league_id": 564,
+        "season_id": 8442,
+        "stage_id": 56740,
+        "round_id": 131653,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 9345,
+        "referee_id": 11710,
+        "localteam_id": 231,
+        "visitorteam_id": 844,
+        "weather_report": {
+          "code": "clear",
+          "type": "clear sky",
+          "icon": "https://cdn.sportmonks.com/images/weather/01n.png",
+          "temperature": {
+            "temp": 50,
+            "unit": "fahrenheit"
+          },
+          "clouds": "0%",
+          "humidity": "100%",
+          "wind": {
+            "speed": "5.08 m/s",
+            "degree": 188.005
+          }
+        },
+        "commentaries": true,
+        "attendance": null,
+        "pitch": "Good",
+        "winning_odds_calculated": true,
+        "formations": {
+          "localteam_formation": "3-5-2",
+          "visitorteam_formation": "4-4-1-1"
+        },
+        "scores": {
+          "localteam_score": 3,
+          "visitorteam_score": 0,
+          "localteam_pen_score": null,
+          "visitorteam_pen_score": null,
+          "ht_score": "2-0",
+          "ft_score": "3-0",
+          "et_score": null
+        },
+        "time": {
+          "status": "FT",
+          "starting_at": {
+            "date_time": "2018-02-16 20:00:00",
+            "date": "2018-02-16",
+            "time": "20:00:00",
+            "timestamp": 1518811200,
+            "timezone": "UTC"
+          },
+          "minute": 90,
+          "second": null,
+          "added_time": null,
+          "extra_minute": null,
+          "injury_time": null
+        },
+        "coaches": {
+          "localteam_coach_id": 524244,
+          "visitorteam_coach_id": 456258
+        },
+        "standings": {
+          "localteam_position": 10,
+          "visitorteam_position": 12
+        },
+        "assistants": {
+          "first_assistant_id": 11711,
+          "second_assistant_id": 12225,
+          "fourth_official_id": 20412
+        },
+        "leg": null,
+        "colors": null,
+        "deleted": false,
+        "substitutions": {
+          "data": [
+            {
+              "id": 4194199012,
+              "team_id": "231",
+              "type": "subst",
+              "fixture_id": 4194199,
+              "player_in_id": 2060,
+              "player_in_name": "Pablo Maffeo",
+              "player_out_id": 188714,
+              "player_out_name": "Aday",
+              "minute": 80,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 4194199005,
+              "team_id": "844",
+              "type": "subst",
+              "fixture_id": 4194199,
+              "player_in_id": 64243,
+              "player_in_name": "José Naranjo",
+              "player_out_id": 186701,
+              "player_out_name": "Eraso",
+              "minute": 46,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 4194199008,
+              "team_id": "844",
+              "type": "subst",
+              "fixture_id": 4194199,
+              "player_in_id": 186715,
+              "player_in_name": "Guerrero",
+              "player_out_id": 96058,
+              "player_out_name": "C. Beauvue",
+              "minute": 69,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 4194199016,
+              "team_id": "231",
+              "type": "subst",
+              "fixture_id": 4194199,
+              "player_in_id": 188233,
+              "player_in_name": "Eloi Amagat",
+              "player_out_id": 186530,
+              "player_out_name": "Borja García",
+              "minute": 85,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 4194199010,
+              "team_id": "231",
+              "type": "subst",
+              "fixture_id": 4194199,
+              "player_in_id": 188340,
+              "player_in_name": "A. Lozano",
+              "player_out_id": 1737,
+              "player_out_name": "C. Stuani",
+              "minute": 74,
+              "extra_minute": null,
+              "injuried": null
+            },
+            {
+              "id": 4194199017,
+              "team_id": "844",
+              "type": "subst",
+              "fixture_id": 4194199,
+              "player_in_id": 3181374,
+              "player_in_name": "Jaime Sierra",
+              "player_out_id": 129662,
+              "player_out_name": "Rubén Pérez",
+              "minute": 86,
+              "extra_minute": null,
+              "injuried": null
+            }
+          ]
+        },
+        "goals": {
+          "data": [
+            {
+              "id": 4194199002,
+              "team_id": "231",
+              "type": "penalty",
+              "fixture_id": 4194199,
+              "player_id": 1737,
+              "player_name": "C. Stuani",
+              "player_assist_id": null,
+              "player_assist_name": null,
+              "minute": 23,
+              "extra_minute": null,
+              "reason": null,
+              "result": "1-0"
+            },
+            {
+              "id": 4194199004,
+              "team_id": "231",
+              "type": "goal",
+              "fixture_id": 4194199,
+              "player_id": 185941,
+              "player_name": "Portu",
+              "player_assist_id": 188717,
+              "player_assist_name": "Álex Granell",
+              "minute": 36,
+              "extra_minute": null,
+              "reason": null,
+              "result": "2-0"
+            },
+            {
+              "id": 4194199015,
+              "team_id": "231",
+              "type": "goal",
+              "fixture_id": 4194199,
+              "player_id": 187878,
+              "player_name": "Juanpe",
+              "player_assist_id": 188717,
+              "player_assist_name": "Álex Granell",
+              "minute": 85,
+              "extra_minute": null,
+              "reason": null,
+              "result": "3-0"
+            }
+          ]
+        },
+        "cards": {
+          "data": [
+            {
+              "id": 4194199011,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 1761,
+              "player_name": "N. Amrabat",
+              "minute": 77,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 4194199006,
+              "team_id": "231",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 4574,
+              "player_name": "Aleix García",
+              "minute": 49,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 4194199013,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 129662,
+              "player_name": "Rubén Pérez",
+              "minute": 84,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 4194199014,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186400,
+              "player_name": "Joseba Zaldúa",
+              "minute": 84,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 4194199009,
+              "team_id": "231",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186530,
+              "player_name": "Borja García",
+              "minute": 71,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 4194199007,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186710,
+              "player_name": "Gerard Gumbau",
+              "minute": 67,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 4194199001,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186952,
+              "player_name": "M. Mantovani",
+              "minute": 22,
+              "extra_minute": null,
+              "reason": null
+            },
+            {
+              "id": 4194199003,
+              "team_id": "231",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 188717,
+              "player_name": "Álex Granell",
+              "minute": 31,
+              "extra_minute": null,
+              "reason": null
+            }
+          ]
+        },
+        "events": {
+          "data": [
+            {
+              "id": 4194199001,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186952,
+              "player_name": "M. Mantovani",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 22,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199002,
+              "team_id": "231",
+              "type": "penalty",
+              "fixture_id": 4194199,
+              "player_id": 1737,
+              "player_name": "C. Stuani",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 23,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "1-0"
+            },
+            {
+              "id": 4194199003,
+              "team_id": "231",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 188717,
+              "player_name": "Álex Granell",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 31,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199004,
+              "team_id": "231",
+              "type": "goal",
+              "fixture_id": 4194199,
+              "player_id": 185941,
+              "player_name": "Portu",
+              "related_player_id": 188717,
+              "related_player_name": "Álex Granell",
+              "minute": 36,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "2-0"
+            },
+            {
+              "id": 4194199005,
+              "team_id": "844",
+              "type": "substitution",
+              "fixture_id": 4194199,
+              "player_id": 64243,
+              "player_name": "José Naranjo",
+              "related_player_id": 186701,
+              "related_player_name": "Eraso",
+              "minute": 46,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199006,
+              "team_id": "231",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 4574,
+              "player_name": "Aleix García",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 49,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199007,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186710,
+              "player_name": "Gerard Gumbau",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 67,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199008,
+              "team_id": "844",
+              "type": "substitution",
+              "fixture_id": 4194199,
+              "player_id": 186715,
+              "player_name": "Guerrero",
+              "related_player_id": 96058,
+              "related_player_name": "C. Beauvue",
+              "minute": 69,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199009,
+              "team_id": "231",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186530,
+              "player_name": "Borja García",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 71,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199010,
+              "team_id": "231",
+              "type": "substitution",
+              "fixture_id": 4194199,
+              "player_id": 188340,
+              "player_name": "A. Lozano",
+              "related_player_id": 1737,
+              "related_player_name": "C. Stuani",
+              "minute": 74,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199011,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 1761,
+              "player_name": "N. Amrabat",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 77,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199012,
+              "team_id": "231",
+              "type": "substitution",
+              "fixture_id": 4194199,
+              "player_id": 2060,
+              "player_name": "Pablo Maffeo",
+              "related_player_id": 188714,
+              "related_player_name": "Aday",
+              "minute": 80,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199013,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 129662,
+              "player_name": "Rubén Pérez",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 84,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199014,
+              "team_id": "844",
+              "type": "yellowcard",
+              "fixture_id": 4194199,
+              "player_id": 186400,
+              "player_name": "Joseba Zaldúa",
+              "related_player_id": null,
+              "related_player_name": null,
+              "minute": 84,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199016,
+              "team_id": "231",
+              "type": "substitution",
+              "fixture_id": 4194199,
+              "player_id": 188233,
+              "player_name": "Eloi Amagat",
+              "related_player_id": 186530,
+              "related_player_name": "Borja García",
+              "minute": 85,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            },
+            {
+              "id": 4194199015,
+              "team_id": "231",
+              "type": "goal",
+              "fixture_id": 4194199,
+              "player_id": 187878,
+              "player_name": "Juanpe",
+              "related_player_id": 188717,
+              "related_player_name": "Álex Granell",
+              "minute": 85,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": "3-0"
+            },
+            {
+              "id": 4194199017,
+              "team_id": "844",
+              "type": "substitution",
+              "fixture_id": 4194199,
+              "player_id": 3181374,
+              "player_name": "Jaime Sierra",
+              "related_player_id": 129662,
+              "related_player_name": "Rubén Pérez",
+              "minute": 86,
+              "extra_minute": null,
+              "reason": null,
+              "injuried": null,
+              "result": null
+            }
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "subscription": {
+        "started_at": {
+          "date": "2019-02-12 00:11:17.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "trial_ends_at": {
+          "date": "2019-02-26 00:11:09.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "ends_at": null
+      },
+      "plan": {
+        "name": "Segio RUST Custom Soccer Plan",
+        "price": "20",
+        "request_limit": "2000,60"
+      },
+      "sports": [
+        {
+          "id": 1,
+          "name": "Soccer",
+          "current": true
+        }
+      ],
+      "pagination": {
+        "total": 4,
+        "count": 4,
+        "per_page": 100,
+        "current_page": 1,
+        "total_pages": 1,
+        "links": []
+      }
+    }
+  }
+  

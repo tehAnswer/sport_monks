@@ -1,0 +1,92 @@
+{
+    "data": {
+      "id": 11414776,
+      "league_id": 2,
+      "season_id": 12950,
+      "stage_id": 7743657,
+      "round_id": null,
+      "group_id": null,
+      "aggregate_id": 17561,
+      "venue_id": 2085,
+      "referee_id": null,
+      "localteam_id": 67,
+      "visitorteam_id": 9,
+      "weather_report": null,
+      "commentaries": false,
+      "attendance": null,
+      "pitch": null,
+      "winning_odds_calculated": false,
+      "formations": {
+        "localteam_formation": null,
+        "visitorteam_formation": null
+      },
+      "scores": {
+        "localteam_score": 0,
+        "visitorteam_score": 0,
+        "localteam_pen_score": null,
+        "visitorteam_pen_score": null,
+        "ht_score": null,
+        "ft_score": null,
+        "et_score": null
+      },
+      "time": {
+        "status": "NS",
+        "starting_at": {
+          "date_time": "2019-02-20 20:00:00",
+          "date": "2019-02-20",
+          "time": "20:00:00",
+          "timestamp": 1550692800,
+          "timezone": "UTC"
+        },
+        "minute": null,
+        "second": null,
+        "added_time": null,
+        "extra_minute": null,
+        "injury_time": null
+      },
+      "coaches": {
+        "localteam_coach_id": 893655,
+        "visitorteam_coach_id": 455361
+      },
+      "standings": {
+        "localteam_position": null,
+        "visitorteam_position": null
+      },
+      "assistants": {
+        "first_assistant_id": null,
+        "second_assistant_id": null,
+        "fourth_official_id": null
+      },
+      "leg": "1/2",
+      "colors": null,
+      "deleted": false
+    },
+    "meta": {
+      "subscription": {
+        "started_at": {
+          "date": "2019-02-12 00:11:17.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "trial_ends_at": {
+          "date": "2019-02-26 00:11:09.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "ends_at": null
+      },
+      "plan": {
+        "name": "Segio RUST Custom Soccer Plan",
+        "price": "20",
+        "request_limit": "2000,60"
+      },
+      "sports": [
+        {
+          "id": 1,
+          "name": "Soccer",
+          "current": true
+        }
+      ]
+    }
+}
+  

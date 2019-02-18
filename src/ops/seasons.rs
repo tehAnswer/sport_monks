@@ -502,7 +502,7 @@ mod tests {
         assert_eq!(results[0].assistants.second_assistant_id, Some(34682));
         assert_eq!(results[0].assistants.fourth_official_id, Some(44212));
 
-        assert_eq!(&results[0].leg, "1/1");
+        assert_eq!(results[0].leg, Some("1/1".to_string()));
         assert_eq!(results[0].colors, None);
         assert_eq!(results[0].deleted, false);
 
@@ -664,7 +664,7 @@ mod tests {
         assert_eq!(results[0].assistants.second_assistant_id, None);
         assert_eq!(results[0].assistants.fourth_official_id, None);
 
-        assert_eq!(&results[0].leg, "1/2");
+        assert_eq!(results[0].leg, Some("1/2".to_string()));
         assert_eq!(results[0].colors, None);
         assert_eq!(results[0].deleted, false);
     }

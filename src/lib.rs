@@ -5,6 +5,7 @@ extern crate serde_derive;
 extern crate reqwest;
 #[cfg(test)]
 extern crate mockito;
+extern crate chrono;
 
 pub mod ops;
 pub mod models;

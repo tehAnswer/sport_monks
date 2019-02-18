@@ -61,6 +61,7 @@ impl Gateway {
     }
 
     fn handle_response<U: DeserializeOwned>(&self, result: Result<Response, reqwest::Error>) -> Result<U,  SportMonksError> {
+        println!("{:?}", result);
         match result {
             Ok(mut response) => {
                 if response.status().is_success() {
@@ -75,8 +76,8 @@ impl Gateway {
                     let parsed_result = response.json::<SportMonksError>();
                     match parsed_result {
                         Ok(sportmonks_error) => { Err(sportmonks_error) }, 
-                        Err(_) => {
-                            Err(SportMonksError::new(0, ERROR_MSG.to_string())) 
+                        Err(x) => {    
+                            Err(SportMonksError::new(0, x.to_string())) 
                         }
                     }
                 }
