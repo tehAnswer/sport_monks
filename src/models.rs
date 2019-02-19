@@ -717,7 +717,15 @@ pub struct Sidelined {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
-pub struct Comment { }
+pub struct Comment {
+    pub fixture_id: i64,
+    pub important: bool,
+    pub order: Option<i64>,
+    pub goal: bool,
+    pub minute: Option<i64>,
+    pub extra_minute: Option<i64>,
+    pub comment: String,
+}
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct TvStation {

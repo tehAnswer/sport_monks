@@ -1,0 +1,1202 @@
+{
+    "data": [
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 130,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 4,
+        "comment": "Thats all. Game finished -  Roma 2, Bologna 1."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 129,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 4,
+        "comment": "Thats all. Game finished -  Roma 2, Bologna 1."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 128,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 4,
+        "comment": "Second Half ended - Roma 2, Bologna 1."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 127,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 3,
+        "comment": "Corner -  Roma. Conceded by Mattias Svanberg."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 126,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 2,
+        "comment": "Kostas Manolas  - Roma -  receive yellow card."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 125,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 2,
+        "comment": "Mitchell Dijks  - Bologna -  receive yellow card for a foul."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 124,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 2,
+        "comment": "Fouled by Mitchell Dijks  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 123,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 2,
+        "comment": "Edin Dzeko  - Roma -  won a free kick on the right wing."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 122,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 1,
+        "comment": "Ibrahima Mbaye  - Bologna -  won a free kick in attack."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 121,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 1,
+        "comment": "Fouled by Nicolò Zaniolo  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 120,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 1,
+        "comment": "Shot blocked. Nicolò Zaniolo  - Roma -  shot with left foot from the left side of the box is blocked. Assist -  Steven Nzonzi."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 119,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": 1,
+        "comment": "Missed chance. Steven Nzonzi  - Roma -  shot with the head from the centre of the box missed to the left. Assist -  Lorenzo Pellegrini with a cross after corner."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 118,
+        "goal": false,
+        "minute": 90,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Nicola Sansone."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 117,
+        "goal": false,
+        "minute": 88,
+        "extra_minute": null,
+        "comment": "Corner -  Bologna. Conceded by Davide Santon."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 116,
+        "goal": false,
+        "minute": 87,
+        "extra_minute": null,
+        "comment": "Stephan El Shaarawy  - Roma -  won a free kick in attack."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 115,
+        "goal": false,
+        "minute": 87,
+        "extra_minute": null,
+        "comment": "Fouled by Roberto Soriano  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 114,
+        "goal": true,
+        "minute": 84,
+        "extra_minute": null,
+        "comment": "Goal!  Roma 2, Bologna 1. Nicola Sansone  - Bologna -  shot with right foot from the centre of the box to the right corner. Assist -  Roberto Soriano."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 113,
+        "goal": false,
+        "minute": 84,
+        "extra_minute": null,
+        "comment": "Fouled by Lorenzo Pellegrini  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 112,
+        "goal": false,
+        "minute": 84,
+        "extra_minute": null,
+        "comment": "Blerim Dzemaili  - Bologna -  won a free kick in attack."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 111,
+        "goal": false,
+        "minute": 83,
+        "extra_minute": null,
+        "comment": "Hand ball by Nicolò Zaniolo  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 110,
+        "goal": false,
+        "minute": 83,
+        "extra_minute": null,
+        "comment": "Substitution -  Roma. Davide Santon for Alessandro Florenzi."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 109,
+        "goal": false,
+        "minute": 82,
+        "extra_minute": null,
+        "comment": "Corner -  Bologna. Conceded by Robin Olsen."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 108,
+        "goal": false,
+        "minute": 82,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Diego Falcinelli  - Bologna -  shot with left foot from the left side of the box is saved by goalkeeper in the centre of the goal. Assist -  Federico Santander with a through ball."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 107,
+        "goal": false,
+        "minute": 78,
+        "extra_minute": null,
+        "comment": "Lorenzo Pellegrini  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 106,
+        "goal": false,
+        "minute": 78,
+        "extra_minute": null,
+        "comment": "Fouled by Danilo  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 105,
+        "goal": false,
+        "minute": 78,
+        "extra_minute": null,
+        "comment": "Shot blocked. Roberto Soriano  - Bologna -  shot with right foot from outside the box is blocked."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 104,
+        "goal": false,
+        "minute": 78,
+        "extra_minute": null,
+        "comment": "Corner -  Bologna. Conceded by Kostas Manolas."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 103,
+        "goal": false,
+        "minute": 78,
+        "extra_minute": null,
+        "comment": "Shot blocked. Filip Helander  - Bologna -  shot with right foot from the centre of the box is blocked. Assist -  Roberto Soriano with a cross."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 102,
+        "goal": false,
+        "minute": 77,
+        "extra_minute": null,
+        "comment": "Fouled by Daniele De Rossi  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 101,
+        "goal": false,
+        "minute": 77,
+        "extra_minute": null,
+        "comment": "Danilo  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 100,
+        "goal": false,
+        "minute": 76,
+        "extra_minute": null,
+        "comment": "Fouled by Kostas Manolas  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 99,
+        "goal": false,
+        "minute": 76,
+        "extra_minute": null,
+        "comment": "Federico Santander  - Bologna -  won a free kick on the right wing."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 98,
+        "goal": false,
+        "minute": 75,
+        "extra_minute": null,
+        "comment": "Substitution -  Bologna. Diego Falcinelli for Erick Pulgar."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 97,
+        "goal": false,
+        "minute": 75,
+        "extra_minute": null,
+        "comment": "Nicolò Zaniolo  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 96,
+        "goal": false,
+        "minute": 75,
+        "extra_minute": null,
+        "comment": "Fouled by Filip Helander  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 95,
+        "goal": true,
+        "minute": 73,
+        "extra_minute": null,
+        "comment": "Goal!  Roma 2, Bologna 0. Federico Fazio  - Roma -  shot with right foot from the centre of the box to the left corner. Assist -  Daniele De Rossi after corner."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 94,
+        "goal": false,
+        "minute": 72,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Filip Helander."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 93,
+        "goal": false,
+        "minute": 72,
+        "extra_minute": null,
+        "comment": "Substitution -  Bologna. Blerim Dzemaili for Andrea Poli."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 92,
+        "goal": false,
+        "minute": 71,
+        "extra_minute": null,
+        "comment": "Missed chance. Kostas Manolas  - Roma -  shot with the head from the centre of the box missed to the left. Assist -  Lorenzo Pellegrini with a cross after corner."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 91,
+        "goal": false,
+        "minute": 70,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Danilo."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 90,
+        "goal": false,
+        "minute": 70,
+        "extra_minute": null,
+        "comment": "Missed chance. Edin Dzeko  - Roma -  shot with right foot from the right side of the box missed to the left. Assist -  Stephan El Shaarawy."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 89,
+        "goal": false,
+        "minute": 69,
+        "extra_minute": null,
+        "comment": "Mattias Svanberg  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 88,
+        "goal": false,
+        "minute": 69,
+        "extra_minute": null,
+        "comment": "Fouled by Steven Nzonzi  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 87,
+        "goal": false,
+        "minute": 68,
+        "extra_minute": null,
+        "comment": "Substitution -  Roma. Daniele De Rossi for Justin Kluivert."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 86,
+        "goal": false,
+        "minute": 67,
+        "extra_minute": null,
+        "comment": "Fouled by Nicolò Zaniolo  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 85,
+        "goal": false,
+        "minute": 67,
+        "extra_minute": null,
+        "comment": "Erick Pulgar  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 84,
+        "goal": false,
+        "minute": 66,
+        "extra_minute": null,
+        "comment": "Substitution -  Bologna. Mattias Svanberg for Simone Edera."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 83,
+        "goal": false,
+        "minute": 62,
+        "extra_minute": null,
+        "comment": "Missed chance. Simone Edera  - Bologna -  shot with left foot from outside the box missed to the left. Assist -  Andrea Poli."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 82,
+        "goal": false,
+        "minute": 61,
+        "extra_minute": null,
+        "comment": "Shot blocked. Andrea Poli  - Bologna -  shot with right foot from the centre of the box is blocked. Assist -  Simone Edera."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 81,
+        "goal": false,
+        "minute": 58,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Lukasz Skorupski."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 80,
+        "goal": false,
+        "minute": 58,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Nicolò Zaniolo  - Roma -  shot with left foot from a diffucult position on the left is saved by goalkeeper in the centre of the goal. Assist -  Stephan El Shaarawy."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 79,
+        "goal": false,
+        "minute": 57,
+        "extra_minute": null,
+        "comment": "Corner -  Bologna. Conceded by Aleksandar Kolarov."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 78,
+        "goal": false,
+        "minute": 57,
+        "extra_minute": null,
+        "comment": "Shot blocked. Roberto Soriano  - Bologna -  shot with right foot from the right side of the box is blocked."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 77,
+        "goal": false,
+        "minute": 57,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Andrea Poli  - Bologna -  shot with right foot from outside the box is saved in the right corner."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 76,
+        "goal": false,
+        "minute": 57,
+        "extra_minute": null,
+        "comment": "Shot blocked. Nicola Sansone  - Bologna -  shot with right foot from outside the box is blocked. Assist -  Roberto Soriano."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 75,
+        "goal": true,
+        "minute": 55,
+        "extra_minute": null,
+        "comment": "Goal!  Roma 1, Bologna 0. Aleksandar Kolarov  - Roma -  converts the penalty with a shot with left foot to the right corner."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 74,
+        "goal": false,
+        "minute": 53,
+        "extra_minute": null,
+        "comment": "Penalty conceded by Filip Helander  - Bologna -  after a foul in the penalty area."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 73,
+        "goal": false,
+        "minute": 53,
+        "extra_minute": null,
+        "comment": "Penalty Roma. Stephan El Shaarawy draws a foul in the penalty area."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 72,
+        "goal": false,
+        "minute": 52,
+        "extra_minute": null,
+        "comment": "Missed chance. Nicolò Zaniolo  - Roma -  shot with left foot from outside the box missed to the left after corner."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 71,
+        "goal": false,
+        "minute": 52,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Ibrahima Mbaye."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 70,
+        "goal": false,
+        "minute": 51,
+        "extra_minute": null,
+        "comment": "Nicolò Zaniolo  - Roma -  won a free kick on the right wing."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 69,
+        "goal": false,
+        "minute": 51,
+        "extra_minute": null,
+        "comment": "Fouled by Erick Pulgar  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 68,
+        "goal": false,
+        "minute": 51,
+        "extra_minute": null,
+        "comment": "Missed chance. Simone Edera  - Bologna -  shot with left foot from outside the box missed to the left. Assist -  Erick Pulgar."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 67,
+        "goal": false,
+        "minute": 47,
+        "extra_minute": null,
+        "comment": "Nicola Sansone  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 66,
+        "goal": false,
+        "minute": 47,
+        "extra_minute": null,
+        "comment": "Fouled by Justin Kluivert  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 65,
+        "goal": false,
+        "minute": 47,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Simone Edera  - Bologna -  shot with right foot from the right side of the box is saved by goalkeeper in the centre of the goal. Assist -  Roberto Soriano."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 64,
+        "goal": false,
+        "minute": 46,
+        "extra_minute": null,
+        "comment": "Lorenzo Pellegrini  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 63,
+        "goal": false,
+        "minute": 46,
+        "extra_minute": null,
+        "comment": "Fouled by Roberto Soriano  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 62,
+        "goal": false,
+        "minute": 45,
+        "extra_minute": null,
+        "comment": "Substitution -  Roma. Stephan El Shaarawy for Bryan Cristante."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 61,
+        "goal": false,
+        "minute": 45,
+        "extra_minute": null,
+        "comment": "Second Half starts Roma 0, Bologna 0."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 60,
+        "goal": false,
+        "minute": 45,
+        "extra_minute": 2,
+        "comment": "First Half ended - Roma 0, Bologna 0."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 59,
+        "goal": false,
+        "minute": 45,
+        "extra_minute": 1,
+        "comment": "Missed chance. Federico Santander  - Bologna -  shot with right foot from outside the box goes high."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 58,
+        "goal": false,
+        "minute": 45,
+        "extra_minute": 1,
+        "comment": "Roberto Soriano  - Bologna -  hits the bar with a shot with right foot from the centre of the box."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 57,
+        "goal": false,
+        "minute": 45,
+        "extra_minute": 1,
+        "comment": "Mitchell Dijks  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 56,
+        "goal": false,
+        "minute": 45,
+        "extra_minute": 1,
+        "comment": "Fouled by Nicolò Zaniolo  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 55,
+        "goal": false,
+        "minute": 43,
+        "extra_minute": null,
+        "comment": "Simone Edera  - Bologna -  receive yellow card for a foul."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 54,
+        "goal": false,
+        "minute": 43,
+        "extra_minute": null,
+        "comment": "Justin Kluivert  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 53,
+        "goal": false,
+        "minute": 43,
+        "extra_minute": null,
+        "comment": "Fouled by Simone Edera  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 52,
+        "goal": false,
+        "minute": 42,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Simone Edera  - Bologna -  shot with left foot from the right side of the six yard box is saved by goalkeeper in the centre of the goal."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 51,
+        "goal": false,
+        "minute": 41,
+        "extra_minute": null,
+        "comment": "Nicolò Zaniolo  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 50,
+        "goal": false,
+        "minute": 41,
+        "extra_minute": null,
+        "comment": "Fouled by Mitchell Dijks  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 49,
+        "goal": false,
+        "minute": 40,
+        "extra_minute": null,
+        "comment": "Alessandro Florenzi  - Roma -  receive yellow card for a foul."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 48,
+        "goal": false,
+        "minute": 40,
+        "extra_minute": null,
+        "comment": "Mitchell Dijks  - Bologna -  won a free kick on the left wing."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 47,
+        "goal": false,
+        "minute": 40,
+        "extra_minute": null,
+        "comment": "Fouled by Alessandro Florenzi  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 46,
+        "goal": false,
+        "minute": 37,
+        "extra_minute": null,
+        "comment": "Shot blocked. Bryan Cristante  - Roma -  shot with right foot from outside the box is blocked. Assist -  Lorenzo Pellegrini."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 45,
+        "goal": false,
+        "minute": 36,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Roberto Soriano  - Bologna -  shot with left foot from the centre of the box is saved by goalkeeper in the centre of the goal. Assist -  Federico Santander with a head."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 44,
+        "goal": false,
+        "minute": 35,
+        "extra_minute": null,
+        "comment": "Delay over. They are ready to continue."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 43,
+        "goal": false,
+        "minute": 35,
+        "extra_minute": null,
+        "comment": "Delay in match Ibrahima Mbaye  - Bologna -   - injury."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 42,
+        "goal": false,
+        "minute": 34,
+        "extra_minute": null,
+        "comment": "Bryan Cristante  - Roma -  receive yellow card for a foul."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 41,
+        "goal": false,
+        "minute": 34,
+        "extra_minute": null,
+        "comment": "Nicola Sansone  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 40,
+        "goal": false,
+        "minute": 34,
+        "extra_minute": null,
+        "comment": "Fouled by Bryan Cristante  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 39,
+        "goal": false,
+        "minute": 31,
+        "extra_minute": null,
+        "comment": "Fouled by Kostas Manolas  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 38,
+        "goal": false,
+        "minute": 31,
+        "extra_minute": null,
+        "comment": "Federico Santander  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 37,
+        "goal": false,
+        "minute": 30,
+        "extra_minute": null,
+        "comment": "Ibrahima Mbaye  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 36,
+        "goal": false,
+        "minute": 30,
+        "extra_minute": null,
+        "comment": "Fouled by Justin Kluivert  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 35,
+        "goal": false,
+        "minute": 29,
+        "extra_minute": null,
+        "comment": "Fouled by Nicolò Zaniolo  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 34,
+        "goal": false,
+        "minute": 29,
+        "extra_minute": null,
+        "comment": "Erick Pulgar  - Bologna -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 33,
+        "goal": false,
+        "minute": 26,
+        "extra_minute": null,
+        "comment": "Fouled by Filip Helander  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 32,
+        "goal": false,
+        "minute": 26,
+        "extra_minute": null,
+        "comment": "Edin Dzeko  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 31,
+        "goal": false,
+        "minute": 25,
+        "extra_minute": null,
+        "comment": "Mitchell Dijks  - Bologna -  won a free kick on the left wing."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 30,
+        "goal": false,
+        "minute": 25,
+        "extra_minute": null,
+        "comment": "Fouled by Bryan Cristante  - Roma"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 29,
+        "goal": false,
+        "minute": 24,
+        "extra_minute": null,
+        "comment": "Erick Pulgar  - Bologna -  receive yellow card for a foul."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 28,
+        "goal": false,
+        "minute": 24,
+        "extra_minute": null,
+        "comment": "Justin Kluivert  - Roma -  won a free kick in attack."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 27,
+        "goal": false,
+        "minute": 24,
+        "extra_minute": null,
+        "comment": "Fouled by Erick Pulgar  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 26,
+        "goal": false,
+        "minute": 23,
+        "extra_minute": null,
+        "comment": "Kostas Manolas  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 25,
+        "goal": false,
+        "minute": 23,
+        "extra_minute": null,
+        "comment": "Fouled by Nicola Sansone  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 24,
+        "goal": false,
+        "minute": 22,
+        "extra_minute": null,
+        "comment": "Missed chance. Roberto Soriano  - Bologna -  shot with right foot from the right side of the box goes high following a fast break."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 23,
+        "goal": false,
+        "minute": 22,
+        "extra_minute": null,
+        "comment": "Shot blocked. Roberto Soriano  - Bologna -  shot with left foot from the centre of the box is blocked. Assist -  Simone Edera."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 22,
+        "goal": false,
+        "minute": 22,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Ibrahima Mbaye."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 21,
+        "goal": false,
+        "minute": 21,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Filip Helander."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 20,
+        "goal": false,
+        "minute": 21,
+        "extra_minute": null,
+        "comment": "Shot blocked. Edin Dzeko  - Roma -  shot with the head from the centre of the box is blocked. Assist -  Justin Kluivert with a cross."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 19,
+        "goal": false,
+        "minute": 20,
+        "extra_minute": null,
+        "comment": "Missed chance. Nicolò Zaniolo  - Roma -  shot with left foot from the centre of the box missed. Assist -  Justin Kluivert."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 18,
+        "goal": false,
+        "minute": 15,
+        "extra_minute": null,
+        "comment": "Missed chance. Kostas Manolas  - Roma -  shot with the head from the centre of the box goes high. Assist -  Aleksandar Kolarov with a cross after corner."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 17,
+        "goal": false,
+        "minute": 14,
+        "extra_minute": null,
+        "comment": "Corner -  Roma. Conceded by Erick Pulgar."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 16,
+        "goal": false,
+        "minute": 14,
+        "extra_minute": null,
+        "comment": "Shot blocked. Edin Dzeko  - Roma -  shot with left foot from outside the box is blocked. Assist -  Nicolò Zaniolo."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": true,
+        "order": 15,
+        "goal": false,
+        "minute": 12,
+        "extra_minute": null,
+        "comment": "Danilo  - Bologna -  receive yellow card for a foul."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 14,
+        "goal": false,
+        "minute": 12,
+        "extra_minute": null,
+        "comment": "Nicolò Zaniolo  - Roma -  won a free kick in attack."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 13,
+        "goal": false,
+        "minute": 12,
+        "extra_minute": null,
+        "comment": "Fouled by Danilo  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 12,
+        "goal": false,
+        "minute": 11,
+        "extra_minute": null,
+        "comment": "Fouled by Danilo  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 11,
+        "goal": false,
+        "minute": 11,
+        "extra_minute": null,
+        "comment": "Edin Dzeko  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 10,
+        "goal": false,
+        "minute": 9,
+        "extra_minute": null,
+        "comment": "Lorenzo Pellegrini  - Roma -  won a free kick in defence."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 9,
+        "goal": false,
+        "minute": 9,
+        "extra_minute": null,
+        "comment": "Fouled by Nicola Sansone  - Bologna"
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 8,
+        "goal": false,
+        "minute": 8,
+        "extra_minute": null,
+        "comment": "Corner -  Bologna. Conceded by Robin Olsen."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 7,
+        "goal": false,
+        "minute": 8,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Roberto Soriano  - Bologna -  shot with right foot from outside the box is saved in the top centre of the goal. Assist -  Federico Santander."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 6,
+        "goal": false,
+        "minute": 7,
+        "extra_minute": null,
+        "comment": "Corner -  Bologna. Conceded by Steven Nzonzi."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 5,
+        "goal": false,
+        "minute": 7,
+        "extra_minute": null,
+        "comment": "Shot blocked. Andrea Poli  - Bologna -  shot with right foot from outside the box is blocked. Assist -  Nicola Sansone."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 4,
+        "goal": false,
+        "minute": 4,
+        "extra_minute": null,
+        "comment": "Corner -  Bologna. Conceded by Kostas Manolas."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 3,
+        "goal": false,
+        "minute": 4,
+        "extra_minute": null,
+        "comment": "Shot blocked. Simone Edera  - Bologna -  shot with right foot from the right side of the box is blocked. Assist -  Federico Santander."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 2,
+        "goal": false,
+        "minute": 3,
+        "extra_minute": null,
+        "comment": "New attacking attempt. Edin Dzeko  - Roma -  shot with left foot from outside the box is saved in the right corner. Assist -  Steven Nzonzi."
+      },
+      {
+        "fixture_id": 10420302,
+        "important": false,
+        "order": 1,
+        "goal": false,
+        "minute": null,
+        "extra_minute": null,
+        "comment": "First Half starts."
+      }
+    ],
+    "meta": {
+      "subscription": {
+        "started_at": {
+          "date": "2019-02-12 00:11:17.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "trial_ends_at": {
+          "date": "2019-02-26 00:11:09.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "ends_at": null
+      },
+      "plan": {
+        "name": "Segio RUST Custom Soccer Plan",
+        "price": "20",
+        "request_limit": "2000,60"
+      },
+      "sports": [
+        {
+          "id": 1,
+          "name": "Soccer",
+          "current": true
+        }
+      ]
+    }
+  }
+  
