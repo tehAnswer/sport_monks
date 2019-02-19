@@ -166,7 +166,7 @@ mod tests {
         assert_eq!(&local_team.name, "Schalke 04");
         assert_eq!(&local_team.short_code, "S04");
         assert_eq!(local_team.country_id, 11);
-        assert_eq!(&local_team.twitter, "@s04");
+        assert_eq!(local_team.twitter, Some("@s04".to_string()));
         assert_eq!(local_team.national_team, false);
         assert_eq!(local_team.founded, 1904);
         assert_eq!(&local_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/3/67.png");
@@ -178,7 +178,7 @@ mod tests {
         assert_eq!(visitor_team.legacy_id, 127);
         assert_eq!(&visitor_team.name, "Manchester City");
         assert_eq!(&visitor_team.short_code, "MCI");
-        assert_eq!(&visitor_team.twitter, "@ManCity");
+        assert_eq!(visitor_team.twitter, Some("@ManCity".to_string()));
         assert_eq!(visitor_team.country_id, 462);
         assert_eq!(visitor_team.national_team, false);
         assert_eq!(visitor_team.founded, 1880);

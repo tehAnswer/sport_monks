@@ -156,6 +156,8 @@ pub struct Fixture {
     pub venue: Option<Venue>,
     #[serde(with = "Wrapper", default)]
     pub odds: Option<Vec<Odds>>,
+    #[serde(with = "Wrapper", default)]
+    pub inplay: Option<Vec<Odds>>,
     #[serde(with = "Wrapper", default, rename = "flatOdds")]
     pub flat_odds: Option<Vec<FlatOdds>>,
     #[serde(with = "Wrapper", default, rename = "localCoach")]
@@ -184,8 +186,6 @@ pub struct Fixture {
     pub tvstations: Option<Vec<TvStation>>,
     #[serde(with = "Wrapper", default)]
     pub highlights: Option<Vec<Highlight>>,
-    #[serde(with = "Wrapper", default)]
-    pub inplay: Option<Vec<InPlay>>,
     #[serde(with = "Wrapper", default)]
     pub round: Option<Vec<Round>>,
     #[serde(with = "Wrapper", default)]
@@ -364,7 +364,7 @@ pub struct Team {
     pub legacy_id: i64,
     pub name: String,
     pub short_code: String,
-    pub twitter: String,
+    pub twitter: Option<String>,
     pub country_id: i64,
     pub national_team: bool,
     pub founded: i64,
@@ -718,9 +718,6 @@ pub struct Sidelined {
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Comment { }
-
-#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
-pub struct InPlay { }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct TvStation {

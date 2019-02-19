@@ -1,0 +1,316 @@
+{
+    "data": [
+      {
+        "id": 10420302,
+        "league_id": 384,
+        "season_id": 13158,
+        "stage_id": 7743307,
+        "round_id": 151888,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 7219,
+        "referee_id": 15306,
+        "localteam_id": 37,
+        "visitorteam_id": 8513,
+        "weather_report": null,
+        "commentaries": false,
+        "attendance": null,
+        "pitch": null,
+        "winning_odds_calculated": false,
+        "formations": {
+          "localteam_formation": null,
+          "visitorteam_formation": null
+        },
+        "scores": {
+          "localteam_score": 0,
+          "visitorteam_score": 0,
+          "localteam_pen_score": 0,
+          "visitorteam_pen_score": 0,
+          "ht_score": null,
+          "ft_score": null,
+          "et_score": null
+        },
+        "time": {
+          "status": "NS",
+          "starting_at": {
+            "date_time": "2019-02-18 19:30:00",
+            "date": "2019-02-18",
+            "time": "19:30:00",
+            "timestamp": 1550518200,
+            "timezone": "UTC"
+          },
+          "minute": null,
+          "second": null,
+          "added_time": null,
+          "extra_minute": null,
+          "injury_time": null
+        },
+        "coaches": {
+          "localteam_coach_id": 458783,
+          "visitorteam_coach_id": 455935
+        },
+        "standings": {
+          "localteam_position": 6,
+          "visitorteam_position": 17
+        },
+        "assistants": {
+          "first_assistant_id": 13968,
+          "second_assistant_id": 13991,
+          "fourth_official_id": 13669
+        },
+        "leg": "1/1",
+        "colors": null,
+        "deleted": false,
+        "localTeam": {
+          "data": {
+            "id": 37,
+            "legacy_id": 128,
+            "name": "Roma",
+            "short_code": "ROM",
+            "twitter": "@OfficialASRoma",
+            "country_id": 251,
+            "national_team": false,
+            "founded": 1927,
+            "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/5/37.png",
+            "venue_id": 7219,
+            "current_season_id": null
+          }
+        },
+        "visitorTeam": {
+          "data": {
+            "id": 8513,
+            "legacy_id": 338,
+            "name": "Bologna",
+            "short_code": "BGN",
+            "twitter": "@BfcOfficialPage",
+            "country_id": 251,
+            "national_team": false,
+            "founded": 1909,
+            "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/1/8513.png",
+            "venue_id": 5515,
+            "current_season_id": null
+          }
+        }
+      },
+      {
+        "id": 10343019,
+        "league_id": 82,
+        "season_id": 13005,
+        "stage_id": 7743107,
+        "round_id": 148761,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 143896,
+        "referee_id": 15402,
+        "localteam_id": 956,
+        "visitorteam_id": 68,
+        "weather_report": null,
+        "commentaries": false,
+        "attendance": null,
+        "pitch": null,
+        "winning_odds_calculated": false,
+        "formations": {
+          "localteam_formation": null,
+          "visitorteam_formation": null
+        },
+        "scores": {
+          "localteam_score": 0,
+          "visitorteam_score": 0,
+          "localteam_pen_score": 0,
+          "visitorteam_pen_score": 0,
+          "ht_score": null,
+          "ft_score": null,
+          "et_score": null
+        },
+        "time": {
+          "status": "NS",
+          "starting_at": {
+            "date_time": "2019-02-18 19:30:00",
+            "date": "2019-02-18",
+            "time": "19:30:00",
+            "timestamp": 1550518200,
+            "timezone": "UTC"
+          },
+          "minute": null,
+          "second": null,
+          "added_time": null,
+          "extra_minute": null,
+          "injury_time": null
+        },
+        "coaches": {
+          "localteam_coach_id": 30850842,
+          "visitorteam_coach_id": 455672
+        },
+        "standings": {
+          "localteam_position": 18,
+          "visitorteam_position": 1
+        },
+        "assistants": {
+          "first_assistant_id": 12804,
+          "second_assistant_id": 13405,
+          "fourth_official_id": 12075
+        },
+        "leg": "1/1",
+        "colors": null,
+        "deleted": false,
+        "localTeam": {
+          "data": {
+            "id": 956,
+            "legacy_id": 63,
+            "name": "Nürnberg",
+            "short_code": "NUR",
+            "twitter": null,
+            "country_id": 11,
+            "national_team": false,
+            "founded": 1900,
+            "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/28/956.png",
+            "venue_id": 143896,
+            "current_season_id": null
+          }
+        },
+        "visitorTeam": {
+          "data": {
+            "id": 68,
+            "legacy_id": 53,
+            "name": "Borussia Dortmund",
+            "short_code": "BVB",
+            "twitter": "@BVB",
+            "country_id": 11,
+            "national_team": false,
+            "founded": 1909,
+            "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/4/68.png",
+            "venue_id": 2166,
+            "current_season_id": null
+          }
+        }
+      },
+      {
+        "id": 10420638,
+        "league_id": 564,
+        "season_id": 13133,
+        "stage_id": 7743270,
+        "round_id": 151268,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 9342,
+        "referee_id": 18771,
+        "localteam_id": 274,
+        "visitorteam_id": 13258,
+        "weather_report": null,
+        "commentaries": false,
+        "attendance": null,
+        "pitch": null,
+        "winning_odds_calculated": false,
+        "formations": {
+          "localteam_formation": null,
+          "visitorteam_formation": null
+        },
+        "scores": {
+          "localteam_score": 0,
+          "visitorteam_score": 0,
+          "localteam_pen_score": 0,
+          "visitorteam_pen_score": 0,
+          "ht_score": null,
+          "ft_score": null,
+          "et_score": null
+        },
+        "time": {
+          "status": "NS",
+          "starting_at": {
+            "date_time": "2019-02-18 20:00:00",
+            "date": "2019-02-18",
+            "time": "20:00:00",
+            "timestamp": 1550520000,
+            "timezone": "UTC"
+          },
+          "minute": null,
+          "second": null,
+          "added_time": null,
+          "extra_minute": null,
+          "injury_time": null
+        },
+        "coaches": {
+          "localteam_coach_id": 464975,
+          "visitorteam_coach_id": 883095
+        },
+        "standings": {
+          "localteam_position": 20,
+          "visitorteam_position": 14
+        },
+        "assistants": {
+          "first_assistant_id": 15308,
+          "second_assistant_id": 12849,
+          "fourth_official_id": 18638
+        },
+        "leg": "1/1",
+        "colors": null,
+        "deleted": false,
+        "localTeam": {
+          "data": {
+            "id": 274,
+            "legacy_id": 1964,
+            "name": "Huesca",
+            "short_code": "HUE",
+            "twitter": null,
+            "country_id": 32,
+            "national_team": false,
+            "founded": 1922,
+            "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/18/274.png",
+            "venue_id": 9342,
+            "current_season_id": null
+          }
+        },
+        "visitorTeam": {
+          "data": {
+            "id": 13258,
+            "legacy_id": 138,
+            "name": "Athletic Club",
+            "short_code": "ATH",
+            "twitter": "@AthleticClub",
+            "country_id": 32,
+            "national_team": false,
+            "founded": 1898,
+            "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/10/13258.png",
+            "venue_id": 9162,
+            "current_season_id": null
+          }
+        }
+      }
+    ],
+    "meta": {
+      "subscription": {
+        "started_at": {
+          "date": "2019-02-12 00:11:17.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "trial_ends_at": {
+          "date": "2019-02-26 00:11:09.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "ends_at": null
+      },
+      "plan": {
+        "name": "Segio RUST Custom Soccer Plan",
+        "price": "20",
+        "request_limit": "2000,60"
+      },
+      "sports": [
+        {
+          "id": 1,
+          "name": "Soccer",
+          "current": true
+        }
+      ],
+      "pagination": {
+        "total": 3,
+        "count": 3,
+        "per_page": 100,
+        "current_page": 1,
+        "total_pages": 1,
+        "links": []
+      }
+    }
+  }
+  
