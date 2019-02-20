@@ -1,5 +1,4 @@
 use serde::{Deserialize, Deserializer};
-use serde::de::{DeserializeOwned};
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Wrapper<T> {
@@ -731,6 +730,94 @@ pub struct Comment {
 pub struct TvStation {
     pub fixture_id: i64,
     pub tvstation: String,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Standing {
+    pub name: String,
+    pub league_id: i64,
+    pub season_id: i64,
+    #[serde(rename = "type")]
+    pub kind: String,
+    pub stage_id: i64,
+    pub stage_name: String,
+    #[serde(with = "Wrapper", default)]
+    pub standings: Vec<StandingPosition>
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct StandingPosition {
+    pub position: i64,
+    pub team_id: i64,
+    pub team_name: String,
+    pub round_id: i64,
+    pub round_name: i64,
+    pub group_id: Option<i64>,
+    pub group_name: Option<String>,
+    pub overall: OverallStats,
+    pub home: HomeStats,
+    pub away: AwayStats,
+    pub total: TotalStats,
+    pub result: Option<String>,
+    pub points: i64,
+    pub recent_form: String,
+    pub status: String,
+    #[serde(with = "Wrapper", default)]
+    pub team: Option<Team>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct OverallStats {
+    pub games_played: i64,
+    pub won: i64,
+    pub draw: i64,
+    pub lost: i64,
+    pub goals_scored: i64,
+    pub goals_against: i64,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct HomeStats {
+    pub games_played: i64,
+    pub won: i64,
+    pub draw: i64,
+    pub lost: i64,
+    pub goals_scored: i64,
+    pub goals_against: i64,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct AwayStats {
+    pub games_played: i64,
+    pub won: i64,
+    pub draw: i64,
+    pub lost: i64,
+    pub goals_scored: i64,
+    pub goals_against: i64,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct TotalStats {
+    pub goal_difference: i64,
+    pub points: i64,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct LiveStanding {
+    pub position: i64,
+    pub played: i64,
+    pub team_id: i64,
+    pub team_name: String,
+    pub short_code: String,
+    pub team_logo: String,
+    pub goals: String,
+    pub goal_diff: i64,
+    pub wins: i64,
+    pub lost: i64,
+    pub draws: i64,
+    pub points: i64,
+    pub description: String,
+    pub fairplay_points_lose: i64,
 }
 
 #[derive(Deserialize)]

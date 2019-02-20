@@ -1,0 +1,1164 @@
+{
+    "data": [
+      {
+        "name": "Regular Season",
+        "league_id": 8,
+        "season_id": 12962,
+        "type": "Group Stage",
+        "stage_id": 7456626,
+        "stage_name": "Regular Season",
+        "standings": {
+          "data": [
+            {
+              "position": 1,
+              "team_id": 9,
+              "team_name": "Manchester City",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 27,
+                "won": 21,
+                "draw": 2,
+                "lost": 4,
+                "goals_scored": 74,
+                "goals_against": 20
+              },
+              "home": {
+                "games_played": 14,
+                "won": 13,
+                "draw": 0,
+                "lost": 1,
+                "goals_scored": 49,
+                "goals_against": 11
+              },
+              "away": {
+                "games_played": 13,
+                "won": 8,
+                "draw": 2,
+                "lost": 3,
+                "goals_scored": 25,
+                "goals_against": 9
+              },
+              "total": {
+                "goal_difference": 54,
+                "points": 65
+              },
+              "result": "Champions League",
+              "points": 65,
+              "recent_form": "WLWWW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 9,
+                  "legacy_id": 127,
+                  "name": "Manchester City",
+                  "short_code": "MCI",
+                  "twitter": "@ManCity",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1880,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+                  "venue_id": 151,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 2,
+              "team_id": 8,
+              "team_name": "Liverpool",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 20,
+                "draw": 5,
+                "lost": 1,
+                "goals_scored": 59,
+                "goals_against": 15
+              },
+              "home": {
+                "games_played": 13,
+                "won": 11,
+                "draw": 2,
+                "lost": 0,
+                "goals_scored": 35,
+                "goals_against": 7
+              },
+              "away": {
+                "games_played": 13,
+                "won": 9,
+                "draw": 3,
+                "lost": 1,
+                "goals_scored": 24,
+                "goals_against": 8
+              },
+              "total": {
+                "goal_difference": 44,
+                "points": 65
+              },
+              "result": "Champions League",
+              "points": 65,
+              "recent_form": "WWDDW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 8,
+                  "legacy_id": 119,
+                  "name": "Liverpool",
+                  "short_code": "LIV",
+                  "twitter": "@LFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1892,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png",
+                  "venue_id": 230,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 3,
+              "team_id": 6,
+              "team_name": "Tottenham Hotspur",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 20,
+                "draw": 0,
+                "lost": 6,
+                "goals_scored": 54,
+                "goals_against": 25
+              },
+              "home": {
+                "games_played": 13,
+                "won": 9,
+                "draw": 0,
+                "lost": 4,
+                "goals_scored": 24,
+                "goals_against": 12
+              },
+              "away": {
+                "games_played": 13,
+                "won": 11,
+                "draw": 0,
+                "lost": 2,
+                "goals_scored": 30,
+                "goals_against": 13
+              },
+              "total": {
+                "goal_difference": 29,
+                "points": 60
+              },
+              "result": "Champions League",
+              "points": 60,
+              "recent_form": "LWWWW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 6,
+                  "legacy_id": 148,
+                  "name": "Tottenham Hotspur",
+                  "short_code": "TOT",
+                  "twitter": "@SpursOfficial",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1882,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
+                  "venue_id": 289859,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 4,
+              "team_id": 14,
+              "team_name": "Manchester United",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 15,
+                "draw": 6,
+                "lost": 5,
+                "goals_scored": 52,
+                "goals_against": 35
+              },
+              "home": {
+                "games_played": 12,
+                "won": 7,
+                "draw": 4,
+                "lost": 1,
+                "goals_scored": 25,
+                "goals_against": 16
+              },
+              "away": {
+                "games_played": 14,
+                "won": 8,
+                "draw": 2,
+                "lost": 4,
+                "goals_scored": 27,
+                "goals_against": 19
+              },
+              "total": {
+                "goal_difference": 17,
+                "points": 51
+              },
+              "result": "Champions League",
+              "points": 51,
+              "recent_form": "WWDWW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 14,
+                  "legacy_id": 375,
+                  "name": "Manchester United",
+                  "short_code": "MUN",
+                  "twitter": "@ManUtd",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1878,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/14/14.png",
+                  "venue_id": 206,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 5,
+              "team_id": 19,
+              "team_name": "Arsenal",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 15,
+                "draw": 5,
+                "lost": 6,
+                "goals_scored": 53,
+                "goals_against": 37
+              },
+              "home": {
+                "games_played": 13,
+                "won": 10,
+                "draw": 2,
+                "lost": 1,
+                "goals_scored": 28,
+                "goals_against": 11
+              },
+              "away": {
+                "games_played": 13,
+                "won": 5,
+                "draw": 3,
+                "lost": 5,
+                "goals_scored": 25,
+                "goals_against": 26
+              },
+              "total": {
+                "goal_difference": 16,
+                "points": 50
+              },
+              "result": "Europa League",
+              "points": 50,
+              "recent_form": "LWWLW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 19,
+                  "legacy_id": 124,
+                  "name": "Arsenal",
+                  "short_code": "ARS",
+                  "twitter": "@Arsenal",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1886,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png",
+                  "venue_id": 204,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 6,
+              "team_id": 18,
+              "team_name": "Chelsea",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 15,
+                "draw": 5,
+                "lost": 6,
+                "goals_scored": 45,
+                "goals_against": 29
+              },
+              "home": {
+                "games_played": 13,
+                "won": 8,
+                "draw": 4,
+                "lost": 1,
+                "goals_scored": 26,
+                "goals_against": 9
+              },
+              "away": {
+                "games_played": 13,
+                "won": 7,
+                "draw": 1,
+                "lost": 5,
+                "goals_scored": 19,
+                "goals_against": 20
+              },
+              "total": {
+                "goal_difference": 16,
+                "points": 50
+              },
+              "result": null,
+              "points": 50,
+              "recent_form": "WLLWL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 18,
+                  "legacy_id": 133,
+                  "name": "Chelsea",
+                  "short_code": "CHE",
+                  "twitter": "@ChelseaFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1905,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png",
+                  "venue_id": 205,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 7,
+              "team_id": 29,
+              "team_name": "Wolverhampton Wanderers",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 11,
+                "draw": 6,
+                "lost": 9,
+                "goals_scored": 34,
+                "goals_against": 33
+              },
+              "home": {
+                "games_played": 14,
+                "won": 6,
+                "draw": 3,
+                "lost": 5,
+                "goals_scored": 20,
+                "goals_against": 19
+              },
+              "away": {
+                "games_played": 12,
+                "won": 5,
+                "draw": 3,
+                "lost": 4,
+                "goals_scored": 14,
+                "goals_against": 14
+              },
+              "total": {
+                "goal_difference": 1,
+                "points": 39
+              },
+              "result": null,
+              "points": 39,
+              "recent_form": "LWWWD",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 29,
+                  "legacy_id": 396,
+                  "name": "Wolverhampton Wanderers",
+                  "short_code": "WLV",
+                  "twitter": null,
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1877,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/29/29.png",
+                  "venue_id": 492,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 8,
+              "team_id": 25,
+              "team_name": "Watford",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 10,
+                "draw": 7,
+                "lost": 9,
+                "goals_scored": 34,
+                "goals_against": 34
+              },
+              "home": {
+                "games_played": 13,
+                "won": 6,
+                "draw": 2,
+                "lost": 5,
+                "goals_scored": 17,
+                "goals_against": 18
+              },
+              "away": {
+                "games_played": 13,
+                "won": 4,
+                "draw": 5,
+                "lost": 4,
+                "goals_scored": 17,
+                "goals_against": 16
+              },
+              "total": {
+                "goal_difference": 0,
+                "points": 37
+              },
+              "result": null,
+              "points": 37,
+              "recent_form": "WDLDW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 25,
+                  "legacy_id": 393,
+                  "name": "Watford",
+                  "short_code": "WAT",
+                  "twitter": "@WatfordFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1881,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/25/25.png",
+                  "venue_id": 149,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 9,
+              "team_id": 13,
+              "team_name": "Everton",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 27,
+                "won": 9,
+                "draw": 6,
+                "lost": 12,
+                "goals_scored": 36,
+                "goals_against": 39
+              },
+              "home": {
+                "games_played": 14,
+                "won": 6,
+                "draw": 3,
+                "lost": 5,
+                "goals_scored": 21,
+                "goals_against": 21
+              },
+              "away": {
+                "games_played": 13,
+                "won": 3,
+                "draw": 3,
+                "lost": 7,
+                "goals_scored": 15,
+                "goals_against": 18
+              },
+              "total": {
+                "goal_difference": -3,
+                "points": 33
+              },
+              "result": null,
+              "points": 33,
+              "recent_form": "LWLLL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 13,
+                  "legacy_id": 165,
+                  "name": "Everton",
+                  "short_code": "EVE",
+                  "twitter": "@Everton",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1878,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/13/13.png",
+                  "venue_id": 202,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 10,
+              "team_id": 1,
+              "team_name": "West Ham United",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 9,
+                "draw": 6,
+                "lost": 11,
+                "goals_scored": 32,
+                "goals_against": 39
+              },
+              "home": {
+                "games_played": 13,
+                "won": 5,
+                "draw": 3,
+                "lost": 5,
+                "goals_scored": 18,
+                "goals_against": 19
+              },
+              "away": {
+                "games_played": 13,
+                "won": 4,
+                "draw": 3,
+                "lost": 6,
+                "goals_scored": 14,
+                "goals_against": 20
+              },
+              "total": {
+                "goal_difference": -7,
+                "points": 33
+              },
+              "result": null,
+              "points": 33,
+              "recent_form": "WLLDD",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 1,
+                  "legacy_id": 377,
+                  "name": "West Ham United",
+                  "short_code": "WHU",
+                  "twitter": "@WestHamUtd",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1895,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/1/1.png",
+                  "venue_id": 214,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 11,
+              "team_id": 52,
+              "team_name": "AFC Bournemouth",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 10,
+                "draw": 3,
+                "lost": 13,
+                "goals_scored": 37,
+                "goals_against": 47
+              },
+              "home": {
+                "games_played": 13,
+                "won": 7,
+                "draw": 3,
+                "lost": 3,
+                "goals_scored": 25,
+                "goals_against": 17
+              },
+              "away": {
+                "games_played": 13,
+                "won": 3,
+                "draw": 0,
+                "lost": 10,
+                "goals_scored": 12,
+                "goals_against": 30
+              },
+              "total": {
+                "goal_difference": -10,
+                "points": 33
+              },
+              "result": null,
+              "points": 33,
+              "recent_form": "LWWLL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 52,
+                  "legacy_id": 389,
+                  "name": "AFC Bournemouth",
+                  "short_code": "BOU",
+                  "twitter": "@afcbournemouth",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1899,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/20/52.png",
+                  "venue_id": 146,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 12,
+              "team_id": 42,
+              "team_name": "Leicester City",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 9,
+                "draw": 5,
+                "lost": 12,
+                "goals_scored": 31,
+                "goals_against": 34
+              },
+              "home": {
+                "games_played": 12,
+                "won": 4,
+                "draw": 2,
+                "lost": 6,
+                "goals_scored": 13,
+                "goals_against": 13
+              },
+              "away": {
+                "games_played": 14,
+                "won": 5,
+                "draw": 3,
+                "lost": 6,
+                "goals_scored": 18,
+                "goals_against": 21
+              },
+              "total": {
+                "goal_difference": -3,
+                "points": 32
+              },
+              "result": null,
+              "points": 32,
+              "recent_form": "LLDLL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 42,
+                  "legacy_id": 388,
+                  "name": "Leicester City",
+                  "short_code": "LEI",
+                  "twitter": "@LCFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1884,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/10/42.png",
+                  "venue_id": 117,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 13,
+              "team_id": 51,
+              "team_name": "Crystal Palace",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 7,
+                "draw": 6,
+                "lost": 13,
+                "goals_scored": 27,
+                "goals_against": 34
+              },
+              "home": {
+                "games_played": 13,
+                "won": 3,
+                "draw": 4,
+                "lost": 6,
+                "goals_scored": 9,
+                "goals_against": 12
+              },
+              "away": {
+                "games_played": 13,
+                "won": 4,
+                "draw": 2,
+                "lost": 7,
+                "goals_scored": 18,
+                "goals_against": 22
+              },
+              "total": {
+                "goal_difference": -7,
+                "points": 27
+              },
+              "result": null,
+              "points": 27,
+              "recent_form": "LLDWD",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 51,
+                  "legacy_id": 381,
+                  "name": "Crystal Palace",
+                  "short_code": "CRY",
+                  "twitter": "@CPFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1905,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/19/51.png",
+                  "venue_id": 201,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 14,
+              "team_id": 78,
+              "team_name": "Brighton & Hove Albion",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 7,
+                "draw": 6,
+                "lost": 13,
+                "goals_scored": 28,
+                "goals_against": 39
+              },
+              "home": {
+                "games_played": 13,
+                "won": 5,
+                "draw": 4,
+                "lost": 4,
+                "goals_scored": 16,
+                "goals_against": 15
+              },
+              "away": {
+                "games_played": 13,
+                "won": 2,
+                "draw": 2,
+                "lost": 9,
+                "goals_scored": 12,
+                "goals_against": 24
+              },
+              "total": {
+                "goal_difference": -11,
+                "points": 27
+              },
+              "result": null,
+              "points": 27,
+              "recent_form": "LLLDL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 78,
+                  "legacy_id": 409,
+                  "name": "Brighton & Hove Albion",
+                  "short_code": "BRH",
+                  "twitter": "@OfficialBHAFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1901,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/14/78.png",
+                  "venue_id": 480,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 15,
+              "team_id": 27,
+              "team_name": "Burnley",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 7,
+                "draw": 6,
+                "lost": 13,
+                "goals_scored": 29,
+                "goals_against": 47
+              },
+              "home": {
+                "games_played": 12,
+                "won": 4,
+                "draw": 2,
+                "lost": 6,
+                "goals_scored": 15,
+                "goals_against": 22
+              },
+              "away": {
+                "games_played": 14,
+                "won": 3,
+                "draw": 4,
+                "lost": 7,
+                "goals_scored": 14,
+                "goals_against": 25
+              },
+              "total": {
+                "goal_difference": -18,
+                "points": 27
+              },
+              "result": null,
+              "points": 27,
+              "recent_form": "WDDDW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 27,
+                  "legacy_id": 387,
+                  "name": "Burnley",
+                  "short_code": "BUR",
+                  "twitter": "@BurnleyOfficial",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1882,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/27/27.png",
+                  "venue_id": 200,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 16,
+              "team_id": 20,
+              "team_name": "Newcastle United",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 6,
+                "draw": 7,
+                "lost": 13,
+                "goals_scored": 22,
+                "goals_against": 34
+              },
+              "home": {
+                "games_played": 13,
+                "won": 4,
+                "draw": 1,
+                "lost": 8,
+                "goals_scored": 12,
+                "goals_against": 18
+              },
+              "away": {
+                "games_played": 13,
+                "won": 2,
+                "draw": 6,
+                "lost": 5,
+                "goals_scored": 10,
+                "goals_against": 16
+              },
+              "total": {
+                "goal_difference": -12,
+                "points": 25
+              },
+              "result": null,
+              "points": 25,
+              "recent_form": "LWWLD",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 20,
+                  "legacy_id": 380,
+                  "name": "Newcastle United",
+                  "short_code": "NEW",
+                  "twitter": "@NUFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1892,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/20/20.png",
+                  "venue_id": 449,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 17,
+              "team_id": 69,
+              "team_name": "Cardiff City",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 7,
+                "draw": 4,
+                "lost": 15,
+                "goals_scored": 24,
+                "goals_against": 47
+              },
+              "home": {
+                "games_played": 13,
+                "won": 5,
+                "draw": 2,
+                "lost": 6,
+                "goals_scored": 15,
+                "goals_against": 23
+              },
+              "away": {
+                "games_played": 13,
+                "won": 2,
+                "draw": 2,
+                "lost": 9,
+                "goals_scored": 9,
+                "goals_against": 24
+              },
+              "total": {
+                "goal_difference": -23,
+                "points": 25
+              },
+              "result": null,
+              "points": 25,
+              "recent_form": "DLLWW",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 69,
+                  "legacy_id": 405,
+                  "name": "Cardiff City",
+                  "short_code": "CDF",
+                  "twitter": null,
+                  "country_id": 515,
+                  "national_team": false,
+                  "founded": 1889,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/5/69.png",
+                  "venue_id": 31249,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 18,
+              "team_id": 65,
+              "team_name": "Southampton",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 5,
+                "draw": 9,
+                "lost": 12,
+                "goals_scored": 28,
+                "goals_against": 44
+              },
+              "home": {
+                "games_played": 13,
+                "won": 2,
+                "draw": 6,
+                "lost": 5,
+                "goals_scored": 15,
+                "goals_against": 21
+              },
+              "away": {
+                "games_played": 13,
+                "won": 3,
+                "draw": 3,
+                "lost": 7,
+                "goals_scored": 13,
+                "goals_against": 23
+              },
+              "total": {
+                "goal_difference": -16,
+                "points": 24
+              },
+              "result": "Relegation",
+              "points": 24,
+              "recent_form": "WWDDL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 65,
+                  "legacy_id": 376,
+                  "name": "Southampton",
+                  "short_code": "SOU",
+                  "twitter": "@SouthamptonFC",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1885,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/1/65.png",
+                  "venue_id": 167,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 19,
+              "team_id": 11,
+              "team_name": "Fulham",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 4,
+                "draw": 5,
+                "lost": 17,
+                "goals_scored": 25,
+                "goals_against": 58
+              },
+              "home": {
+                "games_played": 13,
+                "won": 4,
+                "draw": 3,
+                "lost": 6,
+                "goals_scored": 17,
+                "goals_against": 26
+              },
+              "away": {
+                "games_played": 13,
+                "won": 0,
+                "draw": 2,
+                "lost": 11,
+                "goals_scored": 8,
+                "goals_against": 32
+              },
+              "total": {
+                "goal_difference": -33,
+                "points": 17
+              },
+              "result": "Relegation",
+              "points": 17,
+              "recent_form": "LLWLL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 11,
+                  "legacy_id": 407,
+                  "name": "Fulham",
+                  "short_code": "FUL",
+                  "twitter": null,
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1879,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/11/11.png",
+                  "venue_id": 485,
+                  "current_season_id": 12962
+                }
+              }
+            },
+            {
+              "position": 20,
+              "team_id": 251,
+              "team_name": "Huddersfield Town",
+              "round_id": 147732,
+              "round_name": 27,
+              "group_id": null,
+              "group_name": null,
+              "overall": {
+                "games_played": 26,
+                "won": 2,
+                "draw": 5,
+                "lost": 19,
+                "goals_scored": 14,
+                "goals_against": 48
+              },
+              "home": {
+                "games_played": 14,
+                "won": 1,
+                "draw": 2,
+                "lost": 11,
+                "goals_scored": 6,
+                "goals_against": 22
+              },
+              "away": {
+                "games_played": 12,
+                "won": 1,
+                "draw": 3,
+                "lost": 8,
+                "goals_scored": 8,
+                "goals_against": 26
+              },
+              "total": {
+                "goal_difference": -34,
+                "points": 11
+              },
+              "result": "Relegation",
+              "points": 11,
+              "recent_form": "DLLLL",
+              "status": "same",
+              "team": {
+                "data": {
+                  "id": 251,
+                  "legacy_id": 402,
+                  "name": "Huddersfield Town",
+                  "short_code": "HDD",
+                  "twitter": "@htafcdotcom",
+                  "country_id": 462,
+                  "national_team": false,
+                  "founded": 1908,
+                  "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/27/251.png",
+                  "venue_id": 340,
+                  "current_season_id": 12962
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "meta": {
+      "subscription": {
+        "started_at": {
+          "date": "2019-02-12 00:11:17.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "trial_ends_at": {
+          "date": "2019-02-26 00:11:09.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "ends_at": null
+      },
+      "plan": {
+        "name": "Segio RUST Custom Soccer Plan",
+        "price": "20",
+        "request_limit": "2000,60"
+      },
+      "sports": [
+        {
+          "id": 1,
+          "name": "Soccer",
+          "current": true
+        }
+      ]
+    }
+  }
+  
