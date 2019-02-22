@@ -374,7 +374,7 @@ pub struct Team {
     #[serde(with = "Wrapper", default)]
     pub country: Option<Country>,
     #[serde(with = "Wrapper", default)]
-    pub squad: Option<Vec<Player>>,
+    pub squad: Option<Vec<PlayerInMatch>>,
     #[serde(with = "Wrapper", default)]
     pub coach: Option<Coach>,
     #[serde(with = "Wrapper", default)]
@@ -748,10 +748,13 @@ pub struct OtherStatsPerPlayer {
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Sidelined {
-    pub team_id: i64,
-    pub fixture_id: i64,
+    pub team_id: Option<i64>,
+    #[serde(default)]
+    pub fixture_id: Option<i64>,
     pub player_id: i64,
-    pub player_name: String,
+    #[serde(default)]
+    pub player_name: Option<String>,
+    #[serde(alias = "description")]
     pub reason: String,
 }
 
@@ -870,11 +873,13 @@ pub struct LiveStanding {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
-pub struct Player {
+pub struct PlayerInMatch {
     pub player_id: i64,
+    #[serde(default)]
     pub position_id: i64,
     pub number: Option<i64>,
     pub captain: i64,
+    #[serde(default)]
     pub injured: bool,
     pub minutes: i64,
     pub appearences: i64,
@@ -972,7 +977,6 @@ pub struct HomeAwayTotalStat {
     pub away: f64,
 }
 
-
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct ScoringMinute {
     pub period: Vec<Period>,
@@ -996,6 +1000,51 @@ pub struct UefaRanking {
     pub position_won_or_lost: Option<i64>
 }
 
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Player {
+    pub player_id: i64,
+    pub team_id: i64,
+    pub country_id: i64,
+    pub position_id: i64,
+    pub common_name: String,
+    pub fullname: String,
+    pub firstname: String,
+    pub lastname: String,
+    pub nationality: String,
+    pub birthdate: String,
+    pub birthcountry: String,
+    pub birthplace: String,
+    pub height: String,
+    pub weight: String,
+    pub image_path: String,
+    #[serde(with = "Wrapper", default)]
+    pub stats: Option<Vec<PlayerInMatch>>,
+    #[serde(with = "Wrapper", default)]
+    pub trophies: Option<Vec<Trophy>>,
+    #[serde(with = "Wrapper", default)]
+    pub transfers: Option<Vec<Transfer>>,
+    #[serde(with = "Wrapper", default)]
+    pub sidelined: Option<Vec<Sidelined>>,
+    #[serde(with = "Wrapper", default)]
+    pub position: Option<Position>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Trophy {
+    pub player_id: i64,
+    pub status: String,
+    pub times: i64,
+    pub league: String,
+    pub league_id: Option<i64>,
+    #[serde(with = "Wrapper", default)]
+    pub seasons: Vec<Season>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Position {
+    pub id: i64,
+    pub name: String,
+}
 
 #[derive(Deserialize)]
 #[serde(untagged)]

@@ -1,0 +1,4357 @@
+{
+    "data": {
+      "player_id": 1359,
+      "team_id": 9,
+      "country_id": 44,
+      "position_id": 4,
+      "common_name": "S. Agüero",
+      "fullname": "S. Agüero",
+      "firstname": "Sergio Leonel",
+      "lastname": "Agüero del Castillo",
+      "nationality": "Argentina",
+      "birthdate": "02/06/1988",
+      "birthcountry": "Argentina",
+      "birthplace": "Quilmes",
+      "height": "173 cm",
+      "weight": "70 kg",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/players/15/1359.png",
+      "team": {
+        "data": {
+          "id": 9,
+          "legacy_id": 127,
+          "name": "Manchester City",
+          "short_code": "MCI",
+          "twitter": "@ManCity",
+          "country_id": 462,
+          "national_team": false,
+          "founded": 1880,
+          "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+          "venue_id": 151,
+          "current_season_id": 12962
+        }
+      },
+      "stats": {
+        "data": [
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 3,
+            "captain": 0,
+            "minutes": 1538,
+            "appearences": 23,
+            "lineups": 20,
+            "substitute_in": 3,
+            "substitute_out": 15,
+            "substitutes_on_bench": 3,
+            "goals": 17,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 4,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 7,
+            "captain": 0,
+            "minutes": 1947,
+            "appearences": 30,
+            "lineups": 22,
+            "substitute_in": 8,
+            "substitute_out": 13,
+            "substitutes_on_bench": 10,
+            "goals": 12,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 2,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 9,
+            "captain": 0,
+            "minutes": 2598,
+            "appearences": 34,
+            "lineups": 31,
+            "substitute_in": 3,
+            "substitute_out": 20,
+            "substitutes_on_bench": 4,
+            "goals": 23,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 2,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 10,
+            "captain": 0,
+            "minutes": 2375,
+            "appearences": 30,
+            "lineups": 29,
+            "substitute_in": 1,
+            "substitute_out": 16,
+            "substitutes_on_bench": 3,
+            "goals": 24,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 12,
+            "captain": 0,
+            "minutes": 2540,
+            "appearences": 33,
+            "lineups": 30,
+            "substitute_in": 3,
+            "substitute_out": 12,
+            "substitutes_on_bench": 3,
+            "goals": 26,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 4,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 13,
+            "captain": 0,
+            "minutes": 2405,
+            "appearences": 31,
+            "lineups": 25,
+            "substitute_in": 6,
+            "substitute_out": 8,
+            "substitutes_on_bench": 6,
+            "goals": 20,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 4,
+            "yellowred": 0,
+            "redcards": 1,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 718,
+            "captain": 0,
+            "minutes": 631,
+            "appearences": 8,
+            "lineups": 7,
+            "substitute_in": 1,
+            "substitute_out": 2,
+            "substitutes_on_bench": 3,
+            "goals": 8,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 27,
+            "season_id": 722,
+            "captain": 0,
+            "minutes": 19,
+            "appearences": 1,
+            "lineups": 0,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 1,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 724,
+            "captain": 0,
+            "minutes": 448,
+            "appearences": 5,
+            "lineups": 5,
+            "substitute_in": 0,
+            "substitute_out": 3,
+            "substitutes_on_bench": 0,
+            "goals": 5,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 1101,
+            "season_id": 1029,
+            "captain": 0,
+            "minutes": 59,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 1,
+            "substitutes_on_bench": 1,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 1121,
+            "season_id": 1042,
+            "captain": 0,
+            "minutes": 122,
+            "appearences": 3,
+            "lineups": 2,
+            "substitute_in": 1,
+            "substitute_out": 2,
+            "substitutes_on_bench": 1,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 5313,
+            "captain": 0,
+            "minutes": 323,
+            "appearences": 6,
+            "lineups": 3,
+            "substitute_in": 3,
+            "substitute_out": 0,
+            "substitutes_on_bench": 3,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 5315,
+            "captain": 0,
+            "minutes": 431,
+            "appearences": 6,
+            "lineups": 6,
+            "substitute_in": 0,
+            "substitute_out": 4,
+            "substitutes_on_bench": 1,
+            "goals": 6,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 5318,
+            "captain": 0,
+            "minutes": 391,
+            "appearences": 5,
+            "lineups": 4,
+            "substitute_in": 1,
+            "substitute_out": 1,
+            "substitutes_on_bench": 2,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 5321,
+            "captain": 0,
+            "minutes": 706,
+            "appearences": 9,
+            "lineups": 8,
+            "substitute_in": 1,
+            "substitute_out": 4,
+            "substitutes_on_bench": 1,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 5322,
+            "captain": 0,
+            "minutes": 550,
+            "appearences": 7,
+            "lineups": 6,
+            "substitute_in": 1,
+            "substitute_out": 2,
+            "substitutes_on_bench": 1,
+            "goals": 6,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 2,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 5,
+            "season_id": 5332,
+            "captain": 0,
+            "minutes": 272,
+            "appearences": 4,
+            "lineups": 3,
+            "substitute_in": 1,
+            "substitute_out": 1,
+            "substitutes_on_bench": 1,
+            "goals": 4,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 23,
+            "season_id": 5344,
+            "captain": 0,
+            "minutes": 90,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 5355,
+            "captain": 0,
+            "minutes": 90,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 5356,
+            "captain": 0,
+            "minutes": 290,
+            "appearences": 4,
+            "lineups": 3,
+            "substitute_in": 1,
+            "substitute_out": 1,
+            "substitutes_on_bench": 1,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 5357,
+            "captain": 0,
+            "minutes": 198,
+            "appearences": 3,
+            "lineups": 2,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 1,
+            "goals": 4,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 5358,
+            "captain": 0,
+            "minutes": 90,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 5359,
+            "captain": 0,
+            "minutes": 70,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 1,
+            "substitutes_on_bench": 1,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 27,
+            "season_id": 5367,
+            "captain": 0,
+            "minutes": 192,
+            "appearences": 3,
+            "lineups": 1,
+            "substitute_in": 2,
+            "substitute_out": 0,
+            "substitutes_on_bench": 3,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 27,
+            "season_id": 5369,
+            "captain": 0,
+            "minutes": 123,
+            "appearences": 2,
+            "lineups": 2,
+            "substitute_in": 0,
+            "substitute_out": 2,
+            "substitutes_on_bench": 0,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 27,
+            "season_id": 5370,
+            "captain": 0,
+            "minutes": 20,
+            "appearences": 1,
+            "lineups": 0,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 1,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 27,
+            "season_id": 5371,
+            "captain": 0,
+            "minutes": 374,
+            "appearences": 4,
+            "lineups": 4,
+            "substitute_in": 0,
+            "substitute_out": 1,
+            "substitutes_on_bench": 0,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 1121,
+            "season_id": 6252,
+            "captain": 0,
+            "minutes": 44,
+            "appearences": 1,
+            "lineups": 0,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 1,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 6397,
+            "captain": 0,
+            "minutes": 1969,
+            "appearences": 25,
+            "lineups": 22,
+            "substitute_in": 3,
+            "substitute_out": 9,
+            "substitutes_on_bench": 7,
+            "goals": 21,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 2,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 27,
+            "season_id": 7889,
+            "captain": 0,
+            "minutes": 102,
+            "appearences": 3,
+            "lineups": 2,
+            "substitute_in": 1,
+            "substitute_out": 2,
+            "substitutes_on_bench": 1,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 1101,
+            "season_id": 7903,
+            "captain": 0,
+            "minutes": 68,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 1,
+            "substitutes_on_bench": 0,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 7907,
+            "captain": 0,
+            "minutes": 440,
+            "appearences": 9,
+            "lineups": 5,
+            "substitute_in": 2,
+            "substitute_out": 4,
+            "substitutes_on_bench": 4,
+            "goals": 4,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 8275,
+            "captain": 0,
+            "minutes": 213,
+            "appearences": 3,
+            "lineups": 2,
+            "substitute_in": 1,
+            "substitute_out": 1,
+            "substitutes_on_bench": 1,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 2,
+            "season_id": 12950,
+            "captain": 0,
+            "minutes": 285,
+            "appearences": 4,
+            "lineups": 3,
+            "substitute_in": 1,
+            "substitute_out": 2,
+            "substitutes_on_bench": 3,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 2,
+            "yellowcards": 2,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": 2,
+            "blocks": 0,
+            "hit_post": 0,
+            "fouls": {
+              "committed": 5,
+              "drawn": 1
+            },
+            "crosses": {
+              "total": 4,
+              "accurate": 0
+            },
+            "dribbles": {
+              "attempts": 11,
+              "success": 6,
+              "dribbled_past": 3
+            },
+            "duels": {
+              "total": 34,
+              "won": 13
+            },
+            "passes": {
+              "total": 91,
+              "accuracy": 86,
+              "key_passes": 2
+            },
+            "penalties": {
+              "won": 0,
+              "scores": 0,
+              "missed": 0,
+              "committed": 0,
+              "saves": 0
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 8,
+            "season_id": 12962,
+            "captain": 1,
+            "minutes": 1678,
+            "appearences": 23,
+            "lineups": 21,
+            "substitute_in": 2,
+            "substitute_out": 14,
+            "substitutes_on_bench": 3,
+            "goals": 17,
+            "assists": 6,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 8,
+            "yellowcards": 3,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": 8,
+            "blocks": 1,
+            "hit_post": 5,
+            "fouls": {
+              "committed": 0,
+              "drawn": 20
+            },
+            "crosses": {
+              "total": 7,
+              "accurate": 0
+            },
+            "dribbles": {
+              "attempts": 53,
+              "success": 30,
+              "dribbled_past": 4
+            },
+            "duels": {
+              "total": 173,
+              "won": 79
+            },
+            "passes": {
+              "total": 458,
+              "accuracy": 83,
+              "key_passes": 23
+            },
+            "penalties": {
+              "won": 0,
+              "scores": 0,
+              "missed": 0,
+              "committed": 0,
+              "saves": 0
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 27,
+            "season_id": 12968,
+            "captain": 0,
+            "minutes": 138,
+            "appearences": 2,
+            "lineups": 2,
+            "substitute_in": 0,
+            "substitute_out": 2,
+            "substitutes_on_bench": 1,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "league_id": 24,
+            "season_id": 13136,
+            "captain": 0,
+            "minutes": 15,
+            "appearences": 1,
+            "lineups": 0,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 1,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": 0,
+            "blocks": 0,
+            "hit_post": 0,
+            "fouls": {
+              "committed": 0,
+              "drawn": 0
+            },
+            "crosses": {
+              "total": 0,
+              "accurate": 0
+            },
+            "dribbles": {
+              "attempts": 0,
+              "success": 0,
+              "dribbled_past": 1
+            },
+            "duels": {
+              "total": 2,
+              "won": 0
+            },
+            "passes": {
+              "total": 5,
+              "accuracy": 100,
+              "key_passes": 0
+            },
+            "penalties": {
+              "won": 0,
+              "scores": 1,
+              "missed": 0,
+              "committed": 0,
+              "saves": 0
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 19,
+            "league_id": 27,
+            "season_id": 7889,
+            "captain": 0,
+            "minutes": 89,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 1367,
+            "league_id": 1490,
+            "season_id": 12309,
+            "captain": 0,
+            "minutes": 46,
+            "appearences": 1,
+            "lineups": 1,
+            "substitute_in": 0,
+            "substitute_out": 1,
+            "substitutes_on_bench": 0,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 564,
+            "season_id": 2053,
+            "captain": 0,
+            "minutes": 2480,
+            "appearences": 38,
+            "lineups": 25,
+            "substitute_in": 13,
+            "substitute_out": 10,
+            "substitutes_on_bench": 13,
+            "goals": 6,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 4,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 564,
+            "season_id": 2054,
+            "captain": 0,
+            "minutes": 2938,
+            "appearences": 37,
+            "lineups": 35,
+            "substitute_in": 2,
+            "substitute_out": 14,
+            "substitutes_on_bench": 2,
+            "goals": 19,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 9,
+            "yellowred": 1,
+            "redcards": 1,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 564,
+            "season_id": 2055,
+            "captain": 0,
+            "minutes": 2949,
+            "appearences": 37,
+            "lineups": 34,
+            "substitute_in": 3,
+            "substitute_out": 16,
+            "substitutes_on_bench": 4,
+            "goals": 17,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 3,
+            "yellowred": 1,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 564,
+            "season_id": 2056,
+            "captain": 0,
+            "minutes": 2676,
+            "appearences": 32,
+            "lineups": 31,
+            "substitute_in": 1,
+            "substitute_out": 9,
+            "substitutes_on_bench": 1,
+            "goals": 20,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 5,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 564,
+            "season_id": 2058,
+            "captain": 0,
+            "minutes": 2199,
+            "appearences": 31,
+            "lineups": 24,
+            "substitute_in": 7,
+            "substitute_out": 12,
+            "substitutes_on_bench": 8,
+            "goals": 12,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 6,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 2,
+            "season_id": 5310,
+            "captain": 0,
+            "minutes": 570,
+            "appearences": 9,
+            "lineups": 7,
+            "substitute_in": 2,
+            "substitute_out": 5,
+            "substitutes_on_bench": 2,
+            "goals": 4,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 2,
+            "season_id": 5311,
+            "captain": 0,
+            "minutes": 610,
+            "appearences": 8,
+            "lineups": 7,
+            "substitute_in": 1,
+            "substitute_out": 2,
+            "substitutes_on_bench": 1,
+            "goals": 4,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 5,
+            "season_id": 5330,
+            "captain": 0,
+            "minutes": 722,
+            "appearences": 8,
+            "lineups": 8,
+            "substitute_in": 0,
+            "substitute_out": 5,
+            "substitutes_on_bench": 0,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 2,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 5,
+            "season_id": 5331,
+            "captain": 0,
+            "minutes": 266,
+            "appearences": 4,
+            "lineups": 3,
+            "substitute_in": 1,
+            "substitute_out": 1,
+            "substitutes_on_bench": 1,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "cup_international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 570,
+            "season_id": 5675,
+            "captain": 0,
+            "minutes": 616,
+            "appearences": 8,
+            "lineups": 7,
+            "substitute_in": 1,
+            "substitute_out": 3,
+            "substitutes_on_bench": 0,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 7980,
+            "league_id": 570,
+            "season_id": 5676,
+            "captain": 0,
+            "minutes": 341,
+            "appearences": 4,
+            "lineups": 4,
+            "substitute_in": 0,
+            "substitute_out": 2,
+            "substitutes_on_bench": 0,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic_cup",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 732,
+            "season_id": 892,
+            "captain": 0,
+            "minutes": 187,
+            "appearences": 4,
+            "lineups": 2,
+            "substitute_in": 2,
+            "substitute_out": 1,
+            "substitutes_on_bench": 2,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 726,
+            "season_id": 894,
+            "captain": 0,
+            "minutes": 511,
+            "appearences": 11,
+            "lineups": 5,
+            "substitute_in": 4,
+            "substitute_out": 3,
+            "substitutes_on_bench": 6,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1091,
+            "season_id": 1011,
+            "captain": 0,
+            "minutes": 186,
+            "appearences": 5,
+            "lineups": 1,
+            "substitute_in": 4,
+            "substitute_out": 0,
+            "substitutes_on_bench": 5,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 1018,
+            "captain": 0,
+            "minutes": 55,
+            "appearences": 3,
+            "lineups": 0,
+            "substitute_in": 3,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 3339,
+            "captain": 0,
+            "minutes": 19,
+            "appearences": 1,
+            "lineups": 0,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 3340,
+            "captain": 0,
+            "minutes": 6,
+            "appearences": 2,
+            "lineups": 0,
+            "substitute_in": 2,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 3341,
+            "captain": 0,
+            "minutes": 172,
+            "appearences": 2,
+            "lineups": 2,
+            "substitute_in": 0,
+            "substitute_out": 2,
+            "substitutes_on_bench": 0,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 3342,
+            "captain": 0,
+            "minutes": 144,
+            "appearences": 2,
+            "lineups": 2,
+            "substitute_in": 0,
+            "substitute_out": 2,
+            "substitutes_on_bench": 0,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 3343,
+            "captain": 0,
+            "minutes": 42,
+            "appearences": 2,
+            "lineups": 0,
+            "substitute_in": 2,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 732,
+            "season_id": 5795,
+            "captain": 0,
+            "minutes": 106,
+            "appearences": 3,
+            "lineups": 1,
+            "substitute_in": 2,
+            "substitute_out": 1,
+            "substitutes_on_bench": 4,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 732,
+            "season_id": 5796,
+            "captain": 0,
+            "minutes": 314,
+            "appearences": 5,
+            "lineups": 3,
+            "substitute_in": 2,
+            "substitute_out": 3,
+            "substitutes_on_bench": 4,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1091,
+            "season_id": 5843,
+            "captain": 0,
+            "minutes": 217,
+            "appearences": 4,
+            "lineups": 2,
+            "substitute_in": 2,
+            "substitute_out": 2,
+            "substitutes_on_bench": 2,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1091,
+            "season_id": 5844,
+            "captain": 0,
+            "minutes": 386,
+            "appearences": 5,
+            "lineups": 5,
+            "substitute_in": 0,
+            "substitute_out": 5,
+            "substitutes_on_bench": 1,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 1,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 6305,
+            "captain": 0,
+            "minutes": 133,
+            "appearences": 2,
+            "lineups": 2,
+            "substitute_in": 0,
+            "substitute_out": 2,
+            "substitutes_on_bench": 0,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 6307,
+            "captain": 0,
+            "minutes": 240,
+            "appearences": 4,
+            "lineups": 2,
+            "substitute_in": 2,
+            "substitute_out": 0,
+            "substitutes_on_bench": 0,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 6308,
+            "captain": 0,
+            "minutes": 225,
+            "appearences": 4,
+            "lineups": 3,
+            "substitute_in": 1,
+            "substitute_out": 3,
+            "substitutes_on_bench": 1,
+            "goals": 3,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 2,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 6309,
+            "captain": 0,
+            "minutes": 230,
+            "appearences": 4,
+            "lineups": 3,
+            "substitute_in": 1,
+            "substitute_out": 3,
+            "substitutes_on_bench": 2,
+            "goals": 7,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 6310,
+            "captain": 0,
+            "minutes": 295,
+            "appearences": 5,
+            "lineups": 4,
+            "substitute_in": 1,
+            "substitute_out": 4,
+            "substitutes_on_bench": 4,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 6314,
+            "captain": 0,
+            "minutes": 25,
+            "appearences": 1,
+            "lineups": 0,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 1,
+            "goals": 0,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1213,
+            "season_id": 9352,
+            "captain": 0,
+            "minutes": 133,
+            "appearences": 2,
+            "lineups": 2,
+            "substitute_in": 0,
+            "substitute_out": 2,
+            "substitutes_on_bench": 0,
+            "goals": 2,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "domestic",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          },
+          {
+            "player_id": 1359,
+            "team_id": 18644,
+            "league_id": 1082,
+            "season_id": 11985,
+            "captain": 0,
+            "minutes": 31,
+            "appearences": 1,
+            "lineups": 0,
+            "substitute_in": 1,
+            "substitute_out": 0,
+            "substitutes_on_bench": 1,
+            "goals": 1,
+            "assists": 0,
+            "saves": 0,
+            "inside_box_saves": 0,
+            "dispossesed": 0,
+            "interceptions": 0,
+            "yellowcards": 0,
+            "yellowred": 0,
+            "redcards": 0,
+            "type": "international",
+            "tackles": null,
+            "blocks": null,
+            "hit_post": null,
+            "fouls": {
+              "committed": null,
+              "drawn": null
+            },
+            "crosses": {
+              "total": null,
+              "accurate": null
+            },
+            "dribbles": {
+              "attempts": null,
+              "success": null,
+              "dribbled_past": null
+            },
+            "duels": {
+              "total": null,
+              "won": null
+            },
+            "passes": {
+              "total": null,
+              "accuracy": null,
+              "key_passes": null
+            },
+            "penalties": {
+              "won": null,
+              "scores": null,
+              "missed": null,
+              "committed": null,
+              "saves": null
+            }
+          }
+        ]
+      },
+      "trophies": {
+        "data": [
+          {
+            "player_id": 1359,
+            "status": "2nd Place",
+            "times": 1,
+            "league": "Audi Cup",
+            "league_id": null,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "2nd Place",
+            "times": 2,
+            "league": "Community Shield",
+            "league_id": 23,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "Winner",
+            "times": 1,
+            "league": "Community Shield",
+            "league_id": 23,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "2nd Place",
+            "times": 2,
+            "league": "Copa America",
+            "league_id": null,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "2nd Place",
+            "times": 1,
+            "league": "Copa del Rey",
+            "league_id": 570,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "2nd Place",
+            "times": 1,
+            "league": "FA Cup",
+            "league_id": 24,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "Winner",
+            "times": 2,
+            "league": "League Cup",
+            "league_id": null,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "2nd Place",
+            "times": 2,
+            "league": "Premier League",
+            "league_id": 8,
+            "seasons": {
+              "data": [
+                {
+                  "id": 7,
+                  "name": "2012/2013",
+                  "league_id": 8,
+                  "is_current_season": false,
+                  "current_round_id": null,
+                  "current_stage_id": null
+                },
+                {
+                  "id": 12,
+                  "name": "2014/2015",
+                  "league_id": 8,
+                  "is_current_season": false,
+                  "current_round_id": null,
+                  "current_stage_id": null
+                }
+              ]
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "Winner",
+            "times": 2,
+            "league": "Premier League",
+            "league_id": 8,
+            "seasons": {
+              "data": [
+                {
+                  "id": 3,
+                  "name": "2013/2014",
+                  "league_id": 8,
+                  "is_current_season": false,
+                  "current_round_id": null,
+                  "current_stage_id": null
+                }
+              ]
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "Winner",
+            "times": 1,
+            "league": "UEFA Europa League",
+            "league_id": 5,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "Winner",
+            "times": 1,
+            "league": "UEFA Super Cup",
+            "league_id": null,
+            "seasons": {
+              "data": []
+            }
+          },
+          {
+            "player_id": 1359,
+            "status": "2nd Place",
+            "times": 1,
+            "league": "World Cup",
+            "league_id": null,
+            "seasons": {
+              "data": []
+            }
+          }
+        ]
+      },
+      "transfers": {
+        "data": [
+          {
+            "player_id": 1359,
+            "from_team_id": 10840,
+            "to_team_id": 7980,
+            "season_id": 2053,
+            "transfer": "bought",
+            "type": "IN",
+            "date": "2006-07-01",
+            "amount": "21.7M"
+          },
+          {
+            "player_id": 1359,
+            "from_team_id": 7980,
+            "to_team_id": 9,
+            "season_id": 9,
+            "transfer": "bought",
+            "type": "IN",
+            "date": "2011-07-27",
+            "amount": "45M"
+          },
+          {
+            "player_id": 1359,
+            "from_team_id": 10840,
+            "to_team_id": 7980,
+            "season_id": null,
+            "transfer": "sold",
+            "type": "OUT",
+            "date": "2006-07-01",
+            "amount": "21.7M"
+          },
+          {
+            "player_id": 1359,
+            "from_team_id": 7980,
+            "to_team_id": 9,
+            "season_id": 2057,
+            "transfer": "sold",
+            "type": "OUT",
+            "date": "2011-07-27",
+            "amount": "45M"
+          }
+        ]
+      },
+      "sidelined": {
+        "data": [
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Ankle/Foot Injury",
+            "start_date": "2012-03-24",
+            "end_date": "2012-04-05"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Knee Injury",
+            "start_date": "2012-08-20",
+            "end_date": "2012-09-17"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Hamstring",
+            "start_date": "2013-01-02",
+            "end_date": "2013-01-18"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Knee Injury",
+            "start_date": "2013-03-03",
+            "end_date": "2013-03-29"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Knock",
+            "start_date": "2013-09-23",
+            "end_date": "2013-10-01"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Calf Muscle Strain",
+            "start_date": "2013-12-15",
+            "end_date": "2014-01-14"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Hamstring",
+            "start_date": "2014-01-30",
+            "end_date": "2014-03-01"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Hamstring",
+            "start_date": "2014-03-13",
+            "end_date": "2014-04-10"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Groin Strain",
+            "start_date": "2014-05-04",
+            "end_date": "2014-05-08"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Hamstring",
+            "start_date": "2014-06-26",
+            "end_date": "2014-07-06"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "LCL Knee Ligament Injury",
+            "start_date": "2014-12-07",
+            "end_date": "2015-01-08"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Hamstring",
+            "start_date": "2015-10-10",
+            "end_date": "2015-11-20"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Heel Injury",
+            "start_date": "2015-11-30",
+            "end_date": "2015-12-19"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Suspended",
+            "start_date": "2016-08-29",
+            "end_date": "2016-09-18"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Ankle/Foot Injury",
+            "start_date": "2016-11-24",
+            "end_date": "2016-11-25"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Suspended",
+            "start_date": "2016-12-04",
+            "end_date": "2016-12-27"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Knock",
+            "start_date": "2017-01-22",
+            "end_date": "2017-01-31"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Knock",
+            "start_date": "2017-04-24",
+            "end_date": "2017-04-26"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Groin Strain",
+            "start_date": "2017-05-01",
+            "end_date": "2017-05-12"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Rib Injury",
+            "start_date": "2017-09-28",
+            "end_date": "2017-10-13"
+          },
+          {
+            "player_id": 1359,
+            "team_id": null,
+            "description": "Illness",
+            "start_date": "2017-11-14",
+            "end_date": "2017-11-17"
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "description": "Knee Injury",
+            "start_date": "2018-03-11",
+            "end_date": "2018-04-06"
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "description": "Knee Injury",
+            "start_date": "2018-04-11",
+            "end_date": "2018-05-14"
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "description": "Ankle/Foot Injury",
+            "start_date": "2018-09-16",
+            "end_date": "2018-09-18"
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "description": "Groin/Pelvis Injury",
+            "start_date": "2018-11-30",
+            "end_date": "2018-12-14"
+          },
+          {
+            "player_id": 1359,
+            "team_id": 9,
+            "description": "Illness",
+            "start_date": "2019-01-04",
+            "end_date": "2019-01-13"
+          }
+        ]
+      },
+      "position": {
+        "data": {
+          "id": 4,
+          "name": "Attacker"
+        }
+      }
+    },
+    "meta": {
+      "subscription": {
+        "started_at": {
+          "date": "2019-02-12 00:11:17.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "trial_ends_at": {
+          "date": "2019-02-26 00:11:09.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "ends_at": null
+      },
+      "plan": {
+        "name": "Segio RUST Custom Soccer Plan",
+        "price": "20",
+        "request_limit": "2000,60"
+      },
+      "sports": [
+        {
+          "id": 1,
+          "name": "Soccer",
+          "current": true
+        }
+      ]
+    }
+  }
+  

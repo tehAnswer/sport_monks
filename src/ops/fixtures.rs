@@ -391,10 +391,10 @@ mod tests {
         assert_eq!(bench[0].stats.other.minutes_played, None);
 
         let sidelined = result.data[0].sidelined.clone().unwrap();
-        assert_eq!(sidelined[0].team_id, 2379);
-        assert_eq!(sidelined[0].fixture_id, 1685506);
+        assert_eq!(sidelined[0].team_id, Some(2379));
+        assert_eq!(sidelined[0].fixture_id, Some(1685506));
         assert_eq!(sidelined[0].player_id, 24047);
-        assert_eq!(&sidelined[0].player_name, "J. Promes");
+        assert_eq!(sidelined[0].player_name, Some("J. Promes".to_string()));
         assert_eq!(&sidelined[0].reason, "Hamstring");
 
         let comments = result.data[0].comments.clone().unwrap();

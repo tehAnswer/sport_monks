@@ -1,9 +1,6 @@
 use super::super::errors::SportMonksError;
 use super::super::models::{Fixture,Wrapper};
 use super::super::gateway::{Gateway,Options};
-use chrono::{Date, Utc};
-
-
 
 pub struct LivescoreGateway {
     gateway: Gateway
@@ -29,8 +26,6 @@ impl LivescoreGateway {
     pub fn now_with(&self, options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
         self.gateway.get("/livescores/now", options)
     }
-
-
 }
 
 #[cfg(test)]
