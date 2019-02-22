@@ -1,0 +1,292 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "legacy_id": 377,
+        "name": "West Ham United",
+        "short_code": "WHU",
+        "twitter": "@WestHamUtd",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1895,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/1/1.png",
+        "venue_id": 214,
+        "current_season_id": 12962
+      },
+      {
+        "id": 6,
+        "legacy_id": 148,
+        "name": "Tottenham Hotspur",
+        "short_code": "TOT",
+        "twitter": "@SpursOfficial",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1882,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/6/6.png",
+        "venue_id": 289859,
+        "current_season_id": 12962
+      },
+      {
+        "id": 8,
+        "legacy_id": 119,
+        "name": "Liverpool",
+        "short_code": "LIV",
+        "twitter": "@LFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1892,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png",
+        "venue_id": 230,
+        "current_season_id": 12962
+      },
+      {
+        "id": 9,
+        "legacy_id": 127,
+        "name": "Manchester City",
+        "short_code": "MCI",
+        "twitter": "@ManCity",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1880,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+        "venue_id": 151,
+        "current_season_id": 12962
+      },
+      {
+        "id": 11,
+        "legacy_id": 407,
+        "name": "Fulham",
+        "short_code": "FUL",
+        "twitter": null,
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1879,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/11/11.png",
+        "venue_id": 485,
+        "current_season_id": 12962
+      },
+      {
+        "id": 13,
+        "legacy_id": 165,
+        "name": "Everton",
+        "short_code": "EVE",
+        "twitter": "@Everton",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1878,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/13/13.png",
+        "venue_id": 202,
+        "current_season_id": 12962
+      },
+      {
+        "id": 14,
+        "legacy_id": 375,
+        "name": "Manchester United",
+        "short_code": "MUN",
+        "twitter": "@ManUtd",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1878,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/14/14.png",
+        "venue_id": 206,
+        "current_season_id": 12962
+      },
+      {
+        "id": 18,
+        "legacy_id": 133,
+        "name": "Chelsea",
+        "short_code": "CHE",
+        "twitter": "@ChelseaFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1905,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/18/18.png",
+        "venue_id": 205,
+        "current_season_id": 12962
+      },
+      {
+        "id": 19,
+        "legacy_id": 124,
+        "name": "Arsenal",
+        "short_code": "ARS",
+        "twitter": "@Arsenal",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1886,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/19/19.png",
+        "venue_id": 204,
+        "current_season_id": 12962
+      },
+      {
+        "id": 20,
+        "legacy_id": 380,
+        "name": "Newcastle United",
+        "short_code": "NEW",
+        "twitter": "@NUFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1892,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/20/20.png",
+        "venue_id": 449,
+        "current_season_id": 12962
+      },
+      {
+        "id": 25,
+        "legacy_id": 393,
+        "name": "Watford",
+        "short_code": "WAT",
+        "twitter": "@WatfordFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1881,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/25/25.png",
+        "venue_id": 149,
+        "current_season_id": 12962
+      },
+      {
+        "id": 27,
+        "legacy_id": 387,
+        "name": "Burnley",
+        "short_code": "BUR",
+        "twitter": "@BurnleyOfficial",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1882,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/27/27.png",
+        "venue_id": 200,
+        "current_season_id": 12962
+      },
+      {
+        "id": 29,
+        "legacy_id": 396,
+        "name": "Wolverhampton Wanderers",
+        "short_code": "WLV",
+        "twitter": null,
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1877,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/29/29.png",
+        "venue_id": 492,
+        "current_season_id": 12962
+      },
+      {
+        "id": 42,
+        "legacy_id": 388,
+        "name": "Leicester City",
+        "short_code": "LEI",
+        "twitter": "@LCFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1884,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/10/42.png",
+        "venue_id": 117,
+        "current_season_id": 12962
+      },
+      {
+        "id": 51,
+        "legacy_id": 381,
+        "name": "Crystal Palace",
+        "short_code": "CRY",
+        "twitter": "@CPFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1905,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/19/51.png",
+        "venue_id": 201,
+        "current_season_id": 12962
+      },
+      {
+        "id": 52,
+        "legacy_id": 389,
+        "name": "AFC Bournemouth",
+        "short_code": "BOU",
+        "twitter": "@afcbournemouth",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1899,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/20/52.png",
+        "venue_id": 146,
+        "current_season_id": 12962
+      },
+      {
+        "id": 65,
+        "legacy_id": 376,
+        "name": "Southampton",
+        "short_code": "SOU",
+        "twitter": "@SouthamptonFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1885,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/1/65.png",
+        "venue_id": 167,
+        "current_season_id": 12962
+      },
+      {
+        "id": 69,
+        "legacy_id": 405,
+        "name": "Cardiff City",
+        "short_code": "CDF",
+        "twitter": null,
+        "country_id": 515,
+        "national_team": false,
+        "founded": 1889,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/5/69.png",
+        "venue_id": 31249,
+        "current_season_id": 12962
+      },
+      {
+        "id": 78,
+        "legacy_id": 409,
+        "name": "Brighton & Hove Albion",
+        "short_code": "BRH",
+        "twitter": "@OfficialBHAFC",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1901,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/14/78.png",
+        "venue_id": 480,
+        "current_season_id": 12962
+      },
+      {
+        "id": 251,
+        "legacy_id": 402,
+        "name": "Huddersfield Town",
+        "short_code": "HDD",
+        "twitter": "@htafcdotcom",
+        "country_id": 462,
+        "national_team": false,
+        "founded": 1908,
+        "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/27/251.png",
+        "venue_id": 340,
+        "current_season_id": 12962
+      }
+    ],
+    "meta": {
+      "subscription": {
+        "started_at": {
+          "date": "2019-02-12 00:11:17.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "trial_ends_at": {
+          "date": "2019-02-26 00:11:09.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "ends_at": null
+      },
+      "plan": {
+        "name": "Segio RUST Custom Soccer Plan",
+        "price": "20",
+        "request_limit": "2000,60"
+      },
+      "sports": [
+        {
+          "id": 1,
+          "name": "Soccer",
+          "current": true
+        }
+      ]
+    }
+  }
+  

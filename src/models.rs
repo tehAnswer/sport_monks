@@ -1,4 +1,5 @@
 use serde::{Deserialize, Deserializer};
+use std::str::FromStr;
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Wrapper<T> {
@@ -306,7 +307,7 @@ pub struct Assists {
     pub player_id: i64,
     pub team_id: i64,
     pub stage_id: Option<i64>,
-    pub assists: i64,
+    pub assists: Option<i64>,
     #[serde(rename = "type")]
     pub kind: String,
 }
@@ -318,8 +319,8 @@ pub struct Cards {
     pub player_id: i64,
     pub team_id: i64,
     pub stage_id: Option<i64>,
-    pub yellowcards: i64,
-    pub redcards: i64,
+    pub yellowcards: Option<i64>,
+    pub redcards: Option<i64>,
     #[serde(rename = "type")]
     pub kind: String,
 }
@@ -370,6 +371,45 @@ pub struct Team {
     pub logo_path: String,
     pub venue_id: i64,
     pub current_season_id: Option<i64>,
+    #[serde(with = "Wrapper", default)]
+    pub country: Option<Country>,
+    #[serde(with = "Wrapper", default)]
+    pub squad: Option<Vec<Player>>,
+    #[serde(with = "Wrapper", default)]
+    pub coach: Option<Coach>,
+    #[serde(with = "Wrapper", default)]
+    pub transfers: Option<Vec<Transfer>>,
+    #[serde(with = "Wrapper", default)]
+    pub sidelined: Option<Vec<SidelinedOnTeam>>,
+    #[serde(with = "Wrapper", default)]
+    pub stats: Option<Vec<TeamStats>>,
+    #[serde(with = "Wrapper", default)]
+    pub venue: Option<Venue>,
+    #[serde(with = "Wrapper", default)]
+    pub uefaranking: Option<UefaRanking>,
+    #[serde(with = "Wrapper", default, rename = "visitorFixtures")]
+    pub visitor_fixtures: Option<Vec<Fixture>>,
+    #[serde(with = "Wrapper", default, rename = "localFixtures")]
+    pub local_fixtures: Option<Vec<Fixture>>,
+    #[serde(with = "Wrapper", default, rename = "visitorResults")]
+    pub visitor_results: Option<Vec<Fixture>>,
+    #[serde(with = "Wrapper", default)]
+    pub latest: Option<Vec<Fixture>>, 
+    #[serde(with = "Wrapper", default)]
+    pub upcoming: Option<Vec<Fixture>>,
+    #[serde(with = "Wrapper", default)]
+    pub goalscorers: Option<Vec<Goals>>,
+    #[serde(with = "Wrapper", default)]
+    pub cardscorers: Option<Vec<Cards>>,
+    #[serde(with = "Wrapper", default)]
+    pub assistscorers: Option<Vec<Assists>>,
+    #[serde(with = "Wrapper", default, rename = "aggregatedGoalscorers")]
+    pub aggregated_goalscorers: Option<Vec<Goals>>,
+    #[serde(with = "Wrapper", default, rename = "aggregatedCardscorers")]
+    pub aggregated_cardscorers: Option<Vec<Cards>>, 
+    #[serde(with = "Wrapper", default, rename = "aggregatedAssistscorers")]
+    pub aggregated_assistscorers: Option<Vec<Assists>>,
+
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
@@ -619,7 +659,7 @@ pub struct PlayerSlot {
     pub fixture_id: i64,
     pub player_id: Option<i64>,
     pub player_name: String,
-    pub number: i64,
+    pub number: Option<i64>,
     pub position: Option<String>,
     pub additional_position: Option<String>,
     pub formation_position: Option<i64>,
@@ -713,6 +753,15 @@ pub struct Sidelined {
     pub player_id: i64,
     pub player_name: String,
     pub reason: String,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct SidelinedOnTeam {
+    pub player_id: i64,
+    pub team_id: i64,
+    pub description: String,
+    pub start_date: String,
+    pub end_date: Option<String>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
@@ -820,6 +869,134 @@ pub struct LiveStanding {
     pub fairplay_points_lose: i64,
 }
 
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Player {
+    pub player_id: i64,
+    pub position_id: i64,
+    pub number: Option<i64>,
+    pub captain: i64,
+    pub injured: bool,
+    pub minutes: i64,
+    pub appearences: i64,
+    pub lineups: i64,
+    pub substitute_in: i64,
+    pub substitute_out: i64,
+    pub substitutes_on_bench: i64,
+    pub goals: i64,
+    pub assists: i64,
+    pub saves: Option<i64>,
+    pub inside_box_saves: Option<i64>,
+    pub dispossesed: Option<i64>,
+    pub interceptions: Option<i64>,
+    pub yellowcards: i64,
+    pub yellowred: i64,
+    pub redcards: i64,
+    pub tackles: Option<i64>,
+    pub blocks: Option<i64>,
+    pub hit_post: Option<i64>,
+    pub fouls: FoulsPerPlayer,
+    pub crosses: Crosses,
+    pub dribbles: DribblesPerPlayer,
+    pub duels: Duels,
+    pub passes: PassesPerPlayer,
+    pub penalties: Penalties,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Duels {
+    pub total: Option<i64>,
+    pub won: Option<i64>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct PassesPerPlayer {
+    pub total: Option<i64>,
+    pub accuracy: Option<i64>,
+    pub key_passes: Option<i64>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Penalties {
+    pub won: Option<i64>,
+    pub scores: Option<i64>,
+    pub missed: Option<i64>,
+    pub committed: Option<i64>,
+    pub saves: Option<i64>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Crosses {
+    pub total: Option<i64>,
+    pub accurate: Option<i64>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Transfer {
+    pub player_id: i64,
+    pub from_team_id: i64,
+    pub to_team_id: i64,
+    pub season_id: Option<i64>,
+    pub transfer: String,
+    #[serde(rename = "type")]
+    pub kind: String,
+    pub date: String,
+    pub amount: Option<String>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct TeamStats {
+    pub team_id: i64,
+    pub season_id: i64,
+    pub stage_id: Option<i64>,
+    pub win: HomeAwayTotalStat,
+    pub draw: HomeAwayTotalStat,
+    pub lost: HomeAwayTotalStat,
+    pub goals_for: HomeAwayTotalStat,
+    pub goals_against: HomeAwayTotalStat,
+    pub clean_sheet: HomeAwayTotalStat,
+    pub scoring_minutes: Vec<ScoringMinute>,
+    pub avg_goals_per_game_scored: HomeAwayTotalStat,
+    pub avg_goals_per_game_conceded: HomeAwayTotalStat,
+    pub avg_first_goal_scored: HomeAwayTotalStat,
+    pub avg_first_goal_conceded: HomeAwayTotalStat,
+    pub failed_to_score: HomeAwayTotalStat,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct HomeAwayTotalStat {
+    #[serde(deserialize_with = "to_f64")]
+    pub total: f64,
+    #[serde(deserialize_with = "to_f64")]
+    pub home: f64,
+    #[serde(deserialize_with = "to_f64")]
+    pub away: f64,
+}
+
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct ScoringMinute {
+    pub period: Vec<Period>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Period {
+    pub minute: String,
+    #[serde(deserialize_with = "to_i64")]
+    pub count: i64,
+    pub percentage: String,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct UefaRanking {
+    pub team_id: i64,
+    pub points: Option<i64>,
+    pub coeffiecient: Option<i64>,
+    pub position: Option<i64>,
+    pub position_status: Option<String>,
+    pub position_won_or_lost: Option<i64>
+}
+
+
 #[derive(Deserialize)]
 #[serde(untagged)]
 pub enum FloatOrString { F64(f64), Stringz(String), I64(i64) }
@@ -833,22 +1010,26 @@ where
         FloatOrString::Stringz(v) => Ok(v),
         FloatOrString::I64(v) => Ok(v.to_string())
     }
-    // serde_json::from_str(&j).map_err(Error::custom)
 }
 
+fn to_f64<'de, D>(deserializer: D) -> Result<f64, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    match FloatOrString::deserialize(deserializer)? {
+        FloatOrString::F64(v) => Ok(v),
+        FloatOrString::Stringz(v) => { Ok(f64::from_str(&v.replace("m", "")).unwrap()) },
+        FloatOrString::I64(v) => Ok(v as f64)
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+fn to_i64<'de, D>(deserializer: D) -> Result<i64, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    match FloatOrString::deserialize(deserializer)? {
+        FloatOrString::F64(v) => Ok(v as i64),
+        FloatOrString::Stringz(v) => { Ok(i64::from_str(&v.replace("m", "")).unwrap()) },
+        FloatOrString::I64(v) => Ok(v)
+    }
+}

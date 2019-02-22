@@ -287,7 +287,7 @@ mod tests {
         assert_eq!(lineup[0].fixture_id, 1685506);
         assert_eq!(lineup[0].player_id, Some(31161));
         assert_eq!(lineup[0].player_name, "Lars Unnerstall");
-        assert_eq!(lineup[0].number, 1);
+        assert_eq!(lineup[0].number, Some(1));
         assert_eq!(lineup[0].position, Some("G".to_string()));
         assert_eq!(lineup[0].additional_position, None);
         assert_eq!(lineup[0].formation_position, Some(1));
@@ -341,7 +341,7 @@ mod tests {
         assert_eq!(bench[0].fixture_id, 1685506);
         assert_eq!(bench[0].player_id, Some(2846850));
         assert_eq!(bench[0].player_name, "Bram Verbong");
-        assert_eq!(bench[0].number, 31);
+        assert_eq!(bench[0].number, Some(31));
         assert_eq!(bench[0].position, Some("G".to_string()));
         assert_eq!(bench[0].additional_position, None);
         assert_eq!(bench[0].formation_position, None);
