@@ -12,7 +12,7 @@ pub mod models;
 pub mod errors;
 pub mod gateway;
 
-use gateway::{Gateway, Options};
+use gateway::{Gateway};
 
 pub struct Client {
     pub contients: ops::ContinentGateway,

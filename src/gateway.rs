@@ -1,15 +1,12 @@
 use super::errors::SportMonksError;
 use serde::de::DeserializeOwned;
-use serde::Serialize;
 use reqwest::{Response, Client};
-use reqwest::header::{AUTHORIZATION, ACCEPT, CONTENT_TYPE, HeaderValue, HeaderMap, HeaderName};
 use std::error::Error;
 
 #[cfg(not(test))]
 const BASE_URL: &str = "https://soccer.sportmonks.com/api/v2.0";
 #[cfg(test)]
 const BASE_URL: &str = mockito::SERVER_URL;
-const ERROR_MSG: &str = "Error while parsing a SportMonks error response. Contact mantainers.";
 
 pub struct Gateway {
     http_client: Client,
