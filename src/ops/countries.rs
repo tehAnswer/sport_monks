@@ -78,7 +78,7 @@ mod tests {
           .create();
 
         let instance = CountryGateway::new(Gateway::new("1234".into()));
-        let opts = Options::new(None, Some(vec!["countries:filter(id|2)".to_string()]));
+        let opts = Options::builder().include(&vec!["countries:filter(id|2)"]);
         let response = instance.all_with(opts);
         m.assert();
 
@@ -156,7 +156,7 @@ mod tests {
 
         
         let instance = CountryGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(11, Options::new(None, Some(vec!["leagues:limit(2|1)".into()])));
+        let response = instance.find_with(11, Options::builder().include(&vec!["leagues:limit(2|1)"]));
         m.assert();
         
         assert!(response.is_ok());

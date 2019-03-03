@@ -6,6 +6,6 @@ fn main() {
     let api_key = env::var("API_TOKEN").expect("Set API_TOKEN env var.");
     let client = sport_monks::Client::new(api_key);
     println!("{:?}", client.contients.all());
-    let options = Options::new(None, Some(vec!["countries:filter(id|2)".into()]));
+    let options = Options::builder().include(&vec!["countries:filter(id|2)"]);
     println!("{:?}", client.contients.all_with(options));
 }

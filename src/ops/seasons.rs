@@ -118,7 +118,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["aggregatedGoalscorers".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["aggregatedGoalscorers"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -141,7 +141,6 @@ mod tests {
         assert_eq!(result.data.aggregated_assistscorers, None);
         assert_eq!(result.data.aggregated_cardscorers, None);
         
-        println!("{:?}", result.data.aggregated_goalscorers);
         let topscorers = result.data.aggregated_goalscorers.clone().unwrap();
         assert_eq!(topscorers[0].position, 1);
         assert_eq!(topscorers[1].position, 2);
@@ -186,7 +185,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["assistscorers".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["assistscorers"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -248,7 +247,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["cardscorers".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["cardscorers"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -314,7 +313,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["goalscorers".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["goalscorers"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -379,7 +378,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["groups".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["groups"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -420,7 +419,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["results".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["results"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -518,7 +517,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["rounds".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["rounds"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -557,7 +556,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["stages".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["stages"]));
         m.assert();
         
         assert!(response.is_ok());
@@ -593,7 +592,7 @@ mod tests {
 
         
         let instance = SeasonGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(12950, Options::new(None, Some(vec!["upcoming".into()])));
+        let response = instance.find_with(12950, Options::builder().include(&vec!["upcoming"]));
         m.assert();
         assert!(response.is_ok());
         

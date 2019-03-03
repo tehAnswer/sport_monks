@@ -44,7 +44,7 @@ mod tests {
 
         
         let instance = StandingGateway::new(Gateway::new("1234".into()));
-        let options = Options::new(None, Some(vec!["standings.team".to_string()]));
+        let options = Options::builder().include(&vec!["standings.team"]);
         let standings = instance.find_with(12962, options).unwrap().data;
         m.assert();
 

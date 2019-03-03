@@ -152,7 +152,7 @@ mod tests {
 
         
         let instance = FixtureGateway::new(Gateway::new("1234".into()));
-        let opts = Options::new(None, Some(vec!["visitorTeam".to_string(), "localTeam".to_string()]));
+        let opts = Options::builder().include(&vec!["visitorTeam", "localTeam"]);
         let fixture = instance.find_with(11414776, opts).unwrap().data;
 
         m.assert();
@@ -198,8 +198,8 @@ mod tests {
 
         
         let instance = FixtureGateway::new(Gateway::new("1234".into()));
-        let includes = vec!["substitutions,goals,cards,events".to_string()];
-        let opts = Options::new(None, Some(includes));
+        let includes = vec!["substitutions,goals,cards,events"];
+        let opts = Options::builder().include(&includes);
         let result = instance.on_with(Utc.ymd(2019, 2, 16), opts).unwrap();
         m.assert();
 
@@ -268,8 +268,8 @@ mod tests {
           .create();
 
         let instance = FixtureGateway::new(Gateway::new("1234".into()));
-        let includes = vec!["corners,lineup,bench,sidelined,comments,tvstations".to_string()];
-        let opts = Options::new(None, Some(includes));
+        let includes = vec!["corners,lineup,bench,sidelined,comments,tvstations"];
+        let opts = Options::builder().include(&includes);
         let result = instance.between_with(Utc.ymd(2019, 2, 16), Utc.ymd(2019, 2, 18), opts).unwrap();
         m.assert();
 
@@ -414,8 +414,8 @@ mod tests {
           .create();
 
         let instance = FixtureGateway::new(Gateway::new("1234".into()));
-        let includes = vec!["highlights,round,stage,referee,venue,odds,inplay,flatOdds,localCoach,visitorCoach,trends".to_string()];
-        let opts = Options::new(None, Some(includes));
+        let includes = vec!["highlights,round,stage,referee,venue,odds,inplay,flatOdds,localCoach,visitorCoach,trends"];
+        let opts = Options::builder().include(&includes);
         let result = instance.team_between_with(9, Utc.ymd(2019, 2, 16), Utc.ymd(2019, 2, 18), opts).unwrap();
 
         m.assert();
@@ -425,8 +425,6 @@ mod tests {
         assert_eq!(&highlights[0].created_at.date, "2018-02-13 20:34:44.000000");
         assert_eq!(highlights[0].created_at.timezone_type, 3);
         assert_eq!(&highlights[0].created_at.timezone, "UTC");
-
-        //let round = result.data[0].round.clone().unwrap();
 
         let stage = result.data[0].stage.clone().unwrap();
         assert_eq!(stage.id, 198337);
@@ -469,8 +467,6 @@ mod tests {
         assert_eq!(&odds[0].bookmaker[0].odds[0].last_update.date, "2018-02-13 21:25:28.000000");
         assert_eq!(odds[0].bookmaker[0].odds[0].last_update.timezone_type, 3);
         assert_eq!(&odds[0].bookmaker[0].odds[0].last_update.timezone, "UTC");
-
-        // let inplay = result.data[0].inplay.clone().unwrap();
 
         let flat_odds = result.data[0].flat_odds.clone().unwrap();
         assert_eq!(flat_odds[0].bookmaker_id, 25679219);
@@ -536,8 +532,8 @@ mod tests {
           .create();
 
         let instance = FixtureGateway::new(Gateway::new("1234".into()));
-        let includes = vec!["firstAssistant,secondAssistant,fourthOfficial,stats,shootout".to_string()];
-        let opts = Options::new(None, Some(includes));
+        let includes = vec!["firstAssistant,secondAssistant,fourthOfficial,stats,shootout"];
+        let opts = Options::builder().include(&includes);
         let result = instance.filter_with(&vec![11414776], opts).unwrap();
 
         m.assert();
@@ -563,7 +559,6 @@ mod tests {
         assert_eq!(&fourth_official.firstname, "Freek");
         assert_eq!(&fourth_official.lastname, "Van Herk");
         
-        println!("{:?}", result.data[0].stats);
         let stats = result.data[0].stats.clone().unwrap();
         assert_eq!(stats[0].team_id, 2379);
         assert_eq!(stats[0].fixture_id, 1685506);
@@ -595,10 +590,5 @@ mod tests {
         assert_eq!(stats[0].free_kick, None);
         assert_eq!(stats[0].throw_in, None);
         assert_eq!(stats[0].ball_safe, None);
-        // let shootout = result.data[0].shootout.clone().unwrap(); 
     }
-
-
-
-
 }

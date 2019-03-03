@@ -39,11 +39,10 @@ mod tests {
 
         
         let instance = PlayerGateway::new(Gateway::new("1234".into()));
-        let options = Options::new(None, Some(vec!["position,stats,trophies,sidelined,transfers".to_string()]));
+        let options = Options::builder().include(&vec!["position,stats,trophies,sidelined,transfers"]);
         let response = instance.find_with(26759, options);
         m.assert();
 
-        println!("{:?}", response);
         assert!(response.is_ok());
         let player = response.unwrap().data;
 
@@ -52,6 +51,5 @@ mod tests {
         assert!(player.trophies.is_some());
         assert!(player.sidelined.is_some());
         assert!(player.transfers.is_some());
-
     }
 }

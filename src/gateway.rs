@@ -19,16 +19,28 @@ pub struct Gateway {
 #[derive(Default)]
 pub struct Options {
     pub tz: Option<String>,
-    pub include: Option<Vec<String>>
+    pub include: Option<Vec<String>>,
+    pub page: Option<i64>
 }
 
 impl Options {
     pub fn empty() -> Options {
-        Options { tz: None, include: None }
+        Options::default()
+    }
+
+    pub fn builder() -> Options {
+        Options::default()
     }
     
-    pub fn new(tz: Option<String>, include: Option<Vec<String>>) -> Options {
-        Options { tz, include}
+    pub fn page(mut self, page: i64) -> Options {
+        self.page = Some(page);
+        self
+    }
+
+    pub fn include(mut self, include: &[&str]) -> Options {
+        let normalized_include = include.into_iter().map(ToString::to_string).collect();
+        self.include = Some(normalized_include);
+        self
     }
 }
 
@@ -61,11 +73,9 @@ impl Gateway {
     }
 
     fn handle_response<U: DeserializeOwned>(&self, result: Result<Response, reqwest::Error>) -> Result<U,  SportMonksError> {
-        println!("{:?}", result);
         match result {
             Ok(mut response) => {
                 if response.status().is_success() {
-                    // println!("{}", response.text().unwrap());
                     match response.json::<U>() {
                         Ok(final_response) => Ok(final_response),
                         Err(error) => {

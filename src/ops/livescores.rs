@@ -44,7 +44,7 @@ mod tests {
           .create();
 
         let instance = LivescoreGateway::new(Gateway::new("1234".into()));
-        let response = instance.all_with(Options::new(None, Some(vec!["localTeam,visitorTeam".to_string()])));
+        let response = instance.all_with(Options::builder().include(&vec!["localTeam,visitorTeam"]));
         m.assert();
 
 
@@ -111,7 +111,7 @@ mod tests {
           .create();
 
         let instance = LivescoreGateway::new(Gateway::new("1234".into()));
-        let response = instance.now_with(Options::new(None, Some(vec!["inplay".to_string()])));
+        let response = instance.now_with(Options::builder().include(&vec!["inplay"]));
         m.assert();
 
         assert!(response.is_ok());

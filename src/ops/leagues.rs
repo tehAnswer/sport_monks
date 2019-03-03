@@ -77,7 +77,7 @@ mod tests {
           .create();
 
         let instance = LeagueGateway::new(Gateway::new("1234".into()));
-        let opts = Options::new(None, Some(vec!["country".to_string(), "season".to_string(), "seasons:filter(1|2)".to_string()]));
+        let opts = Options::builder().include(&vec!["country", "season", "seasons:filter(1|2)"]);
         let response = instance.all_with(opts);
         m.assert();
 
@@ -156,7 +156,7 @@ mod tests {
 
         
         let instance = LeagueGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(2, Options::new(None, Some(vec!["country".into()])));
+        let response = instance.find_with(2, Options::builder().include(&vec!["country"]));
         m.assert();
         
         assert!(response.is_ok());

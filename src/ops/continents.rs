@@ -67,7 +67,7 @@ mod tests {
           .create();
 
         let instance = ContinentGateway::new(Gateway::new("1234".into()));
-        let opts = Options::new(None, Some(vec!["leagues".to_string()]));
+        let opts = Options::builder().include(&vec!["leagues"]);
         let response = instance.all_with(opts);
 
         m.assert();
@@ -125,7 +125,7 @@ mod tests {
 
         
         let instance = ContinentGateway::new(Gateway::new("1234".into()));
-        let response = instance.find_with(1, Options::new(None, Some(vec!["leagues".into()])));
+        let response = instance.find_with(1, Options::builder().include(&vec!["leagues"]));
         m.assert();
 
         assert!(response.is_ok());

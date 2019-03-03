@@ -50,8 +50,8 @@ mod tests {
 
         
         let instance = TeamGateway::new(Gateway::new("1234".into()));
-        let includes = vec!["country,squad,coach,transfers,sidelined,stats,venue,uefaranking,visitorFixtures,localFixtures,visitorResults,latest,upcoming,goalscorers,cardscorers,assistscorers,aggregatedGoalscorers,aggregatedCardscorers,aggregatedAssistscorers".to_string()];
-        let options = Options::new(None, Some(includes));
+        let includes = vec!["country,squad,coach,transfers,sidelined,stats,venue,uefaranking,visitorFixtures,localFixtures,visitorResults,latest,upcoming,goalscorers,cardscorers,assistscorers,aggregatedGoalscorers,aggregatedCardscorers,aggregatedAssistscorers"];
+        let options = Options::builder().include(&includes);
         let team = instance.find_with(9, options).unwrap().data;
         m.assert();
 
