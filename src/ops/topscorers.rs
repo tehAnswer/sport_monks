@@ -98,22 +98,22 @@ mod tests {
         m.assert();
 
         let goalscorers = season.aggregated_goalscorers.unwrap().clone();
-        assert_eq!(goalscorers[0].position, 144);
+        assert_eq!(goalscorers[0].position, 1);
         assert_eq!(goalscorers[0].season_id, 12950);
-        assert_eq!(goalscorers[0].player_id, 48532);
-        assert_eq!(goalscorers[0].team_id, 724);
+        assert_eq!(goalscorers[0].player_id, 1351);
+        assert_eq!(goalscorers[0].team_id, 629);
         assert_eq!(goalscorers[0].stage_id, None);
-        assert_eq!(goalscorers[0].goals, 1);
-        assert_eq!(goalscorers[0].penalty_goals, 0);
+        assert_eq!(goalscorers[0].goals, 9);
+        assert_eq!(goalscorers[0].penalty_goals, 2);
         assert_eq!(&goalscorers[0].kind, "aggregated_goals");
 
         let assistscorers = season.aggregated_assistscorers.unwrap().clone();
         assert_eq!(assistscorers[0].position, 1);
         assert_eq!(assistscorers[0].season_id, 12950);
-        assert_eq!(assistscorers[0].player_id, 96611);
-        assert_eq!(assistscorers[0].team_id, 591);
+        assert_eq!(assistscorers[0].player_id, 1351);
+        assert_eq!(assistscorers[0].team_id, 629);
         assert_eq!(assistscorers[0].stage_id, None);
-        assert_eq!(assistscorers[0].assists, Some(5));
+        assert_eq!(assistscorers[0].assists, Some(7));
         assert_eq!(assistscorers[0].kind, "aggregated_assists");
 
         let cardscorers = season.aggregated_cardscorers.unwrap().clone();
