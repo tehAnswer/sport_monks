@@ -58,7 +58,7 @@ impl FixtureGateway {
     }
     
     pub fn filter_with(&self, fixture_ids: &[u64], options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
-        let list_of_ids: Vec<String> = fixture_ids.into_iter().map(ToString::to_string).collect();
+        let list_of_ids: Vec<String> = fixture_ids.iter().map(ToString::to_string).collect();
         let path = format!("/fixtures/multi/{}", list_of_ids.join(","));
         self.gateway.get(&path, options)
     }

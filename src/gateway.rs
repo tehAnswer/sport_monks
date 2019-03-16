@@ -43,7 +43,7 @@ impl Options {
 
 impl Gateway {
     pub fn new(api_key: String) -> Gateway {
-        Gateway { http_client: Client::new(), api_key: api_key }
+        Gateway { http_client: Client::new(), api_key }
     }
 
     pub fn get<U: DeserializeOwned>(&self, path: &str, options: Options) -> Result<U, SportMonksError> {
