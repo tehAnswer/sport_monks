@@ -1,6 +1,6 @@
 [package]
 name = "sport_monks"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["tehAnswer <sergiorodriguezgijon@gmail.com>"]
 license = "MIT"
 description = "Unofficial SportMonks.com Rust Client."
@@ -8,7 +8,7 @@ repository = "https://github.com/tehAnswer/sport_monks"
 readme = "README.md"
 
 [badges]
-travis-ci = { repository = "tehAnswer/sport_monks:master" }
+travis-ci = { repository = "tehAnswer/sport_monks", branch = "master" }
 
 [dependencies]
 reqwest = { version = "0.9.8", features = ["hyper-011"] }

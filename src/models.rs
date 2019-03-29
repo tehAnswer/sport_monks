@@ -4,6 +4,7 @@ use std::str::FromStr;
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Wrapper<T> {
     pub data: T,
+    pub meta: Option<Meta>
 }
 
 impl<T> Wrapper<T> {
@@ -16,6 +17,21 @@ impl<T> Wrapper<T> {
         Ok(wrapper.data)
     }
 }
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Meta {
+    pub pagination: Option<Pagination>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Deserialize)]
+pub struct Pagination {
+    pub total: i64,
+    pub count: i64,
+    pub per_page: i64,
+    pub current_page: i64,
+    pub total_pages: i64,
+}
+
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Continent {

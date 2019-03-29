@@ -69,7 +69,7 @@ mod tests {
         let instance = ContinentGateway::new(Gateway::new("1234".into()));
         let opts = Options::builder().include(&vec!["leagues"]);
         let response = instance.all_with(opts);
-
+        
         m.assert();
         assert!(response.is_ok());
         let result = response.unwrap();

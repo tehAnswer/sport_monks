@@ -15,9 +15,7 @@ pub struct Gateway {
 
 #[derive(Default)]
 pub struct Options {
-    pub tz: Option<String>,
-    pub include: Option<Vec<String>>,
-    pub page: Option<i64>
+    pub query: Vec<(String, String)>
 }
 
 impl Options {
@@ -30,13 +28,18 @@ impl Options {
     }
     
     pub fn page(mut self, page: i64) -> Options {
-        self.page = Some(page);
+        self.query.push(("page".into(), page.to_string()));
         self
     }
 
     pub fn include(mut self, include: &[&str]) -> Options {
-        let normalized_include = include.into_iter().map(ToString::to_string).collect();
-        self.include = Some(normalized_include);
+        let joined_includes = include.join(",");
+        self.query.push(("include".into(), joined_includes));
+        self
+    }
+
+    pub fn param(mut self, name: &str, value: &str) -> Options {
+        self.query.push((name.into(), value.into()));
         self
     }
 }
@@ -57,15 +60,8 @@ impl Gateway {
     }
 
     fn prepare_options(&self, options: Options) -> Vec<(String, String)> {
-        let mut query_string: Vec<(String, String)> = vec![("api_token".to_string(), self.api_key.to_string())];
-        if options.tz.is_some() {
-            query_string.push(("tz".to_string(), options.tz.unwrap()));
-        }
-
-        if options.include.is_some() {
-            let joined_includes = options.include.unwrap().join(",");
-            query_string.push(("include".to_string(), joined_includes));
-        }
+        let mut query_string : Vec<(String, String)> = vec![("api_token".to_string(), self.api_key.to_string())];
+        query_string.extend(options.query);
         query_string
     }
 
