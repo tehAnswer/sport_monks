@@ -96,7 +96,7 @@ mod tests {
         assert_eq!(team.country_id, 462);
         assert_eq!(team.national_team, false);
         assert_eq!(team.founded, Some(1895));
-        assert_eq!(&team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/1/1.png");
+        assert_eq!(team.logo_path, Some("https://cdn.sportmonks.com/images/soccer/teams/1/1.png".into()));
         assert_eq!(team.venue_id, Some(214));
         assert_eq!(team.current_season_id, Some(12962));
     }
@@ -114,7 +114,24 @@ mod tests {
         let result = instance.of_season_with(12962, options);
 
         m.assert();
+        assert!(result.is_ok());
+    }
+
+    #[test]
+       fn it_works_with_double_include() {
+        let body = fs::read_to_string(Path::new("src/support/seasons/double_nested.json")).expect("Fixtures:");
+        let m = mock("GET", "/teams/season/12950?api_token=1234&include=squad.player")
+          .with_status(200)
+          .with_body(body)
+          .create();
+        
+        let options = Options::builder().include(&["squad.player"]);
+        let instance = TeamGateway::new(Gateway::new("1234".into()));
+        let result = instance.of_season_with(12950, options);
+
+        m.assert();
         println!("{:?}", result);
         assert!(result.is_ok());
     }
+
 }

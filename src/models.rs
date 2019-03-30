@@ -384,7 +384,7 @@ pub struct Team {
     pub country_id: i64,
     pub national_team: bool,
     pub founded: Option<i64>,
-    pub logo_path: String,
+    pub logo_path: Option<String>,
     pub venue_id: Option<i64>,
     pub current_season_id: Option<i64>,
     #[serde(with = "Wrapper", default)]
@@ -697,69 +697,104 @@ pub struct Stats {
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct ShotsPerPlayer {
-    pub shots_total: Option<i64>,
-    pub shots_on_goal: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub shots_total: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub shots_on_goal: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct GoalsPerPlayer {
-    pub scored: Option<i64>,
-    pub assists: Option<i64>,
-    pub conceded: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub scored: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub assists: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub conceded: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct FoulsPerPlayer {
-    pub drawn: Option<i64>,
-    pub committed: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub drawn: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub committed: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct CardsPerPlayer {
-    pub yellowcards: Option<i64>,
-    pub redcards: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub yellowcards: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub redcards: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct PassingPerPlayer {
-    pub total_crosses: Option<i64>,
-    pub crosses_accuracy: Option<i64>,
-    pub passes: Option<i64>,
-    pub passes_accuracy: Option<i64>,
-    pub key_passes: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub total_crosses: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub crosses_accuracy: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub passes: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub passes_accuracy: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub key_passes: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct DribblesPerPlayer {
-    pub attempts: Option<i64>,
-    pub success: Option<i64>,
-    pub dribbled_past: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub attempts: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub success: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub dribbled_past: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct DuelsPerPlayer {
-    pub total: Option<i64>,
-    pub won: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub total: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub won: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct OtherStatsPerPlayer {
-    pub assists: Option<i64>,
-    pub offsides: Option<i64>,
-    pub saves: Option<i64>,
-    pub inside_box_saves: Option<i64>,
-    pub pen_scored: Option<i64>,
-    pub pen_missed: Option<i64>,
-    pub pen_saved: Option<i64>,
-    pub pen_committed: Option<i64>,
-    pub pen_won: Option<i64>,
-    pub hit_woodwork: Option<i64>,
-    pub tackles: Option<i64>,
-    pub blocks: Option<i64>,
-    pub interceptions: Option<i64>,
-    pub clearances: Option<i64>,
-    pub dispossesed: Option<i64>,
-    pub minutes_played: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub assists: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub offsides: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub saves: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub inside_box_saves: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub pen_scored: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub pen_missed: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub pen_saved: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub pen_committed: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub pen_won: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub hit_woodwork: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub tackles: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub blocks: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub interceptions: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub clearances: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub dispossesed: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub minutes_played: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
@@ -894,61 +929,89 @@ pub struct PlayerInMatch {
     #[serde(default)]
     pub position_id: Option<i64>,
     pub number: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
     pub captain: i64,
-    #[serde(default)]
     pub injured: bool,
+    #[serde(deserialize_with = "to_i64")]
     pub minutes: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub appearences: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub lineups: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub substitute_in: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub substitute_out: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub substitutes_on_bench: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub goals: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub assists: i64,
     pub saves: Option<i64>,
     pub inside_box_saves: Option<i64>,
     pub dispossesed: Option<i64>,
     pub interceptions: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
     pub yellowcards: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub yellowred: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub redcards: i64,
-    pub tackles: Option<i64>,
-    pub blocks: Option<i64>,
-    pub hit_post: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub tackles: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub blocks: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub hit_post: i64,
     pub fouls: FoulsPerPlayer,
     pub crosses: Crosses,
     pub dribbles: DribblesPerPlayer,
     pub duels: Duels,
     pub passes: PassesPerPlayer,
     pub penalties: Penalties,
+    #[serde(with = "Wrapper", default)]
+    pub player: Option<Player>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Duels {
-    pub total: Option<i64>,
-    pub won: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub total: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub won: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct PassesPerPlayer {
-    pub total: Option<i64>,
-    pub accuracy: Option<i64>,
-    pub key_passes: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub total: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub accuracy: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub key_passes: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Penalties {
-    pub won: Option<i64>,
-    pub scores: Option<i64>,
-    pub missed: Option<i64>,
-    pub committed: Option<i64>,
-    pub saves: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub won: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub scores: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub missed: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub committed: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub saves: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Crosses {
-    pub total: Option<i64>,
-    pub accurate: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub total: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub accurate: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
@@ -1019,22 +1082,20 @@ pub struct UefaRanking {
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Player {
     pub player_id: i64,
-    pub team_id: i64,
-    pub country_id: i64,
-    pub position_id: i64,
-    pub common_name: String,
-    pub fullname: String,
-    pub firstname: String,
-    pub lastname: String,
-    pub nationality: String,
-    pub birthdate: String,
-    pub birthcountry: String,
-    pub birthplace: String,
-    pub height: String,
-    pub weight: String,
-    pub image_path: String,
-    #[serde(with = "Wrapper", default)]
-    pub stats: Option<Vec<PlayerInMatch>>,
+    pub team_id: Option<i64>,
+    pub country_id: Option<i64>,
+    pub position_id: Option<i64>,
+    pub common_name: Option<String>,
+    pub fullname: Option<String>,
+    pub firstname: Option<String>,
+    pub lastname: Option<String>,
+    pub nationality: Option<String>,
+    pub birthdate: Option<String>,
+    pub birthcountry: Option<String>,
+    pub birthplace: Option<String>,
+    pub height: Option<String>,
+    pub weight: Option<String>,
+    pub image_path: Option<String>,
     #[serde(with = "Wrapper", default)]
     pub trophies: Option<Vec<Trophy>>,
     #[serde(with = "Wrapper", default)]
@@ -1064,7 +1125,7 @@ pub struct Position {
 
 #[derive(Deserialize)]
 #[serde(untagged)]
-pub enum FloatOrString { F64(f64), Stringz(String), I64(i64) }
+pub enum FloatOrString { F64(f64), Stringz(String), I64(i64), Nothing }
 
 fn to_string<'de, D>(deserializer: D) -> Result<String, D::Error>
 where
@@ -1073,7 +1134,8 @@ where
     match FloatOrString::deserialize(deserializer)? {
         FloatOrString::F64(v) => Ok(v.to_string()),
         FloatOrString::Stringz(v) => Ok(v),
-        FloatOrString::I64(v) => Ok(v.to_string())
+        FloatOrString::I64(v) => Ok(v.to_string()),
+        FloatOrString::Nothing => Ok("".into()),
     }
 }
 
@@ -1084,7 +1146,8 @@ where
     match FloatOrString::deserialize(deserializer)? {
         FloatOrString::F64(v) => Ok(v),
         FloatOrString::Stringz(v) => { Ok(f64::from_str(&v.replace("m", "")).unwrap()) },
-        FloatOrString::I64(v) => Ok(v as f64)
+        FloatOrString::I64(v) => Ok(v as f64),
+        FloatOrString::Nothing => Ok(0.0 as f64),
     }
 }
 
@@ -1095,6 +1158,7 @@ where
     match FloatOrString::deserialize(deserializer)? {
         FloatOrString::F64(v) => Ok(v as i64),
         FloatOrString::Stringz(v) => { Ok(i64::from_str(&v.replace("m", "")).unwrap()) },
-        FloatOrString::I64(v) => Ok(v)
+        FloatOrString::I64(v) => Ok(v),
+        FloatOrString::Nothing => Ok(0),
     }
 }

@@ -684,5 +684,4 @@ mod tests {
         assert_eq!(sportmonks_error.message(), "yadda yadda".to_string());
         assert_eq!(sportmonks_error.code(), 403);
     }
-
 }

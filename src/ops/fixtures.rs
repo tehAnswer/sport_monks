@@ -169,7 +169,7 @@ mod tests {
         assert_eq!(local_team.twitter, Some("@s04".to_string()));
         assert_eq!(local_team.national_team, false);
         assert_eq!(local_team.founded, Some(1904));
-        assert_eq!(&local_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/3/67.png");
+        assert_eq!(local_team.logo_path, Some("https://cdn.sportmonks.com/images/soccer/teams/3/67.png".into()));
         assert_eq!(local_team.venue_id, Some(2138));
         assert_eq!(local_team.current_season_id, None);
 
@@ -182,7 +182,7 @@ mod tests {
         assert_eq!(visitor_team.country_id, 462);
         assert_eq!(visitor_team.national_team, false);
         assert_eq!(visitor_team.founded, Some(1880));
-        assert_eq!(&visitor_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/9/9.png");
+        assert_eq!(visitor_team.logo_path, Some("https://cdn.sportmonks.com/images/soccer/teams/9/9.png".into()));
         assert_eq!(visitor_team.venue_id, Some(151));
         assert_eq!(visitor_team.current_season_id, None);
     }
@@ -293,48 +293,48 @@ mod tests {
         assert_eq!(lineup[0].formation_position, Some(1));
         assert_eq!(lineup[0].captain, false);
 
-        assert_eq!(lineup[0].stats.shots.shots_on_goal, Some(0));
-        assert_eq!(lineup[0].stats.shots.shots_total, Some(0));
+        assert_eq!(lineup[0].stats.shots.shots_on_goal, 0);
+        assert_eq!(lineup[0].stats.shots.shots_total, 0);
 
-        assert_eq!(lineup[0].stats.goals.scored, Some(0));
-        assert_eq!(lineup[0].stats.goals.assists, Some(0));
-        assert_eq!(lineup[0].stats.goals.conceded, Some(1));
+        assert_eq!(lineup[0].stats.goals.scored, 0);
+        assert_eq!(lineup[0].stats.goals.assists, 0);
+        assert_eq!(lineup[0].stats.goals.conceded, 1);
 
-        assert_eq!(lineup[0].stats.fouls.drawn, Some(0));
-        assert_eq!(lineup[0].stats.fouls.committed, Some(0));
+        assert_eq!(lineup[0].stats.fouls.drawn, 0);
+        assert_eq!(lineup[0].stats.fouls.committed, 0);
 
-        assert_eq!(lineup[0].stats.cards.yellowcards, Some(0));
-        assert_eq!(lineup[0].stats.cards.redcards, Some(0));
+        assert_eq!(lineup[0].stats.cards.yellowcards, 0);
+        assert_eq!(lineup[0].stats.cards.redcards, 0);
 
-        assert_eq!(lineup[0].stats.passing.total_crosses, Some(0));
-        assert_eq!(lineup[0].stats.passing.crosses_accuracy, Some(0));
-        assert_eq!(lineup[0].stats.passing.passes, Some(14));
-        assert_eq!(lineup[0].stats.passing.passes_accuracy, Some(50));
-        assert_eq!(lineup[0].stats.passing.key_passes, None);
+        assert_eq!(lineup[0].stats.passing.total_crosses, 0);
+        assert_eq!(lineup[0].stats.passing.crosses_accuracy, 0);
+        assert_eq!(lineup[0].stats.passing.passes, 14);
+        assert_eq!(lineup[0].stats.passing.passes_accuracy, 50);
+        assert_eq!(lineup[0].stats.passing.key_passes, 0);
 
-        assert_eq!(lineup[0].stats.dribbles.attempts, None);
-        assert_eq!(lineup[0].stats.dribbles.success, None);
-        assert_eq!(lineup[0].stats.dribbles.dribbled_past, None);
+        assert_eq!(lineup[0].stats.dribbles.attempts, 0);
+        assert_eq!(lineup[0].stats.dribbles.success, 0);
+        assert_eq!(lineup[0].stats.dribbles.dribbled_past, 0);
 
-        assert_eq!(lineup[0].stats.duels.total, None);
-        assert_eq!(lineup[0].stats.duels.won, None);
+        assert_eq!(lineup[0].stats.duels.total, 0);
+        assert_eq!(lineup[0].stats.duels.won, 0);
 
-        assert_eq!(lineup[0].stats.other.assists, Some(0));
-        assert_eq!(lineup[0].stats.other.offsides, Some(0));
-        assert_eq!(lineup[0].stats.other.saves, Some(4));
-        assert_eq!(lineup[0].stats.other.inside_box_saves, None);
-        assert_eq!(lineup[0].stats.other.pen_scored, Some(0));
-        assert_eq!(lineup[0].stats.other.pen_missed, Some(0));
-        assert_eq!(lineup[0].stats.other.pen_saved, Some(0));
-        assert_eq!(lineup[0].stats.other.pen_committed, Some(0));
-        assert_eq!(lineup[0].stats.other.pen_won, Some(0));
-        assert_eq!(lineup[0].stats.other.hit_woodwork, Some(0));
-        assert_eq!(lineup[0].stats.other.tackles, Some(0));
-        assert_eq!(lineup[0].stats.other.blocks, Some(0));
-        assert_eq!(lineup[0].stats.other.interceptions, Some(0));
-        assert_eq!(lineup[0].stats.other.clearances, Some(1));
-        assert_eq!(lineup[0].stats.other.dispossesed, None);
-        assert_eq!(lineup[0].stats.other.minutes_played, Some(90));
+        assert_eq!(lineup[0].stats.other.assists, 0);
+        assert_eq!(lineup[0].stats.other.offsides, 0);
+        assert_eq!(lineup[0].stats.other.saves, 4);
+        assert_eq!(lineup[0].stats.other.inside_box_saves, 0);
+        assert_eq!(lineup[0].stats.other.pen_scored, 0);
+        assert_eq!(lineup[0].stats.other.pen_missed, 0);
+        assert_eq!(lineup[0].stats.other.pen_saved, 0);
+        assert_eq!(lineup[0].stats.other.pen_committed, 0);
+        assert_eq!(lineup[0].stats.other.pen_won, 0);
+        assert_eq!(lineup[0].stats.other.hit_woodwork, 0);
+        assert_eq!(lineup[0].stats.other.tackles, 0);
+        assert_eq!(lineup[0].stats.other.blocks, 0);
+        assert_eq!(lineup[0].stats.other.interceptions, 0);
+        assert_eq!(lineup[0].stats.other.clearances, 1);
+        assert_eq!(lineup[0].stats.other.dispossesed, 0);
+        assert_eq!(lineup[0].stats.other.minutes_played, 90);
 
         let bench = result.data[0].bench.clone().unwrap();
         assert_eq!(bench[0].team_id, 2379);
@@ -347,48 +347,48 @@ mod tests {
         assert_eq!(bench[0].formation_position, None);
         assert_eq!(bench[0].captain, false);
 
-        assert_eq!(bench[0].stats.shots.shots_on_goal, None);
-        assert_eq!(bench[0].stats.shots.shots_total, None);
+        assert_eq!(bench[0].stats.shots.shots_on_goal, 0);
+        assert_eq!(bench[0].stats.shots.shots_total, 0);
 
-        assert_eq!(bench[0].stats.goals.scored, None);
-        assert_eq!(bench[0].stats.goals.assists, None);
-        assert_eq!(bench[0].stats.goals.conceded, None);
+        assert_eq!(bench[0].stats.goals.scored, 0);
+        assert_eq!(bench[0].stats.goals.assists, 0);
+        assert_eq!(bench[0].stats.goals.conceded, 0);
 
-        assert_eq!(bench[0].stats.fouls.drawn, None);
-        assert_eq!(bench[0].stats.fouls.committed, None);
+        assert_eq!(bench[0].stats.fouls.drawn, 0);
+        assert_eq!(bench[0].stats.fouls.committed, 0);
 
-        assert_eq!(bench[0].stats.cards.yellowcards, None);
-        assert_eq!(bench[0].stats.cards.redcards, None);
+        assert_eq!(bench[0].stats.cards.yellowcards, 0);
+        assert_eq!(bench[0].stats.cards.redcards, 0);
 
-        assert_eq!(bench[0].stats.passing.total_crosses, None);
-        assert_eq!(bench[0].stats.passing.crosses_accuracy, None);
-        assert_eq!(bench[0].stats.passing.passes, None);
-        assert_eq!(bench[0].stats.passing.passes_accuracy, None);
-        assert_eq!(bench[0].stats.passing.key_passes, None);
+        assert_eq!(bench[0].stats.passing.total_crosses, 0);
+        assert_eq!(bench[0].stats.passing.crosses_accuracy, 0);
+        assert_eq!(bench[0].stats.passing.passes, 0);
+        assert_eq!(bench[0].stats.passing.passes_accuracy, 0);
+        assert_eq!(bench[0].stats.passing.key_passes, 0);
 
-        assert_eq!(bench[0].stats.dribbles.attempts, None);
-        assert_eq!(bench[0].stats.dribbles.success, None);
-        assert_eq!(bench[0].stats.dribbles.dribbled_past, None);
+        assert_eq!(bench[0].stats.dribbles.attempts, 0);
+        assert_eq!(bench[0].stats.dribbles.success, 0);
+        assert_eq!(bench[0].stats.dribbles.dribbled_past, 0);
 
-        assert_eq!(bench[0].stats.duels.total, None);
-        assert_eq!(bench[0].stats.duels.won, None);
+        assert_eq!(bench[0].stats.duels.total, 0);
+        assert_eq!(bench[0].stats.duels.won, 0);
 
-        assert_eq!(bench[0].stats.other.assists, None);
-        assert_eq!(bench[0].stats.other.offsides, None);
-        assert_eq!(bench[0].stats.other.saves, None);
-        assert_eq!(bench[0].stats.other.inside_box_saves, None);
-        assert_eq!(bench[0].stats.other.pen_scored, None);
-        assert_eq!(bench[0].stats.other.pen_missed, None);
-        assert_eq!(bench[0].stats.other.pen_saved, None);
-        assert_eq!(bench[0].stats.other.pen_committed, None);
-        assert_eq!(bench[0].stats.other.pen_won, None);
-        assert_eq!(bench[0].stats.other.hit_woodwork, None);
-        assert_eq!(bench[0].stats.other.tackles, None);
-        assert_eq!(bench[0].stats.other.blocks, None);
-        assert_eq!(bench[0].stats.other.interceptions, None);
-        assert_eq!(bench[0].stats.other.clearances, None);
-        assert_eq!(bench[0].stats.other.dispossesed, None);
-        assert_eq!(bench[0].stats.other.minutes_played, None);
+        assert_eq!(bench[0].stats.other.assists, 0);
+        assert_eq!(bench[0].stats.other.offsides, 0);
+        assert_eq!(bench[0].stats.other.saves, 0);
+        assert_eq!(bench[0].stats.other.inside_box_saves, 0);
+        assert_eq!(bench[0].stats.other.pen_scored, 0);
+        assert_eq!(bench[0].stats.other.pen_missed, 0);
+        assert_eq!(bench[0].stats.other.pen_saved, 0);
+        assert_eq!(bench[0].stats.other.pen_committed, 0);
+        assert_eq!(bench[0].stats.other.pen_won, 0);
+        assert_eq!(bench[0].stats.other.hit_woodwork, 0);
+        assert_eq!(bench[0].stats.other.tackles, 0);
+        assert_eq!(bench[0].stats.other.blocks, 0);
+        assert_eq!(bench[0].stats.other.interceptions, 0);
+        assert_eq!(bench[0].stats.other.clearances, 0);
+        assert_eq!(bench[0].stats.other.dispossesed, 0);
+        assert_eq!(bench[0].stats.other.minutes_played, 0);
 
         let sidelined = result.data[0].sidelined.clone().unwrap();
         assert_eq!(sidelined[0].team_id, Some(2379));

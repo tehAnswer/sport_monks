@@ -103,7 +103,7 @@ mod tests {
         assert_eq!(team_info.country_id, 462);
         assert_eq!(team_info.national_team, false);
         assert_eq!(team_info.founded, Some(1880));
-        assert_eq!(&team_info.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/9/9.png");
+        assert_eq!(team_info.logo_path, Some("https://cdn.sportmonks.com/images/soccer/teams/9/9.png".into()));
         assert_eq!(team_info.venue_id, Some(151));
         assert_eq!(team_info.current_season_id, Some(12962));
     }

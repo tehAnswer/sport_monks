@@ -47,7 +47,6 @@ mod tests {
         let player = response.unwrap().data;
 
         assert!(player.position.is_some());
-        assert!(player.stats.is_some());
         assert!(player.trophies.is_some());
         assert!(player.sidelined.is_some());
         assert!(player.transfers.is_some());

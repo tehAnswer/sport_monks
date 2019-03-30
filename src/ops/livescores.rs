@@ -84,7 +84,7 @@ mod tests {
         assert_eq!(local_team.country_id, 251);
         assert_eq!(local_team.national_team, false);
         assert_eq!(local_team.founded, Some(1927));
-        assert_eq!(&local_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/5/37.png");
+        assert_eq!(local_team.logo_path, Some("https://cdn.sportmonks.com/images/soccer/teams/5/37.png".into()));
         assert_eq!(local_team.venue_id, Some(7219));
         assert_eq!(local_team.current_season_id, None);
 
@@ -97,7 +97,7 @@ mod tests {
         assert_eq!(visitor_team.country_id, 251);
         assert_eq!(visitor_team.national_team, false);
         assert_eq!(visitor_team.founded, Some(1909));
-        assert_eq!(&visitor_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/1/8513.png");
+        assert_eq!(visitor_team.logo_path, Some("https://cdn.sportmonks.com/images/soccer/teams/1/8513.png".into()));
         assert_eq!(visitor_team.venue_id, Some(5515));
         assert_eq!(visitor_team.current_season_id, None);
     }
