@@ -162,28 +162,28 @@ mod tests {
 
         let local_team = fixture.local_team.clone().unwrap();
         assert_eq!(local_team.id, 67);
-        assert_eq!(local_team.legacy_id, 42);
+        assert_eq!(local_team.legacy_id, Some(42));
         assert_eq!(&local_team.name, "Schalke 04");
-        assert_eq!(&local_team.short_code, "S04");
+        assert_eq!(local_team.short_code, Some("S04".into()));
         assert_eq!(local_team.country_id, 11);
         assert_eq!(local_team.twitter, Some("@s04".to_string()));
         assert_eq!(local_team.national_team, false);
-        assert_eq!(local_team.founded, 1904);
+        assert_eq!(local_team.founded, Some(1904));
         assert_eq!(&local_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/3/67.png");
-        assert_eq!(local_team.venue_id, 2138);
+        assert_eq!(local_team.venue_id, Some(2138));
         assert_eq!(local_team.current_season_id, None);
 
         let visitor_team = fixture.visitor_team.clone().unwrap();
         assert_eq!(visitor_team.id, 9);
-        assert_eq!(visitor_team.legacy_id, 127);
+        assert_eq!(visitor_team.legacy_id, Some(127));
         assert_eq!(&visitor_team.name, "Manchester City");
-        assert_eq!(&visitor_team.short_code, "MCI");
+        assert_eq!(visitor_team.short_code, Some("MCI".into()));
         assert_eq!(visitor_team.twitter, Some("@ManCity".to_string()));
         assert_eq!(visitor_team.country_id, 462);
         assert_eq!(visitor_team.national_team, false);
-        assert_eq!(visitor_team.founded, 1880);
+        assert_eq!(visitor_team.founded, Some(1880));
         assert_eq!(&visitor_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/9/9.png");
-        assert_eq!(visitor_team.venue_id, 151);
+        assert_eq!(visitor_team.venue_id, Some(151));
         assert_eq!(visitor_team.current_season_id, None);
     }
 

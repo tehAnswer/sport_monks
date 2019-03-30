@@ -77,28 +77,28 @@ mod tests {
 
         let local_team = fixtures[0].clone().local_team.unwrap();
         assert_eq!(local_team.id, 37);
-        assert_eq!(local_team.legacy_id, 128);
+        assert_eq!(local_team.legacy_id, Some(128));
         assert_eq!(&local_team.name, "Roma");
-        assert_eq!(&local_team.short_code, "ROM");
+        assert_eq!(local_team.short_code, Some("ROM".into()));
         assert_eq!(local_team.twitter, Some("@OfficialASRoma".to_string()));
         assert_eq!(local_team.country_id, 251);
         assert_eq!(local_team.national_team, false);
-        assert_eq!(local_team.founded, 1927);
+        assert_eq!(local_team.founded, Some(1927));
         assert_eq!(&local_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/5/37.png");
-        assert_eq!(local_team.venue_id, 7219);
+        assert_eq!(local_team.venue_id, Some(7219));
         assert_eq!(local_team.current_season_id, None);
 
         let visitor_team = fixtures[0].clone().visitor_team.unwrap();
         assert_eq!(visitor_team.id, 8513);
-        assert_eq!(visitor_team.legacy_id, 338);
+        assert_eq!(visitor_team.legacy_id, Some(338));
         assert_eq!(&visitor_team.name, "Bologna");
-        assert_eq!(&visitor_team.short_code, "BGN");
+        assert_eq!(visitor_team.short_code, Some("BGN".into()));
         assert_eq!(visitor_team.twitter, Some("@BfcOfficialPage".to_string()));
         assert_eq!(visitor_team.country_id, 251);
         assert_eq!(visitor_team.national_team, false);
-        assert_eq!(visitor_team.founded, 1909);
+        assert_eq!(visitor_team.founded, Some(1909));
         assert_eq!(&visitor_team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/1/8513.png");
-        assert_eq!(visitor_team.venue_id, 5515);
+        assert_eq!(visitor_team.venue_id, Some(5515));
         assert_eq!(visitor_team.current_season_id, None);
     }
 

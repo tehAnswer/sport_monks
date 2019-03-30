@@ -96,15 +96,15 @@ mod tests {
 
         let team_info = standings[0].standings[0].team.clone().unwrap();
         assert_eq!(team_info.id, 9);
-        assert_eq!(team_info.legacy_id, 127);
+        assert_eq!(team_info.legacy_id, Some(127));
         assert_eq!(&team_info.name, "Manchester City");
-        assert_eq!(&team_info.short_code, "MCI");
+        assert_eq!(team_info.short_code, Some("MCI".into()));
         assert_eq!(team_info.twitter, Some("@ManCity".to_string()));
         assert_eq!(team_info.country_id, 462);
         assert_eq!(team_info.national_team, false);
-        assert_eq!(team_info.founded, 1880);
+        assert_eq!(team_info.founded, Some(1880));
         assert_eq!(&team_info.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/9/9.png");
-        assert_eq!(team_info.venue_id, 151);
+        assert_eq!(team_info.venue_id, Some(151));
         assert_eq!(team_info.current_season_id, Some(12962));
     }
 

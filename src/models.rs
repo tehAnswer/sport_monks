@@ -377,15 +377,15 @@ pub struct Group {
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Team {
     pub id: i64,
-    pub legacy_id: i64,
+    pub legacy_id: Option<i64>,
     pub name: String,
-    pub short_code: String,
+    pub short_code: Option<String>,
     pub twitter: Option<String>,
     pub country_id: i64,
     pub national_team: bool,
-    pub founded: i64,
+    pub founded: Option<i64>,
     pub logo_path: String,
-    pub venue_id: i64,
+    pub venue_id: Option<i64>,
     pub current_season_id: Option<i64>,
     #[serde(with = "Wrapper", default)]
     pub country: Option<Country>,
@@ -892,7 +892,7 @@ pub struct LiveStanding {
 pub struct PlayerInMatch {
     pub player_id: i64,
     #[serde(default)]
-    pub position_id: i64,
+    pub position_id: Option<i64>,
     pub number: Option<i64>,
     pub captain: i64,
     #[serde(default)]

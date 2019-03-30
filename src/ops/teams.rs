@@ -89,15 +89,32 @@ mod tests {
         let team = instance.of_season(12962).unwrap().data[0].clone();
         m.assert();
         assert_eq!(team.id, 1);
-        assert_eq!(team.legacy_id, 377);
+        assert_eq!(team.legacy_id, Some(377));
         assert_eq!(&team.name, "West Ham United");
-        assert_eq!(&team.short_code, "WHU");
+        assert_eq!(team.short_code, Some("WHU".into()));
         assert_eq!(team.twitter, Some("@WestHamUtd".to_string()));
         assert_eq!(team.country_id, 462);
         assert_eq!(team.national_team, false);
-        assert_eq!(team.founded, 1895);
+        assert_eq!(team.founded, Some(1895));
         assert_eq!(&team.logo_path, "https://cdn.sportmonks.com/images/soccer/teams/1/1.png");
-        assert_eq!(team.venue_id, 214);
+        assert_eq!(team.venue_id, Some(214));
         assert_eq!(team.current_season_id, Some(12962));
+    }
+    
+    #[test]
+    fn it_returns_teams_which_belong_to_a_season_with_extra_info() {
+        let body = fs::read_to_string(Path::new("src/support/teams/of_season_with.json")).expect("Fixtures:");
+        let m = mock("GET", "/teams/season/12962?api_token=1234&include=squad")
+          .with_status(200)
+          .with_body(body)
+          .create();
+        
+        let options = Options::builder().include(&["squad"]);
+        let instance = TeamGateway::new(Gateway::new("1234".into()));
+        let result = instance.of_season_with(12962, options);
+
+        m.assert();
+        println!("{:?}", result);
+        assert!(result.is_ok());
     }
 }
