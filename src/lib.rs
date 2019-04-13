@@ -13,6 +13,8 @@ pub mod errors;
 pub mod gateway;
 
 use gateway::{Gateway};
+pub use self::models::*;
+pub use self::gateway::Options;
 
 pub struct Client {
     pub contients: ops::ContinentGateway,

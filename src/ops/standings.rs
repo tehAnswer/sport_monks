@@ -17,12 +17,12 @@ impl StandingGateway {
     }
     
     pub fn find_with(&self, season_id: i64, options: Options) -> Result<Wrapper<Vec<Standing>>, SportMonksError> {
-        let path = format!("/standing/season/{}", season_id);
+        let path = format!("/standings/season/{}", season_id);
         self.gateway.get(&path, options)
     }
 
-    pub fn live(&self, id: u64) -> Result<Wrapper<Vec<LiveStanding>>, SportMonksError> {
-        let path = format!("/standing/season/live/{}", id);
+    pub fn live(&self, id: i64) -> Result<Wrapper<Vec<LiveStanding>>, SportMonksError> {
+        let path = format!("/standings/season/live/{}", id);
         self.gateway.get(&path, Options::empty())
     }
 }
@@ -37,7 +37,7 @@ mod tests {
     #[test]
     fn it_returns_the_standings() {
         let body = fs::read_to_string(Path::new("src/support/standings/find.json")).expect("Fixtures:");
-        let m = mock("GET", "/standing/season/12962?api_token=1234&include=standings.team")
+        let m = mock("GET", "/standings/season/12962?api_token=1234&include=standings.team")
           .with_status(200)
           .with_body(body)
           .create();
@@ -51,7 +51,7 @@ mod tests {
         assert_eq!(&standings[0].name, "Regular Season");
         assert_eq!(standings[0].league_id, 8);
         assert_eq!(standings[0].season_id, 12962);
-        assert_eq!(&standings[0].kind, "Group Stage");
+        assert_eq!(standings[0].kind, Some("Group Stage".into()));
         assert_eq!(standings[0].stage_id, 7456626);
         assert_eq!(&standings[0].stage_name, "Regular Season");
 

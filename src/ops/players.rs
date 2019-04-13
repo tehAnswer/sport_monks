@@ -12,11 +12,11 @@ impl PlayerGateway {
         PlayerGateway { gateway }
     }
 
-    pub fn find(&self, id: u64) -> Result<Wrapper<Player>, SportMonksError> {
+    pub fn find(&self, id: i64) -> Result<Wrapper<Player>, SportMonksError> {
         self.find_with(id, Options::empty())
     }
 
-    pub fn find_with(&self, id: u64, options: Options) -> Result<Wrapper<Player>, SportMonksError> {
+    pub fn find_with(&self, id: i64, options: Options) -> Result<Wrapper<Player>, SportMonksError> {
         let path = format!("/players/{}", id);
         self.gateway.get(&path, options)
     }

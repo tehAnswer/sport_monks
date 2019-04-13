@@ -12,20 +12,20 @@ impl TeamGateway {
         TeamGateway { gateway }
     }
     
-    pub fn find(&self, id: u64) -> Result<Wrapper<Team>, SportMonksError> {
+    pub fn find(&self, id: i64) -> Result<Wrapper<Team>, SportMonksError> {
         self.find_with(id, Options::empty())
     }
 
-    pub fn find_with(&self, id: u64, options: Options) -> Result<Wrapper<Team>, SportMonksError> {
+    pub fn find_with(&self, id: i64, options: Options) -> Result<Wrapper<Team>, SportMonksError> {
         let path = format!("/teams/{}", id);
         self.gateway.get(&path, options)
     }
 
-    pub fn of_season(&self, season_id: u64) -> Result<Wrapper<Vec<Team>>, SportMonksError> {
+    pub fn of_season(&self, season_id: i64) -> Result<Wrapper<Vec<Team>>, SportMonksError> {
         self.of_season_with(season_id, Options::empty())
     }
 
-    pub fn of_season_with(&self, season_id: u64, options: Options) -> Result<Wrapper<Vec<Team>>, SportMonksError> {
+    pub fn of_season_with(&self, season_id: i64, options: Options) -> Result<Wrapper<Vec<Team>>, SportMonksError> {
         let path = format!("/teams/season/{}", season_id);
         self.gateway.get(&path, options)
     }

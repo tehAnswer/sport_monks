@@ -12,7 +12,7 @@ impl CommentariesGateway {
         CommentariesGateway { gateway }
     }
 
-    pub fn all_for(&self, fixture_id: u64) -> Result<Wrapper<Vec<Comment>>, SportMonksError> {
+    pub fn all_for(&self, fixture_id: i64) -> Result<Wrapper<Vec<Comment>>, SportMonksError> {
         self.gateway.get(&format!("/commentaries/fixture/{}", fixture_id), Options::empty())
     }
 }

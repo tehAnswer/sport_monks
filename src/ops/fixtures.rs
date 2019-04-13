@@ -13,12 +13,12 @@ impl FixtureGateway {
     pub fn new(gateway: Gateway) -> FixtureGateway {
         FixtureGateway { gateway }
     }
-    pub fn find(&self, id: u64) -> Result<Wrapper<Fixture>, SportMonksError> {
+    pub fn find(&self, id: i64) -> Result<Wrapper<Fixture>, SportMonksError> {
         let path = format!("/fixtures/{}", id);
         self.gateway.get(&path, Options::empty())
     }
     
-    pub fn find_with(&self, id: u64, options: Options) -> Result<Wrapper<Fixture>, SportMonksError> {
+    pub fn find_with(&self, id: i64, options: Options) -> Result<Wrapper<Fixture>, SportMonksError> {
         let path = format!("/fixtures/{}", id);
         self.gateway.get(&path, options)
     }
@@ -43,21 +43,21 @@ impl FixtureGateway {
         self.gateway.get(&path, options)
     }
     
-    pub fn team_between(&self, team_id: u64, start: Date<Utc>, end: Date<Utc>) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
+    pub fn team_between(&self, team_id: i64, start: Date<Utc>, end: Date<Utc>) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
         let path = format!("/fixtures/between/{}/{}/{}", start.format("%Y-%m-%d"), end.format("%Y-%m-%d"), team_id);
         self.gateway.get(&path, Options::empty())
     }
 
-    pub fn team_between_with(&self, team_id: u64, start: Date<Utc>, end: Date<Utc>, options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
+    pub fn team_between_with(&self, team_id: i64, start: Date<Utc>, end: Date<Utc>, options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
         let path = format!("/fixtures/between/{}/{}/{}", start.format("%Y-%m-%d"), end.format("%Y-%m-%d"), team_id);
         self.gateway.get(&path, options)
     }
     
-    pub fn filter(&self, fixture_ids: &[u64]) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
+    pub fn filter(&self, fixture_ids: &[i64]) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
         self.filter_with(fixture_ids, Options::empty())
     }
     
-    pub fn filter_with(&self, fixture_ids: &[u64], options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
+    pub fn filter_with(&self, fixture_ids: &[i64], options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
         let list_of_ids: Vec<String> = fixture_ids.iter().map(ToString::to_string).collect();
         let path = format!("/fixtures/multi/{}", list_of_ids.join(","));
         self.gateway.get(&path, options)
@@ -585,10 +585,10 @@ mod tests {
         assert_eq!(stats[0].redcards, 0);
         assert_eq!(stats[0].saves, 4);
         assert_eq!(stats[0].substitutions, 2);
-        assert_eq!(stats[0].goal_kick, None);
-        assert_eq!(stats[0].goal_attempts, None);
-        assert_eq!(stats[0].free_kick, None);
-        assert_eq!(stats[0].throw_in, None);
-        assert_eq!(stats[0].ball_safe, None);
+        assert_eq!(stats[0].goal_kick, 0);
+        assert_eq!(stats[0].goal_attempts, 0);
+        assert_eq!(stats[0].free_kick, 0);
+        assert_eq!(stats[0].throw_in, 0);
+        assert_eq!(stats[0].ball_safe, 0);
     }
 }

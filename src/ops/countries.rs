@@ -20,12 +20,12 @@ impl CountryGateway {
         self.gateway.get("/countries", options)
     }
     
-    pub fn find(&self, id: u64) -> Result<Wrapper<Country>, SportMonksError> {
+    pub fn find(&self, id: i64) -> Result<Wrapper<Country>, SportMonksError> {
         let path = format!("/countries/{}", id);
         self.gateway.get(&path, Options::empty())
     }
 
-    pub fn find_with(&self, id: u64, options: Options) -> Result<Wrapper<Country>, SportMonksError> {
+    pub fn find_with(&self, id: i64, options: Options) -> Result<Wrapper<Country>, SportMonksError> {
         let path = format!("/countries/{}", id);
         self.gateway.get(&path, options)
     }

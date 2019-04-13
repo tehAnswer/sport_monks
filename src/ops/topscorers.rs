@@ -13,20 +13,20 @@ impl TopscorerGateway {
     }
     
 
-    pub fn of_season(&self, season_id: u64) -> Result<Wrapper<Season>, SportMonksError> {
+    pub fn of_season(&self, season_id: i64) -> Result<Wrapper<Season>, SportMonksError> {
         self.of_season_with(season_id, Options::empty())
     }
 
-    pub fn of_season_with(&self, season_id: u64, options: Options) -> Result<Wrapper<Season>, SportMonksError> {
+    pub fn of_season_with(&self, season_id: i64, options: Options) -> Result<Wrapper<Season>, SportMonksError> {
         let path = format!("/topscorers/season/{}", season_id);
         self.gateway.get(&path, options)
     }
     
-    pub fn aggregated_of_season(&self, season_id: u64) -> Result<Wrapper<Season>, SportMonksError> {
+    pub fn aggregated_of_season(&self, season_id: i64) -> Result<Wrapper<Season>, SportMonksError> {
         self.aggregated_of_season_with(season_id, Options::empty())
     }
 
-    pub fn aggregated_of_season_with(&self, season_id: u64, options: Options) -> Result<Wrapper<Season>, SportMonksError> {
+    pub fn aggregated_of_season_with(&self, season_id: i64, options: Options) -> Result<Wrapper<Season>, SportMonksError> {
         let path = format!("/topscorers/season/{}/aggregated", season_id);
         self.gateway.get(&path, options)
     }

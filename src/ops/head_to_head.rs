@@ -12,12 +12,12 @@ impl HeadToHeadGateway {
     pub fn new(gateway: Gateway) -> HeadToHeadGateway {
         HeadToHeadGateway { gateway }
     }
-    pub fn find(&self, team_one_id: u64, team_two_id: u64) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
+    pub fn find(&self, team_one_id: i64, team_two_id: i64) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
         let path = format!("/head2head/{}/{}", team_one_id, team_two_id);
         self.gateway.get(&path, Options::empty())
     }
     
-    pub fn find_with(&self, team_one_id: u64, team_two_id: u64, options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
+    pub fn find_with(&self, team_one_id: i64, team_two_id: i64, options: Options) -> Result<Wrapper<Vec<Fixture>>, SportMonksError> {
         let path = format!("/head2head/{}/{}", team_one_id, team_two_id);
         self.gateway.get(&path, options)
     }

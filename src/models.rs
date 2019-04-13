@@ -35,7 +35,7 @@ pub struct Pagination {
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Continent {
-    pub id: u64,
+    pub id: i64,
     pub name: String,
     #[serde(with = "Wrapper", default)]
     pub countries: Option<Vec<Country>>,
@@ -310,7 +310,9 @@ pub struct Goals {
     pub player_id: i64,
     pub team_id: i64,
     pub stage_id: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
     pub goals: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub penalty_goals: i64,
     #[serde(rename = "type")]
     pub kind: String,
@@ -621,41 +623,65 @@ pub struct Stat {
     pub shots: Shots,
     pub passes: Passes,
     pub attacks: Attacks,
+    #[serde(deserialize_with = "to_i64")]
     pub fouls: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub corners: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub offsides: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub possessiontime: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub yellowcards: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub redcards: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub saves: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub substitutions: i64,
-    pub goal_kick: Option<i64>,
-    pub goal_attempts: Option<i64>,
-    pub free_kick: Option<i64>,
-    pub throw_in: Option<i64>,
-    pub ball_safe: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub goal_kick: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub goal_attempts: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub free_kick: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub throw_in: i64,
+    #[serde(deserialize_with = "to_i64")]
+    pub ball_safe: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Shots {
+    #[serde(deserialize_with = "to_i64")]
     pub total: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub ongoal: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub offgoal: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub blocked: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub insidebox: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub outsidebox: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Passes {
+    #[serde(deserialize_with = "to_i64")]
     pub total: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub accurate: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub percentage: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct Attacks {
+    #[serde(deserialize_with = "to_i64")]
     pub attacks: i64,
+    #[serde(deserialize_with = "to_i64")]
     pub dangerous_attacks: i64,
 }
 
@@ -841,7 +867,7 @@ pub struct Standing {
     pub league_id: i64,
     pub season_id: i64,
     #[serde(rename = "type")]
-    pub kind: String,
+    pub kind: Option<String>,
     pub stage_id: i64,
     pub stage_name: String,
     #[serde(with = "Wrapper", default)]
