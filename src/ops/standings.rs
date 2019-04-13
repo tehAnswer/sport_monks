@@ -112,7 +112,7 @@ mod tests {
     #[test]
     fn it_returns_live_standings() {
         let body = fs::read_to_string(Path::new("src/support/standings/live.json")).expect("Fixtures:");
-        let m = mock("GET", "/standing/season/live/12962?api_token=1234")
+        let m = mock("GET", "/standings/season/live/12962?api_token=1234")
           .with_status(200)
           .with_body(body)
           .create();
