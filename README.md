@@ -72,7 +72,7 @@ ATTACKS: 78 - 41
 
 ## Request information about football competitions around the globe
 
-````rust
+```rust
 extern crate sport_monks;
 
 use sport_monks::*;
