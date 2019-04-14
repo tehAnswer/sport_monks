@@ -70,7 +70,7 @@ mod tests {
         assert_eq!(assistscorers[0].player_id, 67827);
         assert_eq!(assistscorers[0].team_id, 674);
         assert_eq!(assistscorers[0].stage_id, Some(7664692));
-        assert_eq!(assistscorers[0].assists, Some(2));
+        assert_eq!(assistscorers[0].assists, 2);
         assert_eq!(assistscorers[0].kind, "assists");
 
         let cardscorers = season.cardscorers.unwrap().clone();
@@ -113,7 +113,7 @@ mod tests {
         assert_eq!(assistscorers[0].player_id, 1351);
         assert_eq!(assistscorers[0].team_id, 629);
         assert_eq!(assistscorers[0].stage_id, None);
-        assert_eq!(assistscorers[0].assists, Some(7));
+        assert_eq!(assistscorers[0].assists, 7);
         assert_eq!(assistscorers[0].kind, "aggregated_assists");
 
         let cardscorers = season.aggregated_cardscorers.unwrap().clone();

@@ -319,7 +319,6 @@ mod tests {
         assert_eq!(lineup[0].stats.duels.total, 0);
         assert_eq!(lineup[0].stats.duels.won, 0);
 
-        assert_eq!(lineup[0].stats.other.assists, 0);
         assert_eq!(lineup[0].stats.other.offsides, 0);
         assert_eq!(lineup[0].stats.other.saves, 4);
         assert_eq!(lineup[0].stats.other.inside_box_saves, 0);
@@ -373,7 +372,6 @@ mod tests {
         assert_eq!(bench[0].stats.duels.total, 0);
         assert_eq!(bench[0].stats.duels.won, 0);
 
-        assert_eq!(bench[0].stats.other.assists, 0);
         assert_eq!(bench[0].stats.other.offsides, 0);
         assert_eq!(bench[0].stats.other.saves, 0);
         assert_eq!(bench[0].stats.other.inside_box_saves, 0);
@@ -590,5 +588,21 @@ mod tests {
         assert_eq!(stats[0].free_kick, 0);
         assert_eq!(stats[0].throw_in, 0);
         assert_eq!(stats[0].ball_safe, 0);
+    }
+
+    #[test]
+    fn it_finds_multiple_stuff_regression() {
+        let body = fs::read_to_string(Path::new("src/support/fixtures/find_with_many_stuff.json")).expect("Fixtures:");
+        let m = mock("GET", "/fixtures/11414776?api_token=1234&include=goals%2Ccards%2Cevents%2Clineup%2Cbench%2Codds%2Cstats")
+          .with_status(200)
+          .with_body(body)
+          .create();
+        let instance = FixtureGateway::new(Gateway::new("1234".into()));
+        let includes = vec!["goals,cards,events,lineup,bench,odds,stats"];
+        let opts = Options::builder().include(&includes);
+        let result = instance.find_with(11414776, opts);
+
+        m.assert();
+        assert!(result.is_ok());
     }
 }

@@ -1,6 +1,6 @@
 [package]
 name = "sport_monks"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["tehAnswer <sergiorodriguezgijon@gmail.com>"]
 license = "MIT"
 description = "Unofficial SportMonks.com Rust Client."

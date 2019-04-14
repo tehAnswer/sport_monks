@@ -228,9 +228,9 @@ mod tests {
         assert_eq!(topscorers[1].stage_id, Some(7664692));
         assert_eq!(topscorers[2].stage_id, Some(7664692));
 
-        assert_eq!(topscorers[0].assists, Some(2));
-        assert_eq!(topscorers[1].assists, Some(2));
-        assert_eq!(topscorers[2].assists, Some(1));
+        assert_eq!(topscorers[0].assists, 2);
+        assert_eq!(topscorers[1].assists, 2);
+        assert_eq!(topscorers[2].assists, 1);
         
         assert_eq!(&topscorers[0].kind, "assists");
         assert_eq!(&topscorers[1].kind, "assists");

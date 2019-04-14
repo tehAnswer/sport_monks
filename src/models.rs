@@ -325,7 +325,8 @@ pub struct Assists {
     pub player_id: i64,
     pub team_id: i64,
     pub stage_id: Option<i64>,
-    pub assists: Option<i64>,
+    #[serde(deserialize_with = "to_i64")]
+    pub assists: i64,
     #[serde(rename = "type")]
     pub kind: String,
 }
@@ -789,8 +790,6 @@ pub struct DuelsPerPlayer {
 
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct OtherStatsPerPlayer {
-    #[serde(deserialize_with = "to_i64")]
-    pub assists: i64,
     #[serde(deserialize_with = "to_i64")]
     pub offsides: i64,
     #[serde(deserialize_with = "to_i64")]
