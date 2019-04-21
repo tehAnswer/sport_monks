@@ -667,4 +667,23 @@ mod tests {
         m.assert();
         assert!(result.is_ok());
     }
+
+       #[test]
+       fn it_works_with_regression_test_four() {
+        let body = fs::read_to_string(Path::new("src/support/fixtures/regression__iv.json")).expect("Fixtures:");
+        let m = mock("GET", "/fixtures/between/2018-08-01/2019-04-21?api_token=1234&include=goals%2Clineup%2Cbench%2Cstats&leagues=2%2C5%2C8%2C72%2C82%2C301%2C384%2C564")
+          .with_status(200)
+          .with_body(body)
+          .create();
+
+        let instance = FixtureGateway::new(Gateway::new("1234".into()));
+        let includes = vec!["goals,lineup,bench,stats"];
+        let leagues = "2,5,8,72,82,301,384,564";
+        let opts = Options::builder().include(&includes).param("leagues", &leagues);
+        let result = instance.between_with(Utc.ymd(2018, 8, 1), Utc.ymd(2019, 4, 21), opts);
+
+        println!("{:?}", result);
+        m.assert();
+        assert!(result.is_ok());
+    }
 }

@@ -259,7 +259,7 @@ pub struct WeatherReport {
     pub temperature: Temperature,
     pub clouds: String,
     pub humidity: String,
-    pub pressure: Option<i64>,
+    pub pressure: Option<f64>,
     pub wind: Wind,
 }
 
