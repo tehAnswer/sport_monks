@@ -488,7 +488,7 @@ pub struct GoalEvent {
     pub player_name: String,
     pub player_assist_id: Option<i64>,
     pub player_assist_name: Option<String>,
-    pub minute: i64,
+    pub minute: Option<i64>,
     pub extra_minute: Option<i64>,
     pub reason: Option<String>,
     pub result: String,
