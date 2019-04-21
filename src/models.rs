@@ -222,8 +222,13 @@ impl Fixture {
     pub fn possesion_won_by_locals(&self) -> bool {
         match &self.stats {
             Some(stats) => {
-                let index = if stats[0].team_id == self.localteam_id { 0 } else { 1 };
-                stats[index].possessiontime > 50
+                if stats.is_empty() {
+                    false
+                } else {
+                    let index = if stats[0].team_id == self.localteam_id { 0 } else { 1 };
+                    stats[index].possessiontime > 50
+                }
+ 
             },
             None => false
         }
@@ -232,8 +237,13 @@ impl Fixture {
     pub fn possesion_won_by_visitors(&self) -> bool {
         match &self.stats {
             Some(stats) => {
-                let index = if stats[0].team_id == self.visitorteam_id { 0 } else { 1 };
-                stats[index].possessiontime > 50
+                if stats.is_empty() {
+                    false
+                } else {
+                    let index = if stats[0].team_id == self.visitorteam_id { 0 } else { 1 };
+                    stats[index].possessiontime > 50
+                }
+ 
             },
             None => false
         }
@@ -484,8 +494,8 @@ pub struct GoalEvent {
     #[serde(rename = "type")]
     pub kind: String,
     pub fixture_id: i64,
-    pub player_id: i64,
-    pub player_name: String,
+    pub player_id: Option<i64>,
+    pub player_name: Option<String>,
     pub player_assist_id: Option<i64>,
     pub player_assist_name: Option<String>,
     pub minute: Option<i64>,
