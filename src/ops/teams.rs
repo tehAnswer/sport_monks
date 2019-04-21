@@ -130,7 +130,6 @@ mod tests {
         let result = instance.of_season_with(12950, options);
 
         m.assert();
-        println!("{:?}", result);
         assert!(result.is_ok());
     }
 

@@ -210,6 +210,36 @@ pub struct Fixture {
     pub stats: Option<Vec<Stat>>,
 }
 
+impl Fixture {
+    pub fn locals_won(&self) -> bool {
+        self.scores.localteam_score > self.scores.visitorteam_score
+    }
+
+    pub fn visitors_won(&self) -> bool {
+        self.scores.visitorteam_score > self.scores.localteam_score 
+    }
+    
+    pub fn possesion_won_by_locals(&self) -> bool {
+        match &self.stats {
+            Some(stats) => {
+                let index = if stats[0].team_id == self.localteam_id { 0 } else { 1 };
+                stats[index].possessiontime > 50
+            },
+            None => false
+        }
+    }
+
+    pub fn possesion_won_by_visitors(&self) -> bool {
+        match &self.stats {
+            Some(stats) => {
+                let index = if stats[0].team_id == self.visitorteam_id { 0 } else { 1 };
+                stats[index].possessiontime > 50
+            },
+            None => false
+        }
+    }
+}
+
 #[derive(Default, Debug, Clone, PartialEq, Deserialize)]
 pub struct WeatherReport {
     pub code: String,
@@ -621,8 +651,11 @@ pub struct Assistant {
 pub struct Stat {
     pub team_id: i64,
     pub fixture_id: i64,
+    #[serde(deserialize_with = "parse_default")]
     pub shots: Shots,
+    #[serde(deserialize_with = "parse_default")]
     pub passes: Passes,
+    #[serde(deserialize_with = "parse_default")]
     pub attacks: Attacks,
     #[serde(deserialize_with = "to_i64")]
     pub fouls: i64,
@@ -1186,4 +1219,12 @@ where
         FloatOrString::I64(v) => Ok(v),
         FloatOrString::Nothing => Ok(0),
     }
+}
+
+fn parse_default<'de, D, R>(d: D) -> Result<R, D::Error>
+  where D: Deserializer<'de>, R: Default + Deserialize<'de> {
+    Deserialize::deserialize(d)
+        .map(|x: Option<_>| {
+            x.unwrap_or(R::default())
+        })
 }
