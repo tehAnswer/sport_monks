@@ -29,7 +29,12 @@ pub struct Client {
     pub standings: ops::StandingGateway,
     pub teams: ops::TeamGateway,
     pub topscorers: ops::TopscorerGateway,
+}
 
+impl std::fmt::Debug for Client {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+        write!(f, "SportsMonks::Client")
+    }
 }
 
 impl Client {
