@@ -75,7 +75,7 @@ pub struct League {
     pub is_cup: bool,
     pub current_season_id: i64,
     pub current_round_id: Option<i64>,
-    pub current_stage_id: i64,
+    pub current_stage_id: Option<i64>,
     pub live_standings: bool,
     pub coverage: Coverage,
     #[serde(with = "Wrapper", default)]

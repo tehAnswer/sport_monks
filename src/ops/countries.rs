@@ -105,7 +105,7 @@ mod tests {
         assert_eq!(germany_leagues[0].is_cup, false);
         assert_eq!(germany_leagues[0].current_season_id, 13005);
         assert_eq!(germany_leagues[0].current_round_id, Some(148761));
-        assert_eq!(germany_leagues[0].current_stage_id, 7743107);
+        assert_eq!(germany_leagues[0].current_stage_id, Some(7743107));
         assert_eq!(germany_leagues[0].live_standings, true);
         assert_eq!(germany_leagues[0].coverage.topscorer_goals, true);
         assert_eq!(germany_leagues[0].coverage.topscorer_assists, true);
@@ -174,7 +174,7 @@ mod tests {
         assert_eq!(germany_leagues[0].is_cup, false);
         assert_eq!(germany_leagues[0].current_season_id, 13005);
         assert_eq!(germany_leagues[0].current_round_id, Some(148761));
-        assert_eq!(germany_leagues[0].current_stage_id, 7743107);
+        assert_eq!(germany_leagues[0].current_stage_id, Some(7743107));
         assert_eq!(germany_leagues[0].live_standings, true);
         assert_eq!(germany_leagues[0].coverage.topscorer_goals, true);
         assert_eq!(germany_leagues[0].coverage.topscorer_assists, true);

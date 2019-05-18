@@ -61,7 +61,7 @@ mod tests {
         assert_eq!(leagues[0].is_cup, true);
         assert_eq!(leagues[0].current_season_id, 12950);
         assert_eq!(leagues[0].current_round_id, None);
-        assert_eq!(leagues[0].current_stage_id, 7743657);
+        assert_eq!(leagues[0].current_stage_id, Some(7743657));
         assert_eq!(leagues[0].live_standings, true);
         assert_eq!(leagues[0].coverage.topscorer_goals, true);
         assert_eq!(leagues[0].coverage.topscorer_assists, true);
@@ -91,7 +91,7 @@ mod tests {
         assert_eq!(leagues[0].is_cup, true);
         assert_eq!(leagues[0].current_season_id, 12950);
         assert_eq!(leagues[0].current_round_id, None);
-        assert_eq!(leagues[0].current_stage_id, 7743657);
+        assert_eq!(leagues[0].current_stage_id, Some(7743657));
         assert_eq!(leagues[0].live_standings, true);
         assert_eq!(leagues[0].coverage.topscorer_goals, true);
         assert_eq!(leagues[0].coverage.topscorer_assists, true);
@@ -136,7 +136,7 @@ mod tests {
         assert_eq!(league.is_cup, true);
         assert_eq!(league.current_season_id, 12950);
         assert_eq!(league.current_round_id, None);
-        assert_eq!(league.current_stage_id, 7743657);
+        assert_eq!(league.current_stage_id, Some(7743657));
         assert_eq!(league.live_standings, true);
         assert_eq!(league.coverage.topscorer_goals, true);
         assert_eq!(league.coverage.topscorer_assists, true);
@@ -168,7 +168,7 @@ mod tests {
         assert_eq!(league.is_cup, true);
         assert_eq!(league.current_season_id, 12950);
         assert_eq!(league.current_round_id, None);
-        assert_eq!(league.current_stage_id, 7743657);
+        assert_eq!(league.current_stage_id, Some(7743657));
         assert_eq!(league.live_standings, true);
         assert_eq!(league.coverage.topscorer_goals, true);
         assert_eq!(league.coverage.topscorer_assists, true);
