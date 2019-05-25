@@ -118,5 +118,21 @@ mod tests {
         let fixtures = response.unwrap().data;
         assert!(fixtures[0].inplay.is_some());
     }
+    
+    #[test]
+    fn it_works_with_regression_test_one() {
+    let body = fs::read_to_string(Path::new("src/support/livescores/now_with_regression.json")).expect("Fixtures:");
+    let m = mock("GET", "/livescores/now?api_token=1234&leagues=2%2C5%2C8%2C72%2C82%2C301%2C384%2C564")
+        .with_status(200)
+        .with_body(body)
+        .create();
 
+    let instance = LivescoreGateway::new(Gateway::new("1234".into()));
+    let leagues = "2,5,8,72,82,301,384,564";
+    let opts = Options::builder().param("leagues", leagues);
+    let result = instance.now_with(opts);
+    println!("{:?}", result);
+    m.assert();
+    assert!(result.is_ok());
+}
 }

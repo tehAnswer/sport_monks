@@ -749,6 +749,7 @@ pub struct PlayerSlot {
     pub position: Option<String>,
     pub additional_position: Option<String>,
     pub formation_position: Option<i64>,
+    #[serde(deserialize_with = "parse_default")]
     pub captain: bool,
     pub stats: Stats,
 }
