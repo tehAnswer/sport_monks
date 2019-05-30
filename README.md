@@ -19,7 +19,7 @@ These scenarios are exemplified down below.
 To install the crate, add the following line to your Cargo.toml
 
 ```
-sport_monks = "0.1.2"
+sport_monks = "0.1.3"
 ```
 
 # Usage
